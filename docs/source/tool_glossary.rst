@@ -12,5 +12,5 @@ Tools Glossary
 `NWB Conversion Tools <https://nwb-conversion-tools.readthedocs.io/en/master/index.html>`_
   A Python library for automatic conversion from proprietary data formats
 
-`nwbinspector <https://github.com/NeurodataWithoutBorders/nwbinspector>`_
+`NWB Inspector <https://github.com/NeurodataWithoutBorders/nwbinspector>`_
   A Python and command-line tool for inspecting NWB files for adherence to NWB best practices

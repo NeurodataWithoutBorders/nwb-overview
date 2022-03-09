@@ -23,6 +23,6 @@ automated tools for converting formats.
     part01_core_nwb
     part02_nwb_apis
     part03_format_conversions
-    part04_conversion_tools
+    part04_validation
     part05_dandi
 

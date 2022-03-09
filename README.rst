@@ -1,8 +1,8 @@
-Template for the Read the Docs tutorial
-=======================================
+To build locally, run 
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+```bash
+sphinx-build -a docs/source build
+```
 
 Read the tutorial here:
 

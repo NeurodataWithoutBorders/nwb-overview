@@ -1,22 +1,29 @@
-Welcome to Lumache's documentation!
-===================================
+Welcome to the documentation for NWB Software Overview!
+======================================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+..
+  :scale: 100 %
+  :align: right
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+If you are a new NWB user and want to learn about the different tools avialable to convert, visualize, analyize, and
+publish NWB, you are in the right place!
 
-.. note::
-
-   This project is under active development.
-
-Contents
---------
 
 .. toctree::
+   :maxdepth: 2
+   :caption: Contents:
 
-   usage
-   api
+   user_guide
+   developer_guide
+    
+
+For more information regarding the NWB Standard, please view
+
+- The `NWB Format Specification <https://nwb-schema.readthedocs.io/en/latest/>`_
+
+.. Indices and tables
+.. ==================
+.. 
+.. * :ref:`genindex`
+.. * :ref:`modindex`
+.. * :ref:`search`

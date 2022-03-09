@@ -8,7 +8,8 @@ metadata together so that they are both machine- and human-readable, and
 reusable to gain additional scientific insights. Converting to NWB is
 also a critical step for getting your neurophysiology data in the the
 DANDI archive, and allows you to access a number of powerful analysis
-and visualization tools.
+and visualization tools. The software tools for creating NWB files are
+spread across :ref:`several different tools and repositories<tools-glossary>`.
 
 We understand converting to NWB can be daunting. This guide will walk
 you through the tools available to help you convert your neurophysiology

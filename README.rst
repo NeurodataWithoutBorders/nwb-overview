@@ -42,7 +42,7 @@ Linking to external packages
 Adding links to external packages
 ---------------------------------
 
-To link to specific entities (e.g., classes) in documentation of external software packages, we use the :ref:`intersphinx <https://www.sphinx-doc.org/en/master/usage/extensions/intersphinx.html>` feature. The mapping to external docs is defined in ``/docs/source/conf_extlinks.py`` as part of the ``intersphinx_mapping`` dictionary. To support linking to a new tool, add the tool to the mapping.
+To link to specific entities (e.g., classes) in documentation of external software packages, we use the `intersphinx <https://www.sphinx-doc.org/en/master/usage/extensions/intersphinx.html>`_ feature. The mapping to external docs is defined in ``/docs/source/conf_extlinks.py`` as part of the ``intersphinx_mapping`` dictionary. To support linking to a new tool, add the tool to the mapping.
 
 Creating external links to external packages in the docs
 --------------------------------------------------------

@@ -1,4 +1,4 @@
-Browsing NWB Files
+Reading NWB Files
 ==================
 
 PLACEHOLDER (you can do this!)
@@ -11,3 +11,4 @@ Something something matnwb.
     :maxdepth: 2
 
     matnwb
+    extensions

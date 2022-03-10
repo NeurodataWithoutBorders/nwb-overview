@@ -16,7 +16,7 @@ publish NWB, you are in the right place!
    conversion_tutorial/user_guide
    extensions_tutorial/extensions_tutorial_home
    tool_glossary
-    
+   file_browsing/file_browsing
 
 For more information regarding the NWB Standard, please view
 

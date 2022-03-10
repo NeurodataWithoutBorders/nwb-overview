@@ -2,6 +2,13 @@
 
 # -- Project information
 
+import sys
+import os
+sys.path.append(os.path.dirname(__file__))
+# Import the definition of external links
+from conf_extlinks import extlinks, intersphinx_mapping
+
+
 project = 'NWB Overview'
 copyright = ''
 author = 'Ben Dichter, ...'
@@ -20,24 +27,6 @@ extensions = [
     'myst_parser',
     'sphinx.ext.extlinks',
 ]
-
-intersphinx_mapping = {
-    'python': ('https://docs.python.org/3/', None),
-    'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
-    'numpy': ('https://numpy.org/doc/stable/', None),
-    'matplotlib': ('https://matplotlib.org', None),
-    'h5py': ('https://docs.h5py.org/en/latest/', None),
-    'hdmf': ('https://hdmf.readthedocs.io/en/latest/', None),
-    'pandas': ('https://pandas.pydata.org/pandas-docs/stable/', None),
-}
-
-extlinks = {
-    'incf_lesson': ('https://training.incf.org/lesson/%s', ''),
-    'incf_collection': ('https://training.incf.org/collection/%s', ''),
-    'nwb_extension': ('https://github.com/nwb-extensions/%s', ''),
-    'pynwb': ('https://github.com/NeurodataWithoutBorders/pynwb/%s', '')
-}
-
 
 intersphinx_disabled_domains = ['std']
 

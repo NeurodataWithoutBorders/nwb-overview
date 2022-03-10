@@ -1,5 +1,5 @@
 Welcome to the documentation for NWB Software Overview!
-======================================================
+=======================================================
 
 ..
   :scale: 100 %
@@ -11,10 +11,10 @@ publish NWB, you are in the right place!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
-   user_guide
-   developer_guide
+   conversion_tutorial/user_guide
+   extensions_tutorial/extensions_tutorial_home
+   tool_glossary
     
 
 For more information regarding the NWB Standard, please view

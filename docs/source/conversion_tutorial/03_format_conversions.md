@@ -1,12 +1,11 @@
-3. Automated Conversions using NWB Conversion Tools
-===================================================
+# 3. Automated Conversions using NWB Conversion Tools
 
 To make converting to NWB faster and less laborious (for our own team and for others),
 and manage the volume and variety of neurophysiology data, we have developed 
 a system of conversion tools for converting different proprietary data formats
 to NWB. NWB Conversion Tools relies on two tiers
-of structure, represented by the two main classes in the package: DataInterface
-and NWBConverter. 
+of structure, represented by the two main classes in the package: ``DataInterface``
+and ``NWBConverter``. 
 
 ``DataInterface`` provides a unified API for converting data from
 any one data format, such as raw data from an acquisition system or processed

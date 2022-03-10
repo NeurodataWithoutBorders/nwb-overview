@@ -1,4 +1,4 @@
-Part 5, Publishing NWB on DANDI Archive
+5. Publishing NWB on DANDI Archive
 =======================================
 
 Once you you have completed the conversion of all the data in your dataset,

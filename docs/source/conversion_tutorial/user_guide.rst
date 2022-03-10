@@ -20,9 +20,9 @@ automated tools for converting formats.
 .. toctree::
     :maxdepth: 2
 
-    part01_core_nwb
-    part02_nwb_apis
-    part03_format_conversions
-    part04_validation
-    part05_dandi
+    01_core_nwb
+    02_nwb_apis
+    03_format_conversions
+    04_validation
+    05_dandi
 

@@ -1,15 +1,26 @@
-Automatically generating a PyNWB API for an extension
+Generating an API for an extension
 -----------------------------------------------------
+
+Generating a MatNWB API
+~~~~~~~~~~~~~~~~~~~~~~~
+
+In MatNWB, simply call ``generateExtension("path/to/extension/namespace.yaml");``; The class files will be generated under the ``+types/+<extension>`` module and can be accessed via standard MATLAB class semantics:
+
+.. code-block:: MATLAB
+
+    ts = types.ndx_example.TetrodeSeries(<arguments>);
+
+.. note::
+    As seen above, MatNWB will convert namespace names if they are not valid identifiers in MATLAB. See `Variable Names <https://www.mathworks.com/help/matlab/matlab_prog/variable-names.html>`_ for more information. In most cases, the conversion conforms with MATLAB's approach with `matlab.lang.makeValidName() <https://www.mathworks.com/help/matlab/ref/matlab.lang.makevalidname.html>`_
+
+Generating a PyNWB API
+~~~~~~~~~~~~~~~~~~~~~~
 
 Now that we have created the extension specification, we need to create the Python interface. These classes will be
 used just like the PyNWB API to read and write NWB files using Python. There are two ways to do this: you can
 automatically generate the API classes based on the schema, or you can manually create the API classes. Here, we will
 show you how to automatically generate the API. In the next section we will discuss why and how to create custom API
 classes.
-
-.. note::
-    In MatNWB there is only one method: automatically generating the API. Simply call
-    ``generateExtension("path/to/extension.yaml")``;
 
 
 Open up ``ndx-example/src/pynwb/ndx_example/__init__.py``, and notice the last line:

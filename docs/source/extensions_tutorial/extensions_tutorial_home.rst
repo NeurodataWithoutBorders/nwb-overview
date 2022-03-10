@@ -17,3 +17,4 @@ the `NWB Specification Language <https://schema-language.readthedocs.io/en/lates
     4_auto_api
     5_custom_api
     6_documenting_extension
+    7_publishing_extensions

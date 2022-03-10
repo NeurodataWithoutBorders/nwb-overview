@@ -1,5 +1,5 @@
-Part 1, Core NWB
-================
+1. Core NWB
+===========
 
 First, we need to understand what types of data go into NWB. The goal of NWB
 is to package all of the data in a particular session into a single file.

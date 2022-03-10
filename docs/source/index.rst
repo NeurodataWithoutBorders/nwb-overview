@@ -10,12 +10,17 @@ publish NWB, you are in the right place!
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
+   :caption: For Users
 
    intro_to_nwb/intro_to_nwb
    conversion_tutorial/user_guide
    extensions_tutorial/extensions_tutorial_home
    tool_glossary
+
+.. toctree::
+    :maxdepth: 1
+    :caption: For Developers
     
 
 For more information regarding the NWB Standard, please view

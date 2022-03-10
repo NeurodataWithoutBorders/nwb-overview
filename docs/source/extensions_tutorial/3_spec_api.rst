@@ -1,6 +1,7 @@
 The Spec API
 ------------
 
+pynwb defines a spec API, which are classes to help generate a valid NWB extension.
 The `NWB Specification Language <https://schema-language.readthedocs.io/en/latest/index.html>`_ defines a structure for
 data and metadata using Groups, Datasets, Attributes, and Links. These structures are mapped onto
 :py:class:`~pynwb.spec.NWBGroupSpec`, :py:class:`~pynwb.spec.NWBDatasetSpec`,

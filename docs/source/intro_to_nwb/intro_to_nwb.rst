@@ -1,5 +1,5 @@
 Intro to NWB
-======================================
+============
 
 Neurodata Without Borders (NWB) provides a common self-describing format
 ideal for archiving neurophysiology data and sharing it with colleagues.

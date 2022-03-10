@@ -36,6 +36,8 @@ Creating external links in the docs
 
 The ``extlinks`` dict in ``/docs/source/conf_extlinks.py`` defines a set of new roles. This allows us to refer, e.g., to specific usses in PyNWB via ``:pynwb_issue:`1``` which will in turn will be rendered as the text "pynwb#1" in the docs with the appropriate link to the issue. Similarly, if we want to refer to the INCF training we can write ``:incf_collection:`INCF Training``` in the text. Since the caption is an empty string in the ``extlinks`` dict for the ``incf_collection`` key, the link will be rendered using the provided text, i.e., here "INCF Training" with the approbriate link.
 
+Normally the ``extlinks`` extension will add the part we link to the URL. To use the exact URL as defined in ``extlinks`` dict use the following syntax ``:pynwb-docs:`PyNWB <>```, which will render the text (here PyNWB) with a hyperlink to the exact, unmodified URL.
+
 Linking to external packages
 =============================
 

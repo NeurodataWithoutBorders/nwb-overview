@@ -16,12 +16,26 @@ publish NWB, you are in the right place!
    intro_to_nwb/intro_to_nwb
    conversion_tutorial/user_guide
    extensions_tutorial/extensions_tutorial_home
-   tool_glossary
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   core_tools/core_tools_home
+
+
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+
+   analysis_tools/analysis_tools_home
 
 .. toctree::
     :maxdepth: 1
     :caption: For Developers
-    
+
+    nwb_source_codes
+
 
 For more information regarding the NWB Standard, please view
 
@@ -29,7 +43,7 @@ For more information regarding the NWB Standard, please view
 
 .. Indices and tables
 .. ==================
-.. 
+..
 .. * :ref:`genindex`
 .. * :ref:`modindex`
 .. * :ref:`search`

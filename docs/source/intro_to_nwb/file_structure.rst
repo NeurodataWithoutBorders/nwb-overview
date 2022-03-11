@@ -88,12 +88,7 @@ must be stored in SI units (e.g., volts, meters, hertz).
 
 
 
-
-
-what types of data go into NWB.
-
-All of these data types and relationships are defined using
-`HDMF <https://hdmf-schema-language.readthedocs.io/en/latest/>`_,
-a specification language for describing complex structures of data. NWB is faced with the challenge
+NWB is faced with the challenge
 of supporting a large variety of different experiment types, so the data types and relationships
-can get quite complex. For this reason the NWB development team provides APIs to help users easily and efficiently read and write NWB files. These APIs are described in the next section.
+can get quite complex. For this reason the NWB development team provides APIs to help users easily
+and efficiently read and write NWB files. These APIs are described in the next section.

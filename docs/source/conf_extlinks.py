@@ -20,4 +20,5 @@ intersphinx_mapping = {
     'hdmf': ('https://hdmf.readthedocs.io/en/latest/', None),
     'pynwb': ('https://pynwb.readthedocs.io/en/stable/', None),
     'pandas': ('https://pandas.pydata.org/pandas-docs/stable/', None),
+    'nct': ('https://nwb-conversion-tools.readthedocs.io/', None),
 }

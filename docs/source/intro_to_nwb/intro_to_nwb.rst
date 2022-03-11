@@ -14,7 +14,7 @@ visualization tools.
 Second, it helps both you and other scientists reuse the data to gain additional
 scientific insights.
 Finally, converting your data to NWB is a critical step for getting your
-data in the `DANDI Archive <https://dandiarchive.org/>` to
+data in the `DANDI Archive <https://dandiarchive.org/>`_ to
 share it with collaborators and the public.
 
 We understand that using a different data format than you are accustomed to

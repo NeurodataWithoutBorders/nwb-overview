@@ -20,6 +20,7 @@ File hierarchy
 --------------
 
 An NWB file consists of four basic types:
+
 - groups, which are like folders or directories in a filesystem and can contain any of the basic types
 - datasets, which are N-dimensional arrays
 - attributes, which are small metadata values attached to a group or dataset, like folder/file properties in a
@@ -64,10 +65,13 @@ within it.
       - "behavior"
 
 Containers
+------------------
 
 TimeSeries
+------------------
 
 DynamicTable
+------------------
 
 Data values in NWB
 ------------------

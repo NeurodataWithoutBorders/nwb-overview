@@ -27,4 +27,3 @@ The returned object above is an NwbFile which serves as the root object with whi
     :maxdepth: 2
 
     matnwb/matnwb
-    extensions

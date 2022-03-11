@@ -7,7 +7,10 @@ Schema Version Collisions in MATLAB path
 Missing Embedded Schemata
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
+It is possible to encounter a file that does not have an embedded schema. For that you will need the API generation functions ``generateCore`` and ``generateExtension``.
+
 Using ``ignorecache`` and ``savedir``
+
 
 Generating a MatNWB Extension
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

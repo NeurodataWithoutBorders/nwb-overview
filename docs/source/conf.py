@@ -26,6 +26,7 @@ extensions = [
     'sphinx.ext.intersphinx',
     'myst_parser',
     'sphinx.ext.extlinks',
+    'sphinx_rtd_theme',
 ]
 
 intersphinx_disabled_domains = ['std']

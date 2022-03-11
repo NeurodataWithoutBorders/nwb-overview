@@ -14,6 +14,7 @@ Analysis and Visualization Tools
     spikeinterface/spikeinterface
     cellexplorer/cellexplorer
     caiman/caiman
+    suite2p/suite2p
 
 
 
@@ -100,6 +101,14 @@ Optical Physiology Tools
         :start-after: .. short_description_start
         :end-before: .. short_description_end
 
+
+.. image:: suite2p/suite2p_logo.png
+    :class: align-left
+    :width: 180
+
+.. include::  suite2p/suite2p.rst
+        :start-after: .. short_description_start
+        :end-before: .. short_description_end
 
 
 .. note::

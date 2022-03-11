@@ -10,7 +10,6 @@ handling, motion correction, source extraction, spike deconvolution and result v
 
 .. short_description_end
 
-
 .. image:: caiman_logo.png
     :class: align-left
     :width: 400

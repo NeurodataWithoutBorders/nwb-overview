@@ -1,7 +1,7 @@
 .. _analysistools-nwbexplorer:
 
 NWB Explorer
------------
+------------
 
 .. short_description_start
 

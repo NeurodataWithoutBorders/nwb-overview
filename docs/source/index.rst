@@ -19,10 +19,10 @@ publish NWB, you are in the right place!
    core_tools/core_tools_home
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :titlesonly:
 
-   analysis_tools/analysis_tools_home
+   tools/tools_home
 
 .. toctree::
     :maxdepth: 1

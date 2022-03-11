@@ -13,7 +13,16 @@ extlinks = {
     'nwb2-biorxiv-pdf': ('https://www.biorxiv.org/content/biorxiv/early/2019/01/17/523035.full.pdf',''),
     'nwb-schema-release-notes':('http://nwb-schema.readthedocs.io/en/latest/format_release_notes.html', ''),
     'hdmf-docutils': ('https://github.com/hdmf-dev/hdmf-docutils', ''),
-    'nwb-schema': ('https://nwb-schema.readthedocs.io/en/latest/', '')
+    'nwb-schema': ('https://nwb-schema.readthedocs.io/en/latest/', ''),
+    'nwb-helpdesk': ('https://github.com/dandi/helpdesk/discussions', ''),
+    'nwb-mailing-list': ('http://visitor.r20.constantcontact.com/manage/optin?v=001nQUq2GTjwCjZxK_V2'
+                         '-6RLElLJO1HMVtoNLJ-wGyDCukZQZxu2AFJmNh6NS0_lGMsWc2w9hZpeNn74HuWdv5RtLX9qX0o0Hy1P0hOgMrkm2NoGAX3VoY25wx8HAtIZwredcCuM0nCUGodpvoaue3SzQ%3D%3D', ''),
+    'hdf5': ('https://www.hdfgroup.org/solutions/hdf5/',''),
+    'zarr': ('https://zarr.readthedocs.io/en/stable/', ''),
+    'hdmf-specification-language': ('https://hdmf-schema-language.readthedocs.io/en/latest/', ''),
+    'nix': ('https://g-node.github.io/nix/', ''),
+    'bids': ('https://bids.neuroimaging.io/', ''),
+    'dandi': ('https://dandiarchive.org/', ''),
 }
 
 # Use this for mapping for links to commonly used documentation

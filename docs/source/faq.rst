@@ -55,3 +55,49 @@ How do I install PyNWB?
 
 See the :ref:`install_users` for details.
 
+How do I install MatNWB?
+========================
+See the `MatNWB documentation <https://github.com/NeurodataWithoutBorders/matnwb#setup>`_ for details.
+
+Who can I contact for questions?
+================================
+
+For details, please review our Contributing Guidelines.
+
+* For general questions, use the :nwb-helpdesk:`NWB Helpdesk <>`.
+* To contribute, or to report a bug, create an issue on the appropriate GitHub repository.
+* To receive updates about NWB at large, sign up for the :nwb-mailing-list:`NWB mailing list <>`.
+
+Why use HDF5 as the primary backend for NWB?
+============================================
+See page: :ref:`why_hdf5`
+
+Are you aware of the Rossant blog posts about moving away from HDF5?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Yes. See above for our motivations for using HDF5. Note that this blog post was not peer reviewed and at several points was either incorrect or is now outdated.
+
+Why not just use HDF5?
+======================
+The goal of NWB is to package neurophysiology data with metadata sufficient for reuse and reanalysis of the data by other researchers. HDF5 enables users to provide very rich metadata, sufficient for describing neuroscience data for this purpose. The problem with HDF5 on its own is that it is just too flexible. Without a schema, files could be missing key metadata like the sampling rate of a time series. Furthermore, different labs that use HDF5 would use completely different methods for organizing and annotating experiment data. It would be quite difficult to aggregate data across labs or build common tools without imposing structure on the HDF5 file. This is the purpose of the NWB schema- to provide requirements that ensure reusability of the data, and to provide a common structure that enables interoperability across the global neurophysiology community. Users can use extensions to build from schema and describe new types of neurophysiology data.
+
+How does NWB 2.0 compare to other standards?
+============================================
+See page: :ref:`comparison-to-other-standards`
+
+Where should I publish my NWB files?
+====================================
+You can publish NWB files in many different archives. Funding or publishing  requirements may require you to publish
+your data in a particular archive. Many such archives already support NWB. If not, please let us know and we will be happy to assist you and the archive developers with supporting the NWB standard.
+
+If you are free to publish data wherever, we would recommend :dandi:`DANDI <>`. DANDI has built-in support for NWB that
+validates NWB files, automatically extracts key metadata to enable search, and provides tools for interactively
+exploring and analyzing NWB files. Furthermore, it provides an efficient interface for publishing neuroscience datasets on the TB scale, and can do so for free.
+
+How do I read NWB files in different programming languages?
+===========================================================
+NWB files are usually just HDF5 files with a particular structure. If using a language that has a supported NWB API
+(Python, MATLAB), this API will leverage the structure to provide a more intuitive interface to the data. If using
+Python, we recommend using PyNWB, and if using MATLAB we recommend using MatNWB. You can also use the HDF5 readers
+available in Python and MATLAB, but that will likely be less convenient. If you are using other programming languages,
+such as R, C, C++, Julia, Java, or Javascript, each of these languages has an HDF5 API that can be used to read all of
+the data in an NWB file. Writing valid NWB files in languages other than PyNWB and MatNWB is possible, but tricky.

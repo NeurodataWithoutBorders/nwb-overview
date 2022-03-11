@@ -12,8 +12,8 @@ the most common types of data in neurophysiology. NWB currently covers
 the following experiment types:
 
 * extracellular electrophysiology (e.g., Neuropixel probes)
-* optical physiology (e.g., two-photon imaging)
 * intracellular electrophysiology (e.g., patch clamping)
+* optical physiology (e.g., two-photon imaging)
 
 .. image:: /img/nwb_overview.png
 
@@ -58,10 +58,10 @@ within it.
       - Name of ``ProcessingModule``
     * - extracellular electrophysiology
       - "ecephys"
-    * - optical physiology
-      - "ophys"
     * - intracellular electrophysiology
       - "icephys"
+    * - optical physiology
+      - "ophys"
     * - behavior
       - "behavior"
 

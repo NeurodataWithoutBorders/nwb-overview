@@ -5,7 +5,8 @@ NWB Widgets
 
 .. short_description_start
 
-:nwb-widgets-docs:`NWB Widgets <>` is a library of widgets for visualization NWB data in a Jupyter notebook (or lab). The widgets make it easy to navigate through the hierarchical structure of the NWB file and visualize specific data elements. It is designed to work out-of-the-box with NWB 2.0 files and to be easy to extend. :bdg-link-primary:`Docs <https://github.com/NeurodataWithoutBorders/nwb-jupyter-widgets>` :bdg-link-primary:`Source <https://github.com/NeurodataWithoutBorders/nwb-jupyter-widgets>`
+:ref:`analysistools-nwbwidgets` is a library of widgets for visualization NWB data in a Jupyter notebook (or lab).
+The widgets make it easy to navigate through the hierarchical structure of the NWB file and visualize specific data elements. It is designed to work out-of-the-box with NWB 2.0 files and to be easy to extend. :bdg-link-primary:`Source <https://github.com/NeurodataWithoutBorders/nwb-jupyter-widgets>`
 
 
 .. short_description_end

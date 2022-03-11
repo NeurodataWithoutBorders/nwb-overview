@@ -19,11 +19,16 @@ Exploring NWB Files
 .. image:: nwbwidgets/nwbwidgets_icon.png
     :class: align-left
     :width: 180
-    :target: nwbwidgets/nwbwidgets.html
 
 .. include::  nwbwidgets/nwbwidgets.rst
         :start-after: .. short_description_start
         :end-before: .. short_description_end
+
+.. raw:: html
+
+    <br />
+    <br />
+    <br />
 
 
 Optical Physiology Tools
@@ -32,7 +37,6 @@ Optical Physiology Tools
 .. image:: caiman/caiman_icon.png
     :class: align-left
     :width: 180
-    :target: caiman/caiman.html
 
 .. include::  caiman/caiman.rst
         :start-after: .. short_description_start

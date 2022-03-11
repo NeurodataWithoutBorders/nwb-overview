@@ -10,9 +10,10 @@ as information about the data acquisition, experiment design, experimental subje
 and behavior of that subject. The NWB schema defines data structures for
 the most common types of data in neurophysiology. NWB currently covers
 the following experiment types:
-- extracellular electrophysiology (e.g., Neuropixel probes)
-- optical physiology (e.g., two-photon imaging)
-- intracellular electrophysiology (e.g., patch clamping)
+
+* extracellular electrophysiology (e.g., Neuropixel probes)
+* optical physiology (e.g., two-photon imaging)
+* intracellular electrophysiology (e.g., patch clamping)
 
 .. image:: /img/nwb_overview.png
 
@@ -21,11 +22,11 @@ File hierarchy
 
 An NWB file consists of four basic types:
 
-- groups, which are like folders or directories in a filesystem and can contain any of the basic types
-- datasets, which are N-dimensional arrays
-- attributes, which are small metadata values attached to a group or dataset, like folder/file properties in a
+* groups, which are like folders or directories in a filesystem and can contain any of the basic types
+* datasets, which are N-dimensional arrays
+* attributes, which are small metadata values attached to a group or dataset, like folder/file properties in a
   filesystem
-- links, which point to a group or dataset, like shortcuts or aliases in a filesystem
+* links, which point to a group or dataset, like shortcuts or aliases in a filesystem
 
 TODO: add image
 

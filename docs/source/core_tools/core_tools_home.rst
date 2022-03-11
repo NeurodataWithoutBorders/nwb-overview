@@ -18,14 +18,12 @@ Core NWB Tools
 Read/Write NWB File APIs
 ------------------------
 
-* **PyNWB**
-
+**PyNWB**
     .. include:: readwrite.rst
             :start-after: .. pynwb_short_description_start
             :end-before: .. pynwb_short_description_end
 
-* **MatNWB**
-
+**MatNWB**
     .. include:: readwrite.rst
             :start-after: .. matnwb_short_description_start
             :end-before: .. matnwb_short_description_end
@@ -35,8 +33,7 @@ Read/Write NWB File APIs
 Converting Data to NWB
 ----------------------
 
-* **NWB Conversion Tools**
-
+**NWB Conversion Tools**
     .. include::  dataconversion.rst
             :start-after: .. conversiontools_short_description_start
             :end-before: .. conversiontools_short_description_end
@@ -45,14 +42,13 @@ Converting Data to NWB
 
 Validating NWB Files
 --------------------
-
-* **PyNWB: Validate schema compliance**
+**PyNWB: Validate schema compliance**
 
     .. include::  validation.rst
             :start-after: .. pynwb_short_description_start
             :end-before: .. pynwb_short_description_end
 
-* **NWB Inspector: Validate best practice**
+**NWB Inspector: Validate best practice**
 
      .. include::  validation.rst
             :start-after: .. nwbinspector_short_description_start
@@ -63,38 +59,32 @@ Validating NWB Files
 Extending NWB
 -------------
 
-* **NDX Template**
-
+**NDX Template**
     .. include::  extension.rst
             :start-after: .. ndxtemplate_short_description_start
             :end-before: .. ndxtemplate_short_description_end
 
-* **NDX Catalog**
-
+**NDX Catalog**
     .. include::  extension.rst
             :start-after: .. ndxcatalog_short_description_start
             :end-before: .. ndxcatalog_short_description_end
 
-* **Publishing NDX**
-
+**Publishing NDX**
     .. include::  extension.rst
             :start-after: .. pubndx_short_description_start
             :end-before: .. pubndx_short_description_end
 
-* **Documentation Utilities**
-
+**Documentation Utilities**
     .. include::  extension.rst
             :start-after: .. docutils_short_description_start
             :end-before: .. docutils_short_description_end
 
-* **NWB Format Specification**
-
+**NWB Format Specification**
     .. include::  extension.rst
             :start-after: .. nwbspec_short_description_start
             :end-before: .. nwbspec_short_description_end
 
-* **HDMF Common Schema**
-
+**HDMF Common Schema**
     .. include::  extension.rst
             :start-after: .. hdmfcommon_short_description_start
             :end-before: .. hdmfcommon_short_description_end
@@ -104,8 +94,7 @@ Extending NWB
 Core Development
 -----------------
 
-* **HDMF**
-
+**HDMF**
     .. include::  development.rst
             :start-after: .. hdmf_short_description_start
             :end-before: .. hdmf_short_description_end

@@ -1,4 +1,4 @@
-# 3. Automated Conversions using NWB Conversion Tools
+# 4. Automated Conversions using NWB Conversion Tools
 
 To make converting to NWB faster and less laborious (for our own team and for others),
 and manage the volume and variety of neurophysiology data, we have developed 

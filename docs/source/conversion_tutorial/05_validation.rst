@@ -1,4 +1,4 @@
-4. Validation of NWB files
+5. Validation of NWB files
 ---------------------------------
 
 After you create NWB files, it is a good idea to inspect them to ensure that they are representing your data correctly.

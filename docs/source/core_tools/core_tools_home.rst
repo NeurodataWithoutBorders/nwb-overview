@@ -1,12 +1,12 @@
 .. _core-tools-home:
 
-**************
-Core NWB Tools
-**************
+**************************
+Glossary of Core NWB Tools
+**************************
 
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 3
     :hidden:
 
     readwrite

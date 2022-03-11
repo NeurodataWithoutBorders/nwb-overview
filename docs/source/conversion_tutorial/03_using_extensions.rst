@@ -10,4 +10,5 @@ the `NWB Specification Language <https://schema-language.readthedocs.io/en/lates
 If the core nwb schema does not meet your needs, you will need to use an extension. Your first step should be to search
 the :ndx-catalog:`NDX Catalog <>`. Using an existing extension is preferred, because it saves you the work of creating a
 new one, and it improves data standardization across the community. If you do not find an extension that meets your
-needs, head to the :ref:`extending-nwb` tutorial.
+needs, head to the :ref:`extending-nwb` tutorial. When creating a new extension you should also consider 
+to let the community know by adding a post on the `NWB Help Desk <https://github.com/NeurodataWithoutBorders/helpdesk/discussions>`_.

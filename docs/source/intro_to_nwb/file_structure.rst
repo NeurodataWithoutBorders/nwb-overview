@@ -75,7 +75,7 @@ TODO
 
 DynamicTable
 ------------------
-TODO
+TODOO
 
 Data values in NWB
 ------------------

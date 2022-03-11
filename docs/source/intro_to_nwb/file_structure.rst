@@ -71,9 +71,11 @@ TODO
 
 TimeSeries
 ------------------
+TODO
 
 DynamicTable
 ------------------
+TODO
 
 Data values in NWB
 ------------------

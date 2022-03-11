@@ -7,7 +7,7 @@ import os
 sys.path.append(os.path.dirname(__file__))
 # Import the definition of external links
 from conf_extlinks import extlinks, intersphinx_mapping
-
+import sphinx_rtd_theme
 
 project = 'NWB Overview'
 copyright = ''

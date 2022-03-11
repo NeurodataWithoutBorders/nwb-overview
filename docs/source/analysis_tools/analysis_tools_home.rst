@@ -10,8 +10,11 @@ Analysis and Visualization Tools
     :hidden:
 
     nwbwidgets/nwbwidgets
-    caiman/caiman
+    nwbexplorer/nwbexplorer
+    spikeinterface/spikeinterface
     cellexplorer/cellexplorer
+    caiman/caiman
+
 
 
 .. _analysistools-explore:
@@ -29,14 +32,44 @@ Exploring NWB Files
 
 .. raw:: html
 
-    <br />
+    <br/>
+    <br/>
+    <br/>
+
+.. image:: nwbexplorer/nwbexplorer_screenshot.png
+    :class: align-left
+    :width: 180
+
+.. include::  nwbexplorer/nwbexplorer.rst
+        :start-after: .. short_description_start
+        :end-before: .. short_description_end
+
+
+.. raw:: html
+
+    <br/>
     <hr>
-    <br />
+    <br/>
 
 .. _analysistools-ecephys:
 
 Extracellular Electrophysiology Physiology Tools
 ------------------------------------------------
+
+.. image:: spikeinterface/spike_interface_diagram.png
+    :class: align-left
+    :width: 180
+
+.. include::  spikeinterface/spikeinterface.rst
+        :start-after: .. short_description_start
+        :end-before: .. short_description_end
+
+.. raw:: html
+
+    <br />
+    <br />
+    <br />
+    <br />
 
 .. image:: cellexplorer/CellExplorerInterface.jpeg
     :class: align-left
@@ -45,7 +78,6 @@ Extracellular Electrophysiology Physiology Tools
 .. include::  cellexplorer/cellexplorer.rst
         :start-after: .. short_description_start
         :end-before: .. short_description_end
-
 
 
 .. raw:: html

@@ -99,7 +99,6 @@ Extracellular Electrophysiology Physiology Tools
         :end-before: .. short_description_end
 
 
-
 .. raw:: html
 
     <br />
@@ -148,6 +147,26 @@ Optical Physiology Tools
 .. include::  ciatah/ciatah.rst
         :start-after: .. short_description_start
         :end-before: .. short_description_end
+
+
+.. raw:: html
+
+    <br />
+    <hr>
+    <br />
+
+
+Intracellular Electrical Physiology Tools
+-----------------------------------------
+
+.. image:: mies/mies_screenshot.png
+    :class: align-left
+    :width: 180
+
+.. include::  mies/mies.rst
+        :start-after: .. short_description_start
+        :end-before: .. short_description_end
+
 
 
 .. note::

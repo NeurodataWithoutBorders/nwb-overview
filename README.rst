@@ -8,6 +8,71 @@ Read the tutorial here:
 
 https://docs.readthedocs.io/en/stable/tutorial/
 
+
+Adding a Community Tool
+=======================
+
+To contribute a new tool to the list of analysis, visualization and data management tools, please create a pull request to this repo. Adding a tool requires the following steps.
+
+**Step 1:** Create a new folder for your tool in ``docs/source/tools/<mytool>`` with the name of your tool
+
+**Step 2:** Create a new file ``docs/source/tools/<mytool>/<mytool>.rst`` for your tool and copy the following template to that file
+
+.. code-block::
+
+    .. _analysistools-<mytool>:
+
+    <mytoolname>
+    ------------
+
+    .. short_description_start
+
+    :ref:`analysistools-<mytool>` <briefly describe your tool> :bdg-link-primary:`Docs <mydocs>` :bdg-link-primary:`Source <mysoure>`.
+
+    .. short_description_end
+
+    .. image:: <myimgage>
+        :class: align-left
+        :width: 400
+
+**Step 3:** Update the ``<my*>`` parts and add a brief description of your tool.
+
+**Step 4:** You may add additional sections as approbriate for your tool, e.g., to discuss NWB-specific features, tool usage, installation etc.
+
+**Step 5:** In ``docs/source/tools/tools_home.rst`` Add your tool to the toctree at the top of the page to ensure the tool gets listed in the main menu
+
+**Step 6:** In the section that best fits your tool on ``docs/source/tools/tools_home.rst` add the following and again update the ``<my*>`` marked parts
+
+.. code-block::
+
+    .. image:: <mytool>/<myimage>
+        :class: align-left
+        :width: 180
+
+    .. include::  <mytool>/<mytool.rst>
+            :start-after: .. short_description_start
+            :end-before: .. short_description_end
+
+With this Sphinx will automatically pull the short description from your doc so the glossary will automatically be updated as you make changes in the main document of your your tool. Depending on the length on your and the previous text you may need to add some empty lines in HTML to ensure the overview discplays correctly. You can add lines in HTML by adding the following in the file:
+
+.. code-block::
+
+    .. raw:: html
+
+        <br />
+        <br />
+
+**Step 7:** Build the doca and and review your changes
+
+.. code-block::
+
+    cd docs
+    make html
+    open build/html/index.html
+
+**Step 7** Create a pull request to this repo with your changes
+
+
 External links
 ==============
 

@@ -24,4 +24,6 @@ The returned object above is an NwbFile which serves as the root object with whi
 .. toctree::
     :maxdepth: 2
 
-    matnwb/matnwb
+    matnwb/nwbfile
+    matnwb/untyped
+    matnwb/troubleshooting

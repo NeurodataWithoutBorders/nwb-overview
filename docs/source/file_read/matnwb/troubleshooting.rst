@@ -1,26 +1,25 @@
 Troubleshooting File Reads in MatNWB
 ====================================
 
-Schema Version Collisions in MATLAB path
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Outlined below are the most common issues reported by users when they read a NWB file as well as common troubleshooting approaches to resolve them.
+
+Schema Version Conflicts
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+If you run into an error where reading a file appears to expect the wrong properties, you should first check if your MATLAB path is not pointing to other environments with the same packages.
 
 Missing Embedded Schemata
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-It is possible to encounter a file that does not have an embedded schema. For that you will need the API generation functions ``generateCore`` and ``generateExtension``.
-
-Using ``ignorecache`` and ``savedir``
-
-
-Generating a MatNWB Extension
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-In MatNWB, simply call ``generateExtension("path/to/extension/namespace.yaml");``; The class files will be generated under the ``+types/+<extension>`` module and can be accessed via standard MATLAB class semantics:
+Some older NWB files do not have an embedded schema. To read from these files you will need the API generation functions ``generateCore`` and ``generateExtension`` to generate the class files before calling ``nwbRead`` on them. You can also use the utility function ``util.getSchemaVersion`` to retrieve the correct Core schema for the file you are trying to read:
 
 .. code-block:: MATLAB
 
-    ts = types.ndx_example.TetrodeSeries(<arguments>);
+    schemaVersion = util.getSchemaVersion('/path/to/matnwb/file.nwb');
+    generateCore(schemaVersion);
+    generateExtension(path/to/extension/namespace.yaml);
 
-.. note::
-    As seen above, MatNWB will convert namespace names if they are not valid identifiers in MATLAB. See `Variable Names <https://www.mathworks.com/help/matlab/matlab_prog/variable-names.html>`_ for more information. In most cases, the conversion conforms with MATLAB's approach with `matlab.lang.makeValidName() <https://www.mathworks.com/help/matlab/ref/matlab.lang.makevalidname.html>`_
+Bottom of the Barrel
+~~~~~~~~~~~~~~~~~~~~
 
+If you're here, you've probably reached your wit's end and wish for more specific help. In such times, you can always contact the NWB team either as a message on Slack or as an issue on `<Github <https://github.com/NeurodataWithoutBorders/matnwb>`_.

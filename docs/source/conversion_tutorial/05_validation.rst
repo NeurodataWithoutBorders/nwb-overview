@@ -1,4 +1,4 @@
-4. Validation of NWB files
+5. Validation of NWB files
 ---------------------------------
 
 NWB Validation

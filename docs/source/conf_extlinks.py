@@ -2,6 +2,7 @@
 extlinks = {
     'incf_collection': ('https://training.incf.org/collection/neurodata-without-borders-neurophysiology-nwbn', ''),
     'nwb_extension_git': ('https://github.com/nwb-extensions/%s', ''),
+    'ndx-catalog': ('https://nwb-extensions.github.io/', ''),
     'pynwb-issue': ('https://github.com/NeurodataWithoutBorders/pynwb/issues/%s', 'pynwb#%s'),
     'pynwb-docs': ('https://pynwb.readthedocs.io/en/stable/', ''),
     'matnwb-docs': ('https://neurodatawithoutborders.github.io/matnwb/', ''),

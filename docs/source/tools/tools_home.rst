@@ -13,9 +13,13 @@ Analysis and Visualization Tools
     nwbexplorer/nwbexplorer
     spikeinterface/spikeinterface
     cellexplorer/cellexplorer
+    ecogvis/ecogvis
     caiman/caiman
     suite2p/suite2p
+    ciatah/ciatah
 
+
+This is a page is a collection of tools we are cataloging as a convenience reference for NWB users. This is not a comprehensive list of NWB tools. Many of these tools are built and supported by other groups, and are in active development. If you would like to contribute a tool, please see the instructions :nwb-overview-src:`here <>`.
 
 
 .. _analysistools-explore:
@@ -67,10 +71,10 @@ Extracellular Electrophysiology Physiology Tools
 
 .. raw:: html
 
-    <br />
-    <br />
-    <br />
-    <br />
+    <br/>
+    <br/>
+    <br/>
+    <br/>
 
 .. image:: cellexplorer/CellExplorerInterface.jpeg
     :class: align-left
@@ -79,6 +83,21 @@ Extracellular Electrophysiology Physiology Tools
 .. include::  cellexplorer/cellexplorer.rst
         :start-after: .. short_description_start
         :end-before: .. short_description_end
+
+.. raw:: html
+
+    <br/>
+    <br/>
+
+
+.. image:: ecogvis/ecogvis_screenshot.png
+    :class: align-left
+    :width: 180
+
+.. include::  ecogvis/ecogvis.rst
+        :start-after: .. short_description_start
+        :end-before: .. short_description_end
+
 
 
 .. raw:: html
@@ -101,12 +120,32 @@ Optical Physiology Tools
         :start-after: .. short_description_start
         :end-before: .. short_description_end
 
+.. raw:: html
 
-.. image:: suite2p/suite2p_logo.png
+    <br />
+    <br />
+    <br />
+
+.. image:: suite2p/suite2p_screenshot.png
     :class: align-left
     :width: 180
 
 .. include::  suite2p/suite2p.rst
+        :start-after: .. short_description_start
+        :end-before: .. short_description_end
+
+.. raw:: html
+
+    <br />
+    <br />
+    <br />
+
+
+.. image:: ciatah/ciatah_logo.png
+    :class: align-left
+    :width: 180
+
+.. include::  ciatah/ciatah.rst
         :start-after: .. short_description_start
         :end-before: .. short_description_end
 

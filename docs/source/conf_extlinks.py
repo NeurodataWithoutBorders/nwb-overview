@@ -27,7 +27,8 @@ extlinks = {
     'hdmf-github-org': ('https://github.com/hdmf-dev', ''),
     'nwb-widgets-docs': ('https://github.com/NeurodataWithoutBorders/nwb-jupyter-widgets', ''),
     'nwb-widgets-src': ('https://github.com/NeurodataWithoutBorders/nwb-jupyter-widgets', ''),
-    'caiman-docs': ('https://caiman.readthedocs.io/en/master/', '')
+    'caiman-docs': ('https://caiman.readthedocs.io/en/master/', ''),
+    'nwb-overview-src': ('https://github.com/NeurodataWithoutBorders/nwb-overview', ''),
 }
 
 # Use this for mapping for links to commonly used documentation

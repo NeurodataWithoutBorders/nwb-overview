@@ -11,7 +11,10 @@ Analysis and Visualization Tools
 
     nwbwidgets/nwbwidgets
     caiman/caiman
+    cellexplorer/cellexplorer
 
+
+.. _analysistools-explore:
 
 Exploring NWB Files
 -------------------
@@ -27,9 +30,32 @@ Exploring NWB Files
 .. raw:: html
 
     <br />
-    <br />
+    <hr>
     <br />
 
+.. _analysistools-ecephys:
+
+Extracellular Electrophysiology Physiology Tools
+------------------------------------------------
+
+.. image:: cellexplorer/CellExplorerInterface.jpeg
+    :class: align-left
+    :width: 180
+
+.. include::  cellexplorer/cellexplorer.rst
+        :start-after: .. short_description_start
+        :end-before: .. short_description_end
+
+
+
+.. raw:: html
+
+    <br />
+    <hr>
+    <br />
+
+
+.. _analysistools-ophys:
 
 Optical Physiology Tools
 ------------------------

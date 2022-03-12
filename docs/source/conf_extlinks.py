@@ -29,6 +29,7 @@ extlinks = {
     'nwb-widgets-src': ('https://github.com/NeurodataWithoutBorders/nwb-jupyter-widgets', ''),
     'caiman-docs': ('https://caiman.readthedocs.io/en/master/', ''),
     'nwb-overview-src': ('https://github.com/NeurodataWithoutBorders/nwb-overview', ''),
+    'nwb-main': ('https://www.nwb.org/', '')
 }
 
 # Use this for mapping for links to commonly used documentation

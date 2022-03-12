@@ -71,7 +71,7 @@ TODO
 
 TimeSeries
 ------------------
-TODO
+)
 
 DynamicTable
 ------------------

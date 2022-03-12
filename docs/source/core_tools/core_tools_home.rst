@@ -7,8 +7,8 @@ Glossary of Core NWB Tools
 The glossary shown here provides a quick overview of the key software packages of the core NWB software stack. For a more general discussion of the overall organization of the core NWB software stack see the :nwb-main:`NWB Software Ecosystem <nwb-software>` page on the main NWB website.
 
 
-:octicon:`tools;2em` Read/Write NWB File APIs
-----------------------------------------------
+:octicon:`tools;1.5em` Read/Write NWB File APIs
+-----------------------------------------------
 
 The NWB reference APIs provide full support for reading and writing all components of the NWB standard, including support for extensions. The APIs are interoperable, i.e., files created with PyNWB can be read in MatNWB and vice versa. Both PyNWB and MatNWB support advanced read/write for efficient interaction with very large data files (i.e., data too large for main memory), via lazy data loading, iterative data write, and data compression among others.
 
@@ -27,8 +27,8 @@ The NWB reference APIs provide full support for reading and writing all componen
     <br/
 
 
-:octicon:`git-branch;2em` Converting Data to NWB
-------------------------------------------------
+:octicon:`git-branch;1.5em` Converting Data to NWB
+--------------------------------------------------
 
 **NWB Conversion Tools**
 
@@ -40,8 +40,8 @@ The NWB reference APIs provide full support for reading and writing all componen
 
     <br/
 
-:octicon:`code-review;2em` Validating NWB Files
------------------------------------------------
+:octicon:`code-review;1.5em` Validating NWB Files
+-------------------------------------------------
 
 NWB provides tools both to check that files comply with the NWB standard as well as to check whether the data complies with best NWB practices. Validating compliance with NWB schema ensures that files are structurally correct and can be read by NWB APIs. Validating compliance with best practices helps improve data quality and (re-)usability.
 
@@ -60,8 +60,8 @@ NWB provides tools both to check that files comply with the NWB standard as well
 
     <br/
 
-:octicon:`diff-added;2em` Extending NWB
----------------------------------------
+:octicon:`diff-added;1.5em` Extending NWB
+-----------------------------------------
 
 Neurodata Extensions (NDX) are used to extend the NWB data standard, e.g., to integrate new data types with NWB or define standard for lab- or project-specific metadata. The collection of tools listed here are used to create, document, publish extensions. To learn more about how create extensions see the :ref:`extending-nwb` section.
 
@@ -99,8 +99,8 @@ Neurodata Extensions (NDX) are used to extend the NWB data standard, e.g., to in
 
     <br/
 
-:octicon:`package-dependencies;2em` Core Development
-----------------------------------------------------
+:octicon:`package-dependencies;1.5em` Core Development
+------------------------------------------------------
 
 Understanding core development tools (e.g., HDMF) is useful for developers in particular when we need to dive deeper into the core data infrastructure for NWB, e.g., when changing or creating new storage methods or when developing features for common data types (e.g., :py:class:`~hdmf.common.DynamicTable`) that are defined in HDMF and used in NWB.
 

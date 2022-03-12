@@ -53,7 +53,7 @@ To contribute a new tool to the list of analysis, visualization and data managem
             :start-after: .. short_description_start
             :end-before: .. short_description_end
 
-With this Sphinx will automatically pull the short description from your doc so the glossary will automatically be updated as you make changes in the main document of your your tool. Depending on the length on your and the previous text you may need to add some empty lines in HTML to ensure the overview discplays correctly. You can add lines in HTML by adding the following in the file:
+With ``.. include`` directive with the ``start-after`` and ``end-before`` parameters, Sphinx will automatically pull the short description from your doc so the glossary will automatically be updated as you make changes in the main document of your your tool. Depending on how long your and the previous tool description are, you may need to add some empty lines in HTML before/after your entry to ensure the overview displays correctly. You can add lines in HTML by adding the following in the file:
 
 .. code-block::
 
@@ -62,7 +62,7 @@ With this Sphinx will automatically pull the short description from your doc so 
         <br />
         <br />
 
-**Step 7:** Build the doca and and review your changes
+**Step 7:** Build the docs and and review your changes via
 
 .. code-block::
 

@@ -22,7 +22,7 @@ The **Set** (``types.untyped.Set`` or Constrained Sets) is used to capture a dyn
     
     Sets also borrow ``containers.Map``'s ``keys`` and ``values`` methods to retrieve cell arrays of either.
 
-The **Anon** type (``types.untyped.Anon``) can be understood as a Set type with only a single key-value entry. This rarer type is only used for cases where the name of the type can be set by the user. Anon types may also hold NWB type constraints like Set.
+The **Anon** type (``types.untyped.Anon``) can be understood as a Set type with only a single key-value entry. This rarer type is only used for cases where the name for the stored object can be set by the user. Anon types may also hold NWB type constraints like Set.
 
 
 DataStubs and DataPipes
@@ -32,13 +32,13 @@ DataStubs and DataPipes
 
 .. image:: /img/datastub.png
 
-**DataPipes** are similar to DataStubs but also allow you to write your data to disk. The DataPipe is an advanced type and users looking to leverage DataPipe's capabilities to stream/iteratively write or compress data should read the `Advanced Data Write Tutorial <https://neurodatawithoutborders.github.io/matnwb/tutorials/html/dataPipe.html>`_.
+**DataPipes** are similar to DataStubs in that they allow you to load data from disk; however, they also provide a wide array of features that allow the user to write data to disk, either by streaming parts of data in at a time or by compressing the data before writing. The DataPipe is an advanced type and users looking to leverage DataPipe's capabilities to stream/iteratively write or compress data should read the `Advanced Data Write Tutorial <https://neurodatawithoutborders.github.io/matnwb/tutorials/html/dataPipe.html>`_.
 
 
 Links and Views
 ~~~~~~~~~~~~~~~
 
-**Links** (either ``types.untyped.SoftLink`` or ``types.untyped.ExternalLink``) are views either back into the read NWB file or some other NWB file outside of the currently read one. *SoftLinks* contain a path into the same NWB file while *ExternalLinks* additionally hold a ``filename`` field to point to an external NWB file. Both types use their ``deref`` methods to retrieve the NWB object that they point to though *SoftLinks* require the NwbFile object that was read in.
+**Links** (either ``types.untyped.SoftLink`` or ``types.untyped.ExternalLink``) are views that point to another NWB object, either within the same file or in another external one. *SoftLinks* contain a path into the same NWB file while *ExternalLinks* additionally hold a ``filename`` field to point to an external NWB file. Both types use their ``deref`` methods to retrieve the NWB object that they point to though *SoftLinks* require the NwbFile object that was read in.
 
 .. code-block:: MATLAB
 
@@ -50,9 +50,9 @@ Links and Views
 
 .. note::
 
-    Links are not resolved on write, so it is possible that dereferencing links may fail.
+    Links are not validated on write by default. It is entirely possible that a link will simply never resolve, either because the path to the NWB object is wrong, or because the external file is simply missing from the NWB distribution.
 
-**Views** (either ``types.untyped.ObjectView`` or ``types.untyped.RegionView``) are more advanced references strictly pointing to NWB types or segments of data in some NWB type within the same NWB file. *ObjectViews* will point to NWB types while *RegionViews* will point to some subset of data stored in the ``data`` field of NWB types. Both types use ``refresh`` to retrieve their referenced data.
+**Views** (either ``types.untyped.ObjectView`` or ``types.untyped.RegionView``) are more advanced references which can point to NWB types as well as segments of raw data from a dataset. *ObjectViews* will point to NWB types while *RegionViews* will point to some subset of data. Both types use ``refresh`` to retrieve their referenced data.
 
 .. code-block:: MATLAB
 
@@ -61,3 +61,7 @@ Links and Views
 .. code-block:: MATLAB
 
     dataSubset = regionView.refresh(rootNwbFile);
+
+.. note::
+    
+    Unlike *Links*, Views cannot point to NWB objects outside of their respective files. Views are also validated on write and will always point to a valid NWB object or raw data if written without errors.

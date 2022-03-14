@@ -1,7 +1,7 @@
 .. _nwbfile_info:
 
-Using the NwbFile Class to Browse NWB Files
-===========================================
+Using the NwbFile Class
+=======================
 
 The NwbFile class represents the root object for the NWB file and consists of properties and values which map indirectly to the internal HDF5 dataset.
 
@@ -14,7 +14,7 @@ Aside from the generated Core and Extension types, there are "Untyped" utility T
 Searching by Type
 ~~~~~~~~~~~~~~~~~
 
-NwbFile also allows for searching the entire NWB file by type using its ``searchFor`` method.
+The NwbFile also allows for searching the entire NWB file by type using its ``searchFor`` method.
 
 You can search for only the class name:
 

@@ -1,12 +1,19 @@
-To build locally, run
+Building the docs locally
+==========================
 
-```bash
-sphinx-build -a docs/source build
-```
+.. code-block:: bash
 
-Read the tutorial here:
+    sphinx-build -a docs/source build
 
-https://docs.readthedocs.io/en/stable/tutorial/
+
+or
+
+.. code-block:: bash
+
+    cd docs
+    make html
+    
+And to view the docs open ``build/html/index.html``.
 
 
 Adding a Community Tool
@@ -35,13 +42,13 @@ To contribute a new tool to the list of analysis, visualization and data managem
         :class: align-left
         :width: 400
 
-**Step 3:** Update the ``<my*>`` parts and add a brief description of your tool.
+**Step 3:** Update the ``<my*>`` parts and add a brief description of your tool as well as an image for your tool.
 
-**Step 4:** You may add additional sections as approbriate for your tool, e.g., to discuss NWB-specific features, tool usage, installation etc.
+**Step 4:** You may add additional sections as approbriate to the page, e.g., to describe tool features, usage, or installation. In particular, also consider adding a section on ``Compatability with NWB`` to describe how your tools integrate with NWB (e.g., does your tool support read/write/update of specific neurodata_types in NWB and does your tool require any extensions).
 
 **Step 5:** In ``docs/source/tools/tools_home.rst`` Add your tool to the toctree at the top of the page to ensure the tool gets listed in the main menu
 
-**Step 6:** In the section that best fits your tool on ``docs/source/tools/tools_home.rst` add the following and again update the ``<my*>`` marked parts
+**Step 6:** In the section that best fits your tool on ``docs/source/tools/tools_home.rst`` add the following and again update the ``<my*>`` marked parts.
 
 .. code-block::
 
@@ -53,7 +60,7 @@ To contribute a new tool to the list of analysis, visualization and data managem
             :start-after: .. short_description_start
             :end-before: .. short_description_end
 
-With ``.. include`` directive with the ``start-after`` and ``end-before`` parameters, Sphinx will automatically pull the short description from your doc so the glossary will automatically be updated as you make changes in the main document of your your tool. Depending on how long your and the previous tool description are, you may need to add some empty lines in HTML before/after your entry to ensure the overview displays correctly. You can add lines in HTML by adding the following in the file:
+With ``.. include`` directive with the ``start-after`` and ``end-before`` parameters, Sphinx will automatically include the short description from your doc so the glossary will automatically be updated as you make changes in the main document of your your tool. Depending on how long your and the previous tool description are, you may need to add some empty lines in HTML before/after your entry to ensure the overview displays correctly. You can add lines in HTML by adding the following in the file:
 
 .. code-block::
 

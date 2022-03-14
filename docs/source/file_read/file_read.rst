@@ -25,5 +25,6 @@ The returned object above is an NwbFile which serves as the root object with whi
     :maxdepth: 2
 
     matnwb/nwbfile
+    matnwb/dynamictable
     matnwb/untyped
     matnwb/troubleshooting

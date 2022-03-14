@@ -16,5 +16,5 @@ jobs:
       - name: Install sphinx Dependencies
         run: pip install -r requirements.txt
       - name: Test External Links
-        run: sphinx-build -b linkcheck ./docs ./test_build
+        run: sphinx-build -b linkcheck ./docs/source ./test_build
 

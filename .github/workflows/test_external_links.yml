@@ -15,8 +15,6 @@ jobs:
           python-version: 3.9
       - name: Install sphinx Dependencies
         run: pip install -r requirements.txt
-      - name: Install package for API docs
-        run: pip install -e .
       - name: Test External Links
         run: sphinx-build -b linkcheck ./docs ./test_build
 

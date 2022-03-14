@@ -12,7 +12,7 @@ extlinks = {
     'matnwb-docs': ('https://neurodatawithoutborders.github.io/matnwb/', ''),
     'nwbconversiontool-docs': ('https://nwb-conversion-tools.readthedocs.io/en/main/', ''),
     'nwbconversiontool-src': ('https://github.com/catalystneuro/nwb-conversion-tools/', ''),
-    'nwbinspector-docs': ('https://nwbinspector.readthedocs.io/en/add_docs/', ''),
+    'nwbinspector-docs': ('https://nwbinspector.readthedocs.io/en/dev/', ''),
     'ndx-template-docs': ('https://github.com/nwb-extensions/ndx-template', ''),
     'ndx-template-src': ('https://github.com/nwb-extensions/ndx-template', ''),
     'ndx-catalog': ('https://nwb-extensions.github.io/', ''),

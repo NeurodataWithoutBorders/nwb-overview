@@ -32,7 +32,9 @@ The NWB reference APIs provide full support for reading and writing all componen
 
 **NWB Conversion Tools**
 
- The :nwbconversiontool-docs:`NWB Conversion Tools <>` is a Python library for automatic conversion from proprietary data formats to NWB.  :bdg-link-primary:`Docs <'https://nwb-conversion-tools.readthedocs.io/en/main/>` :bdg-link-primary:`Source <https://github.com/catalystneuro/nwb-conversion-tools>`
+ The :nwbconversiontool-docs:`NWB Conversion Tools <>` is a Python library for automatic conversion
+from proprietary data formats to NWB.  :bdg-link-primary:`Docs <https://nwb-conversion-tools.readthedocs.io/en/main/>`
+:bdg-link-primary:`Source <https://github.com/catalystneuro/nwb-conversion-tools>`
 
 ---------------------
 
@@ -52,7 +54,7 @@ NWB provides tools both to check that files comply with the NWB standard as well
 
 **NWB Inspector: Validate best practice**
 
- The :nwbinspector-docs:`NWB Inspector <>` is a python library and command-line tool for inspecting NWB files for adherence to :nwbinspector-docs:`NWB best practices <best_practices.html>` :bdg-link-primary:`Docs <https://nwbinspector.readthedocs.io/en/add_docs/>` :bdg-link-primary:`Source <https://github.com/NeurodataWithoutBorders/nwbinspector>`
+ The :nwbinspector-docs:`NWB Inspector <>` is a python library and command-line tool for inspecting NWB files for adherence to :nwbinspector-docs:`NWB best practices <best_practices_index.html>` :bdg-link-primary:`Docs <https://nwbinspector.readthedocs.io/en/add_docs/>` :bdg-link-primary:`Source <https://github.com/NeurodataWithoutBorders/nwbinspector>`
 
 ---------------------
 

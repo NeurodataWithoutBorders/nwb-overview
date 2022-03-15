@@ -1,3 +1,5 @@
+.. _reading_nwb:
+
 Reading NWB Files
 ==================
 
@@ -6,6 +8,7 @@ Reading With PyNWB
 
 You can!
 
+.. _file_read_matnwb:
 
 Reading with MatNWB
 ~~~~~~~~~~~~~~~~~~~

@@ -11,8 +11,8 @@ from conf_extlinks import intersphinx_mapping
 
 
 project = 'NWB Overview'
-copyright = ''
-author = 'Ben Dichter, ...'
+copyright = 'Neurodata Without Borders'
+author = 'Ben Dichter, Lawrence Niu, Ryan Ly, Oliver Ruebel'
 
 release = '0.1'
 version = '0.1.0'

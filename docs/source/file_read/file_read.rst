@@ -3,6 +3,8 @@
 Reading NWB Files
 ==================
 
+This section provides an introduction on how to read NWB files in Python using PyNWB and Matlab using MatNWB. If you are interested in converting your data to NWB, then please see the :ref:`user_guide` as well as for more in-depth tutorials visit the :pynwb-docs:`PyNWB  <tutorials>` and :matnwb-docs:`MatNWB <#tutorials>` tutorials and documentation.
+
 Reading With PyNWB
 ~~~~~~~~~~~~~~~~~~
 
@@ -22,7 +24,7 @@ For most files, MatNWB only requires the ``nwbRead`` call:
 This call will read the file, create the necessary NWB schema class files, as well as any extension schemata that is needed for the file itself. This is because both PyNWB and MatNWB embed a copy of the schema environment into the NWB file when it is written.
 
 
-The returned object above is an NwbFile which serves as the root object with which you can use to browse the contents of the file. More detail about the NwbFile class can be found here: :ref:`nwbfile_info`.
+The returned object above is an NwbFile which serves as the root object with which you can use to browse the contents of the file. More detail about the NwbFile class can be found here: :ref:`matnwb-read-nwbfile-intro`.
 
 .. toctree::
     :maxdepth: 2

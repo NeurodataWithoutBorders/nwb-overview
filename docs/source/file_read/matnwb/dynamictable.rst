@@ -1,7 +1,7 @@
 The Dynamic Table Type
 ======================
 
-The Dynamic Table is a special NWB type composed of multiple ``Vectordata`` objects which act like the columns of a table. The benefits of this type composition is that each column can be accessed independently using regular NWB syntax and modified as a regular dataset.
+The ``Dynamic Table`` is a special NWB type composed of multiple ``VectorData`` objects which act like the columns of a table. The benefits of this type composition is that it allows us to add user-defined columns to a ``DynamicTable`` without having extend the NWB data schema and each column can be accessed independently using regular NWB syntax and modified as a regular dataset.
 
 With such an object hierarchy, however, there is no easy way to view the Dynamic Table data row by row. This is where ``getRow`` comes in.
 

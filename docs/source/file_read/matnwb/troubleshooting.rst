@@ -46,4 +46,4 @@ If you wish to read your file multiple times, you may not want to regenerate you
 Bottom of the Barrel
 ~~~~~~~~~~~~~~~~~~~~
 
-If you're here, you've probably reached your wit's end and wish for more specific help. In such times, you can always contact the NWB team either as a message on our `Slack Workspace <https://join.slack.com/t/nwb-users/shared_invite/enQtNzMwOTcwNzQ2MDM5LWMyZDUwODJjYjM3MzMzYzZiNDk4ZTU3ZjQ3MmMxMmY5MDUyNzc0ZDI5ZjViYmJjYTQ5NjljOGFjZmMwOGIwZmQ>`_ or as an issue on `Github <https://github.com/NeurodataWithoutBorders/matnwb>`_.
+If you're here, you've probably reached your wit's end and wish for more specific help. In such times, you can always contact the NWB team either as a message on our `NWB HelpDesk <https://github.com/NeurodataWithoutBorders/helpdesk/discussions>`_, `Slack Workspace <https://join.slack.com/t/nwb-users/shared_invite/enQtNzMwOTcwNzQ2MDM5LWMyZDUwODJjYjM3MzMzYzZiNDk4ZTU3ZjQ3MmMxMmY5MDUyNzc0ZDI5ZjViYmJjYTQ5NjljOGFjZmMwOGIwZmQ>`_ or as an issue on `Github <https://github.com/NeurodataWithoutBorders/matnwb>`_.

@@ -19,7 +19,7 @@ see :ref:`validating` for details
 NWB Inspector
 =============
 
-:nwbinspector-docs:`NWB Inspector` inspects NWB files for compliance with NWB Best Practices and
+:nwbinspector-docs:`NWB Inspector <>` inspects NWB files for compliance with NWB Best Practices and
 attempts to find mistakes in conversion. This inspector is
 meant as a companion to the pynwb validator, which checks for strict schema
 compliance. In contrast, this tool attempts to apply some common sense to

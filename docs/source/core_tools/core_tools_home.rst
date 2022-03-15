@@ -32,9 +32,7 @@ The NWB reference APIs provide full support for reading and writing all componen
 
 **NWB Conversion Tools**
 
- The :nwbconversiontool-docs:`NWB Conversion Tools <>` is a Python library for automatic conversion
-from proprietary data formats to NWB.  :bdg-link-primary:`Docs <https://nwb-conversion-tools.readthedocs.io/en/main/>`
-:bdg-link-primary:`Source <https://github.com/catalystneuro/nwb-conversion-tools>`
+ The :nwbconversiontool-docs:`NWB Conversion Tools <>` is a Python library for automatic conversion from proprietary data formats to NWB.  :bdg-link-primary:`Docs <https://nwb-conversion-tools.readthedocs.io/en/main/>` :bdg-link-primary:`Source <https://github.com/catalystneuro/nwb-conversion-tools>`
 
 ---------------------
 

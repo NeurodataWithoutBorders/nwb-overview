@@ -17,7 +17,8 @@ publish NWB, you are in the right place!
    conversion_tutorial/user_guide
    extensions_tutorial/extensions_tutorial_home
    core_tools/core_tools_home
-
+   file_read/file_read
+   
 .. toctree::
    :maxdepth: 1
    :titlesonly:

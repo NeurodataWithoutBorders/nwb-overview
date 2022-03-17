@@ -1,12 +1,84 @@
-To build locally, run
+Building the docs locally
+==========================
 
-```bash
-sphinx-build -a docs/source build
-```
+.. code-block:: bash
 
-Read the tutorial here:
+    sphinx-build -a docs/source build
 
-https://docs.readthedocs.io/en/stable/tutorial/
+
+or
+
+.. code-block:: bash
+
+    cd docs
+    make html
+    
+And to view the docs open ``build/html/index.html``.
+
+
+Adding a Community Tool
+=======================
+
+To contribute a new tool to the list of analysis, visualization and data management tools, please create a pull request to this repo. Adding a tool requires the following steps.
+
+**Step 1:** Create a new folder for your tool in ``docs/source/tools/<mytool>`` with the name of your tool
+
+**Step 2:** Create a new file ``docs/source/tools/<mytool>/<mytool>.rst`` for your tool and copy the following template to that file
+
+.. code-block::
+
+    .. _analysistools-<mytool>:
+
+    <mytoolname>
+    ------------
+
+    .. short_description_start
+
+    :ref:`analysistools-<mytool>` <briefly describe your tool> :bdg-link-primary:`Docs <mydocs>` :bdg-link-primary:`Source <mysoure>`.
+
+    .. short_description_end
+
+    .. image:: <myimgage>
+        :class: align-left
+        :width: 400
+
+**Step 3:** Update the ``<my*>`` parts and add a brief description of your tool as well as an image for your tool.
+
+**Step 4:** You may add additional sections as approbriate to the page, e.g., to describe tool features, usage, or installation. In particular, also consider adding a section on ``Compatability with NWB`` to describe how your tools integrate with NWB (e.g., does your tool support read/write/update of specific neurodata_types in NWB and does your tool require any extensions).
+
+**Step 5:** In ``docs/source/tools/tools_home.rst`` Add your tool to the toctree at the top of the page to ensure the tool gets listed in the main menu
+
+**Step 6:** In the section that best fits your tool on ``docs/source/tools/tools_home.rst`` add the following and again update the ``<my*>`` marked parts.
+
+.. code-block::
+
+    .. image:: <mytool>/<myimage>
+        :class: align-left
+        :width: 180
+
+    .. include::  <mytool>/<mytool.rst>
+            :start-after: .. short_description_start
+            :end-before: .. short_description_end
+
+With ``.. include`` directive with the ``start-after`` and ``end-before`` parameters, Sphinx will automatically include the short description from your doc so the glossary will automatically be updated as you make changes in the main document of your your tool. Depending on how long your and the previous tool description are, you may need to add some empty lines in HTML before/after your entry to ensure the overview displays correctly. You can add lines in HTML by adding the following in the file:
+
+.. code-block::
+
+    .. raw:: html
+
+        <br />
+        <br />
+
+**Step 7:** Build the docs and and review your changes via
+
+.. code-block::
+
+    cd docs
+    make html
+    open build/html/index.html
+
+**Step 7** Create a pull request to this repo with your changes
+
 
 External links
 ==============
@@ -35,6 +107,8 @@ Creating external links in the docs
 -----------------------------------
 
 The ``extlinks`` dict in ``/docs/source/conf_extlinks.py`` defines a set of new roles. This allows us to refer, e.g., to specific usses in PyNWB via ``:pynwb_issue:`1``` which will in turn will be rendered as the text "pynwb#1" in the docs with the appropriate link to the issue. Similarly, if we want to refer to the INCF training we can write ``:incf_collection:`INCF Training``` in the text. Since the caption is an empty string in the ``extlinks`` dict for the ``incf_collection`` key, the link will be rendered using the provided text, i.e., here "INCF Training" with the approbriate link.
+
+Normally the ``extlinks`` extension will add the part we link to the URL. To use the exact URL as defined in ``extlinks`` dict use the following syntax ``:pynwb-docs:`PyNWB <>```, which will render the text (here PyNWB) with a hyperlink to the exact, unmodified URL.
 
 Linking to external packages
 =============================

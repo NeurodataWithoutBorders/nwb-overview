@@ -14,9 +14,17 @@ The widgets make it easy to navigate through the hierarchical structure of the N
 Demo
 ^^^^
 
-.. image:: https://www.nwb.org/wp-content/uploads/2019/09/jupyter_widgets_demo.gif
-    :class: align-center
-    :width: 600
+.. only:: html
+
+    .. image:: https://www.nwb.org/wp-content/uploads/2019/09/jupyter_widgets_demo.gif
+        :class: align-center
+        :width: 600
+
+.. only:: latex
+
+    .. image:: nwbwidgets_icon.png
+        :class: align-center
+        :width: 600
 
 Installation
 ^^^^^^^^^^^^

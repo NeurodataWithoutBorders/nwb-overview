@@ -52,7 +52,7 @@ NWB provides tools both to check that files comply with the NWB standard as well
 
 **NWB Inspector: Validate best practice**
 
- The :nwbinspector-docs:`NWB Inspector <>` is a python library and command-line tool for inspecting NWB files for adherence to :nwbinspector-docs:`NWB best practices <best_practices_index.html>` :bdg-link-primary:`Docs <https://nwbinspector.readthedocs.io/en/add_docs/>` :bdg-link-primary:`Source <https://github.com/NeurodataWithoutBorders/nwbinspector>`
+ The :nwbinspector-docs:`NWB Inspector <>` is a python library and command-line tool for inspecting NWB files for adherence to :nwbinspector-docs:`NWB best practices <best_practices/best_practices_index.html>` :bdg-link-primary:`Docs <https://nwbinspector.readthedocs.io/en/add_docs/>` :bdg-link-primary:`Source <https://github.com/NeurodataWithoutBorders/nwbinspector>`
 
 ---------------------
 

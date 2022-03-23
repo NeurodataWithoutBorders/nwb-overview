@@ -14,7 +14,7 @@ Group Specifications
 Most neurodata types are Groups, which act like a directory or folder within the NWB file. A Group can have
 within it Datasets, Attributes, Links, and/or other Groups. Groups are specified with the
 :py:class:`~pynwb.spec.NWBGroupSpec` class, which provides a python API for specifying the structure for an
-:nwb-schema-language-docs:`NWB Group <description.html#groups>.
+:nwb-schema-language-docs:`NWB Group <description.html#groups>`.
 
 .. code-block:: python
 

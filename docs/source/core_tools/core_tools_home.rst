@@ -67,7 +67,7 @@ Neurodata Extensions (NDX) are used to extend the NWB data standard, e.g., to in
 
 **NDX Template**
 
- The :ndx-template-docs:`NDX Template <>`  provides a template for creating Neurodata Extensions (NDX) for the NWB data standard. :bdg-link-primary:`Source <https://github.com/nwb-extensions/ndx-template>`
+ The :ndx-template-docs:`NDX Template <>`  provides a template for creating Neurodata Extensions (NDX) for the NWB data standard. :bdg-link-primary:`Source <nwb_extension_git:ndx-template>`
 
  When creating a new extension, the NDX-template will create a detailed NEXTSTEPS.md file describing how to create an extension and how to submit it to the NDX catalog.
 
@@ -77,7 +77,7 @@ Neurodata Extensions (NDX) are used to extend the NWB data standard, e.g., to in
 
 **Publishing NDX**
 
- The :nwb_extension_git:`staged-extensions` GitHub repository is used to register new extensions for publication in the :ndx-catalog:`Neurodata Extensions Catalog (NDX Catalog) <>`. :bdg-link-primary:`Source <https://github.com/nwb-extensions/staged-extensions>`
+ The :nwb_extension_git:`staged-extensions` GitHub repository is used to register new extensions for publication in the :ndx-catalog:`Neurodata Extensions Catalog (NDX Catalog) <>`. :bdg-link-primary:`Source <nwb_extension_git:staged-extensions>`
 
 **Documentation Utilities**
 
@@ -107,7 +107,3 @@ Understanding core development tools (e.g., HDMF) is useful for developers in pa
 **HDMF**
 
  The :hdmf-docs:`Hierarchical Data Modeling Framework (HDMF) <>` is a python package for working with hierarchical data. It provides APIs for specifying data models, reading and writing data to different storage backends, and representing data with Python object. HDMF builds the foundation for the :pynwb-docs:`PyNWB <>` Python API for NWB. :bdg-link-primary:`Docs <https://hdmf.readthedocs.io/en/stable/>` :bdg-link-primary:`Source <https://github.com/hdmf-dev/hdmf>`
-
-
-
-

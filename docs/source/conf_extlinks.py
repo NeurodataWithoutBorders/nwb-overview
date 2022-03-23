@@ -24,7 +24,7 @@ extlinks = {
     'nwb-schema-src': ('https://github.com/NeurodataWithoutBorders/nwb-schema', ''),
     'hdmf-common-schema-docs': ('https://hdmf-common-schema.readthedocs.io/en/stable/', ''),
     'hdmf-common-schema-src': ('https://github.com/hdmf-dev/hdmf-common-schema', ''),
-    'nwb-github-org': ('http://github.com/NeurodataWithoutBorders', ''),
+    'nwb-github-org': ('https://github.com/NeurodataWithoutBorders', ''),
     'hdmf-github-org': ('https://github.com/hdmf-dev', ''),
     'nwb-widgets-docs': ('https://github.com/NeurodataWithoutBorders/nwb-jupyter-widgets', ''),
     'nwb-widgets-src': ('https://github.com/NeurodataWithoutBorders/nwb-jupyter-widgets', ''),

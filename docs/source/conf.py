@@ -8,7 +8,6 @@ sys.path.append(os.path.dirname(__file__))
 # Import the definition of external links
 from conf_extlinks import extlinks
 from conf_extlinks import intersphinx_mapping
-import sphinx_rtd_theme
 
 
 project = 'NWB Overview'
@@ -28,8 +27,7 @@ extensions = [
     'sphinx.ext.intersphinx',
     'myst_parser',
     'sphinx.ext.extlinks',
-    'sphinx_design',
-    'sphinx_rtd_theme',
+    'sphinx_design'
 ]
 
 intersphinx_disabled_domains = ['std']
@@ -39,7 +37,6 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'

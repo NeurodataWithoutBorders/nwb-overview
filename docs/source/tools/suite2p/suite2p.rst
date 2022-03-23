@@ -9,9 +9,17 @@ suite2p
 
 .. short_description_end
 
-.. image:: https://www.nwb.org/wp-content/uploads/2020/05/multiselect.gif
-    :class: align-left
-    :width: 400
+.. only:: html
+
+    .. image:: https://www.nwb.org/wp-content/uploads/2020/05/multiselect.gif
+        :class: align-left
+        :width: 400
+
+.. only:: latex
+
+    .. image:: suite2p_screenshot.png
+        :class: align-left
+        :width: 400
 
 
 

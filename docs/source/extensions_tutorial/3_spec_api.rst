@@ -14,7 +14,7 @@ Group Specifications
 Most neurodata types are Groups, which act like a directory or folder within the NWB file. A Group can have
 within it Datasets, Attributes, Links, and/or other Groups. Groups are specified with the
 :py:class:`~pynwb.spec.NWBGroupSpec` class, which provides a python API for specifying the structure for an
-`NWB Group <https://schema-language.readthedocs.io/en/latest/specification_language_description.html#groups>`_ .
+:nwb-schema-language-docs:`NWB Group <description.html#groups>`.
 
 .. code-block:: python
 
@@ -88,7 +88,7 @@ types via :py:class:`~pynwb.spec.NWBDtypeSpec` and
 
 
 ``shape`` is a specification defining the allowable shapes for the dataset. See the
-`shape specification <https://schema-language.readthedocs.io/en/latest/specification_language_description.html#shape>`_
+:nwb-schema-language-docs:`shape specification <description.html#shape>`
 as part of the specification language docs. ``None`` is mapped to ``null``. Is no shape is provided, it is
 assumed that the dataset is only a single element.
 
@@ -120,7 +120,7 @@ list of :py:class:`~pynwb.spec.NWBDtypeSpec` objects to the ``dtype`` argument.
         )
 
 .. tip::
-    Column-based tables are also possible and more flexible. See the documentation for `DynamicTable <https://hdmf.readthedocs.io/en/stable/tutorials/dynamictable.html>`_.
+    Column-based tables are also possible and more flexible. See the documentation for :hdmf-docs:`DynamicTable <tutorials/plot_dynamictable_tutorial.html>`.
 
 Attribute Specifications
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -158,7 +158,7 @@ Link Specifications
 ^^^^^^^^^^^^^^^^^^^
 
 You can store an object in one place and reference that object in another without copying the object using
-`Links <https://schema-language.readthedocs.io/en/latest/specification_language_description.html#sec-link-spec>`_, which
+:nwb-schema-language-docs:`Links <description.html#sec-link-spec>`, which
 can be defined using :py:class:`~pynwb.spec.NWBLinkSpec` objects.
 
 .. code-block:: python

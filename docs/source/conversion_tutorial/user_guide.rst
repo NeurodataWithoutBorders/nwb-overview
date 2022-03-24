@@ -14,7 +14,8 @@ automated tools for converting formats.
 
     01_core_nwb
     02_nwb_apis
-    03_format_conversions
-    04_validation
-    05_dandi
+    03_using_extensions
+    04_format_conversions
+    05_validation
+    06_dandi
 

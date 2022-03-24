@@ -10,7 +10,7 @@ Using NWB
 Is NWB 2 stable?
 ----------------
 
-Yes! NWB 2.0 was officially released in January 2019, and the schema is now stable. Any changes that will be made now will be backwards compatible.
+Yes! NWB 2.0 was officially released in January 2019, and the schema is stable. A key goal of the NWB endavour is to ensure that NWB 2 remains accessible. As NWB evolves we strive to ensure that any changes we make do not break backwards compatiblility.
 
 I would like to use NWB. How do I get started?
 ----------------------------------------------
@@ -40,7 +40,10 @@ What is the difference between PyNWB and nwb-schema?
 
 How do I read NWB files in different programming languages?
 -----------------------------------------------------------
-NWB files are usually just HDF5 files with a particular structure. If using a language that has a supported NWB API (Python, MATLAB), this API will leverage the structure to provide a more intuitive interface to the data. If using Python, we recommend using PyNWB, and if using MATLAB we recommend using MatNWB. You can also use the HDF5 readers available in Python and MATLAB, but that will likely be less convenient. If you are using other programming languages, such as R, C, C++, Julia, Java, or Javascript, each of these languages has an HDF5 API that can be used to read all of the data in an NWB file. Writing valid NWB files in languages other than PyNWB and MatNWB is possible, but tricky.
+
+For Python and Matlab we recommend using the :pynwb-docs:`PyNWB <>` and :matnwb-docs:`MatNWB <>` reference APIs. To get started see also the :ref:`reading_nwb` page.
+
+If you are using other programming languages (such as R, C/C++, Julia, Java, or Javascript) you can use the standard HDF5 readers that are available for these languages. In contrast to the NWB native API (PyNWB, MatNWB), the HDF5 readers are not aware of NWB schema details. This can make writing valid NWB files in other languages (without  PyNWB and MatNWB) tricky, but for read they nonetheless provide access to the full data. For write, applications (e.g., MIES written in Igor) often chose to implement only the parts of the NWB standard that are relevant to the particular application.
 
 Where should I publish my NWB files?
 ------------------------------------
@@ -51,11 +54,11 @@ If you are free to publish data wherever, we would recommend :dandi:`DANDI <>`. 
 Who can I contact for questions?
 --------------------------------
 
-For details, please review our Contributing Guidelines.
+* **General questions:**  For general questions, use the :nwb-helpdesk:`NWB Helpdesk <>`.
+* **Bugs and issues:** To contribute, or to report a bug, create an issue on the appropriate GitHub repository. To find relevant repositories see the :ref:`core-tools-home` and :ref:`dev_nwb_sources` pages.
+* **Stay tuned:** To receive updates about NWB at large, sign up for the :nwb-mailing-list:`NWB mailing list <>`.
 
-* For general questions, use the :nwb-helpdesk:`NWB Helpdesk <>`.
-* To contribute, or to report a bug, create an issue on the appropriate GitHub repository.
-* To receive updates about NWB at large, sign up for the :nwb-mailing-list:`NWB mailing list <>`.
+For details, please also review our Contributing Guidelines.
 
 NWB 1 vs 2
 ==========
@@ -63,18 +66,12 @@ NWB 1 vs 2
 What has changed between NWB 1 and 2?
 -------------------------------------
 
-See the :nwb-schema-release-notes:`release notes of the NWB format schema <>` for details about changes to the format
-schema. For details about changes to the specification language see the specification language release notes. With
-regard to software, NWB 2 marks a full reboot and introduced with :pynwb-docs:`PyNWB <>`, :matnwb-docs:`MatNWB <>`,
-:hdmf-docutils-docs:`HDMF docutils <>`, :nwb-schema-docs:`nwb-schema <>` etc. several
-new packages and repositories while tools, e.g., :api-python:`api-python <>`, that were created for NWB:N 1.x have been deprecated.
+See the :nwb-schema-release-notes:`release notes of the NWB format schema <>` for details about changes to the format schema. For details about changes to the specification language see the specification language release notes. With regard to software, NWB 2 marks a full reboot and introduced with :pynwb-docs:`PyNWB <>`, :matnwb-docs:`MatNWB <>`, :hdmf-docutils-docs:`HDMF docutils <>`, :nwb-schema-docs:`nwb-schema <>` etc. several new packages and repositories while tools, e.g., :api-python:`api-python <>`, that were created for NWB:N 1.x have been deprecated.
 
 Does PyNWB support NWB:N 1.0.x files?
 -------------------------------------
 
-:pynwb-docs:`PyNWB <>` includes the pynwb/legacy module which supports reading of NWB:N 1.0.x files from popular data
-repositories, such as the :allen-cell-type-atlas:`Allen Cell Types Atlas <>`. For NWB:N 1.0.x files from other sources the millage may vary in
-particular when files are not fully format compliant, e.g., include arbitrary custom data or are missing required data fields.
+:pynwb-docs:`PyNWB <>` includes the pynwb/legacy module which supports reading of NWB:N 1.0.x files from popular data repositories, such as the :allen-cell-type-atlas:`Allen Cell Types Atlas <>`. For NWB:N 1.0.x files from other sources the millage may vary in particular when files are not fully format compliant, e.g., include arbitrary custom data or are missing required data fields.
 
 What is the difference between NWB and NWB:N?
 ---------------------------------------------
@@ -100,11 +97,11 @@ See page: :ref:`why_hdf5`
 
 Are you aware of the Rossant blog posts about moving away from HDF5?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Yes. See above for our motivations for using HDF5. Note that this blog post was not peer reviewed and at several points was either incorrect or is now outdated.
+Yes. See above for our motivations for using HDF5. Many of the technical issues raised in the blog post have been addressed and in our experience HDF5 is reliable and is performing well for NWB users.
 
-Why not just use HDF5?
-----------------------
-The goal of NWB is to package neurophysiology data with metadata sufficient for reuse and reanalysis of the data by other researchers. HDF5 enables users to provide very rich metadata, sufficient for describing neuroscience data for this purpose. The problem with HDF5 on its own is that it is just too flexible. Without a schema, files could be missing key metadata like the sampling rate of a time series. Furthermore, different labs that use HDF5 would use completely different methods for organizing and annotating experiment data. It would be quite difficult to aggregate data across labs or build common tools without imposing structure on the HDF5 file. This is the purpose of the NWB schema- to provide requirements that ensure reusability of the data, and to provide a common structure that enables interoperability across the global neurophysiology community. Users can use extensions to build from schema and describe new types of neurophysiology data.
+Why not just use HDF5 on its own?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The goal of NWB is to package neurophysiology data with metadata sufficient for reuse and reanalysis of the data by other researchers. HDF5 enables users to provide very rich metadata, sufficient for describing neuroscience data for this purpose. The problem with HDF5 on its own is that it is just too flexible. Without a schema, files could be missing key metadata like the sampling rate of a time series. Furthermore, different labs that use HDF5 would use completely different methods for organizing and annotating experiment data. It would be quite difficult to aggregate data across labs or build common tools without imposing structure on the HDF5 file. This is the purpose of the NWB schema. The NWB schema formalizes requirements that ensure reusability of the data and provides a common structure that enables interoperability across the global neurophysiology community. Users can use extensions to build from schema and describe new types of neurophysiology data.
 
 
 

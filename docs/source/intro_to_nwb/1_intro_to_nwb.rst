@@ -26,4 +26,5 @@ NWB format.
 .. toctree::
     :maxdepth: 2
 
-    file_structure
+    2_file_structure
+    3_basic_neurodata_types

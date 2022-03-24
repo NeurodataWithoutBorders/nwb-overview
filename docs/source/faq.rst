@@ -60,6 +60,25 @@ Who can I contact for questions?
 
 For details, please also review our Contributing Guidelines.
 
+Alternative data standards and formats
+======================================
+
+How does NWB 2.0 compare to other standards?
+--------------------------------------------
+See page: :ref:`comparison-to-other-standards`
+
+Why use HDF5 as the primary backend for NWB?
+--------------------------------------------
+See page: :ref:`why_hdf5`
+
+Are you aware of the Rossant blog posts about moving away from HDF5?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Yes. See above for our motivations for using HDF5. Many of the technical issues raised in the blog post have been addressed and in our experience HDF5 is reliable and is performing well for NWB users.
+
+Why not just use HDF5 on its own?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The goal of NWB is to package neurophysiology data with metadata sufficient for reuse and reanalysis of the data by other researchers. HDF5 enables users to provide very rich metadata, sufficient for describing neuroscience data for this purpose. The problem with HDF5 on its own is that it is just too flexible. Without a schema, files could be missing key metadata like the sampling rate of a time series. Furthermore, different labs that use HDF5 would use completely different methods for organizing and annotating experiment data. It would be quite difficult to aggregate data across labs or build common tools without imposing structure on the HDF5 file. This is the purpose of the NWB schema. The NWB schema formalizes requirements that ensure reusability of the data and provides a common structure that enables interoperability across the global neurophysiology community. Users can use extensions to build from schema and describe new types of neurophysiology data.
+
 NWB 1 vs 2
 ==========
 
@@ -82,27 +101,5 @@ What is the difference between PyNWB and api-python?
 ----------------------------------------------------
 
 :pynwb-docs:`PyNWB <>` is the Python reference read/write API for the current NWB 2.x format. :api-python:`api-python <>` is a deprecated write-only API designed for NWB:N 1.0.x files. :pynwb-docs:`PyNWB <>` also provides support for reading some NWB:N 1.0.x files from popular data repositories, such as the :allen-cell-type-atlas:`Allen Cell Types Atlas <>` via the pynwb/legacy module.
-
-
-Alternative data standards and formats
-======================================
-
-How does NWB 2.0 compare to other standards?
---------------------------------------------
-See page: :ref:`comparison-to-other-standards`
-
-Why use HDF5 as the primary backend for NWB?
---------------------------------------------
-See page: :ref:`why_hdf5`
-
-Are you aware of the Rossant blog posts about moving away from HDF5?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Yes. See above for our motivations for using HDF5. Many of the technical issues raised in the blog post have been addressed and in our experience HDF5 is reliable and is performing well for NWB users.
-
-Why not just use HDF5 on its own?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The goal of NWB is to package neurophysiology data with metadata sufficient for reuse and reanalysis of the data by other researchers. HDF5 enables users to provide very rich metadata, sufficient for describing neuroscience data for this purpose. The problem with HDF5 on its own is that it is just too flexible. Without a schema, files could be missing key metadata like the sampling rate of a time series. Furthermore, different labs that use HDF5 would use completely different methods for organizing and annotating experiment data. It would be quite difficult to aggregate data across labs or build common tools without imposing structure on the HDF5 file. This is the purpose of the NWB schema. The NWB schema formalizes requirements that ensure reusability of the data and provides a common structure that enables interoperability across the global neurophysiology community. Users can use extensions to build from schema and describe new types of neurophysiology data.
-
-
 
 

@@ -1,12 +1,11 @@
-Welcome to the documentation for NWB Software Overview!
-=======================================================
+NWB Software Overview
+======================
 
 ..
   :scale: 100 %
   :align: right
 
-If you are a new NWB user and want to learn about the different tools avialable to convert, visualize, analyize, and
-publish NWB, you are in the right place!
+This website is an entry point for researchers and developers interested in using :nwb_main:`NWB`. If you are a new NWB user and want to learn about the different tools available to convert your data to NWB, publish your NWB data, and visualize and analyze NWB data, then you are in the right place! These pages will guide you through the main workflow for each of those tasks and point you to the best tools to use for your preferred programming language and types of data.
 
 
 .. toctree::

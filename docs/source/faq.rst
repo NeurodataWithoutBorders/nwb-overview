@@ -47,7 +47,7 @@ What has changed between NWB:N 1 and 2?
 See the :nwb-schema-release-notes:`release notes of the NWB format schema <>` for details about changes to the format
 schema. For details about changes to the specification language see the specification language release notes. With
 regard to software, NWB 2 marks a full reboot and introduced with :pynwb-docs:`PyNWB <>`, :matnwb-docs:`MatNWB <>`,
-:hdmf-docutils:`HDMF docutils <>`, :nwb-schema:`nwb-schema <>` etc. several
+:hdmf-docutils-docs:`HDMF docutils <>`, :nwb-schema-docs:`nwb-schema <>` etc. several
 new packages and repositories while tools, e.g., :api-python:`api-python <>`, that were created for NWB:N 1.x have been deprecated.
 
 How do I install PyNWB?
@@ -57,7 +57,7 @@ See the :ref:`install_users` for details.
 
 How do I install MatNWB?
 ========================
-See the `MatNWB documentation <https://github.com/NeurodataWithoutBorders/matnwb#setup>`_ for details.
+See the :matnwb-docs:`MatNWB documentation <#setup>` for details.
 
 Who can I contact for questions?
 ================================

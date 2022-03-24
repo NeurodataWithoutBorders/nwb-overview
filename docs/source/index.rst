@@ -5,7 +5,7 @@ NWB Software Overview
   :scale: 100 %
   :align: right
 
-This website is an entry point for researchers and developers interested in using :nwb_main:`NWB`. If you are a new NWB user and want to learn about the different tools available to convert your data to NWB, publish your NWB data, and visualize and analyze NWB data, then you are in the right place! These pages will guide you through the main workflow for each of those tasks and point you to the best tools to use for your preferred programming language and types of data.
+This website is an entry point for researchers and developers interested in using :nwb-main:`NWB`. If you are a new NWB user and want to learn about the different tools available to convert your data to NWB, publish your NWB data, and visualize and analyze NWB data, then you are in the right place! These pages will guide you through the main workflow for each of those tasks and point you to the best tools to use for your preferred programming language and types of data.
 
 
 .. toctree::
@@ -17,12 +17,17 @@ This website is an entry point for researchers and developers interested in usin
    extensions_tutorial/extensions_tutorial_home
    core_tools/core_tools_home
    file_read/file_read
-   
+
 .. toctree::
    :maxdepth: 1
    :titlesonly:
 
    tools/tools_home
+
+.. toctree::
+   :maxdepth: 1
+
+   faq
 
 .. toctree::
     :maxdepth: 1

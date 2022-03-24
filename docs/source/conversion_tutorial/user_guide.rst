@@ -1,3 +1,5 @@
+.. _user-guide:
+
 Converting neurophysiology data to NWB
 ======================================
 

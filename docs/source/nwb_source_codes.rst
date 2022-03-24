@@ -1,3 +1,4 @@
+.. _dev_nwb_sources:
 
 Accessing NWB Sources
 =====================

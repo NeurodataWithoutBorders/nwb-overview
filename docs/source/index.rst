@@ -23,6 +23,10 @@ This website is an entry point for researchers and developers interested in usin
    :titlesonly:
 
    tools/tools_home
+
+.. toctree::
+   :maxdepth: 1
+
    faq
 
 .. toctree::

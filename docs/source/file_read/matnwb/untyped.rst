@@ -17,11 +17,11 @@ The **Set** (``types.untyped.Set`` or Constrained Sets) is used to capture a dyn
     value = someSet.get('key name');
 
 .. code-block:: MATLAB
-    
+
     someSet.set('key name', value);
 
 .. note::
-    
+
     Sets also borrow ``containers.Map``'s ``keys`` and ``values`` methods to retrieve cell arrays of either.
 
 The **Anon** type (``types.untyped.Anon``) can be understood as a Set type with only a single key-value entry. This rarer type is only used for cases where the name for the stored object can be set by the user. Anon types may also hold NWB type constraints like Set.
@@ -33,7 +33,7 @@ DataStubs and DataPipes
 
 **DataStubs** serves as a read-only link to your data. It allows for MATLAB-style indexing to retrieve the data stored on disk.
 
-.. image:: /img/datastub.png
+.. image:: /img/matnwb_datastub.png
 
 **DataPipes** are similar to DataStubs in that they allow you to load data from disk; however, they also provide a wide array of features that allow the user to write data to disk, either by streaming parts of data in at a time or by compressing the data before writing. The DataPipe is an advanced type and users looking to leverage DataPipe's capabilities to stream/iteratively write or compress data should read the `Advanced Data Write Tutorial <https://neurodatawithoutborders.github.io/matnwb/tutorials/html/dataPipe.html>`_.
 
@@ -67,5 +67,5 @@ Links and Views
     dataSubset = regionView.refresh(rootNwbFile);
 
 .. note::
-    
+
     Unlike *Links*, Views cannot point to NWB objects outside of their respective files. Views are also validated on write and will always point to a valid NWB object or raw data if written without errors.

@@ -48,8 +48,17 @@ serves as the base class for all other :py:class:`~pynwb.base.TimeSeries` types,
       :nwb-schema:ref:`sec-IntervalSeries`.
 
 DynamicTable
-------------------
-TODOO
+-------------
+Tabular (table-like) data are stored in `DynamicTables <https://hdmf-common-schema.readthedocs.io/en/stable/format
+.html#dynamictable>`_, column-based table to which you can add custom columns. It consists of a name, a description, a
+list of row IDs, and a list of columns.
+
+.. seealso::
+    For your reference, NWB defines the following main `DynamicTables <https://hdmf-common-schema.readthedocs.io/en/stable/format.html#dynamictable>`_ subtypes:
+
+    * :nwb-schema:ref:`sec-TimeIntervals`: stores epoch and trial times and associated metadata.
+    * :nwb-schema:ref:`sec-Units`: stores spike times of sorted units and associated metadata.
+    * :nwb-schema:ref:`sec-PlaneSegmentation`: stores regions of interest for optical imaging with associated metadata.
 
 Data values in NWB
 ------------------

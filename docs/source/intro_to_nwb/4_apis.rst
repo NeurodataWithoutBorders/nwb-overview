@@ -1,7 +1,8 @@
 APIs
 ====
 
-Two main APIs are supported for conveniently reading and writing NWB data: PyNWB for Python and MatNWB for MATLAB.
+Two main APIs are supported for conveniently reading and writing NWB data: :pynwb-docs:`PyNWB <>` for Python and
+:matnwb-src:`MatNWB <>` for MATLAB.
 
 Like the NWB specification, the classes of these APIs
 follow an object-oriented inheritance pattern, i.e., the PyNWB class :py:class:`~pynwb.base.TimeSeries`

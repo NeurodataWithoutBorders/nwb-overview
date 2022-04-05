@@ -44,4 +44,5 @@ intersphinx_mapping = {
     'pynwb': ('https://pynwb.readthedocs.io/en/stable/', None),
     'pandas': ('https://pandas.pydata.org/pandas-docs/stable/', None),
     'nct': ('https://nwb-conversion-tools.readthedocs.io/en/main/', None),
+    "nwb-schema": ("https://nwb-schema.readthedocs.io/en/latest/", None),
 }

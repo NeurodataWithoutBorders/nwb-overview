@@ -13,7 +13,7 @@ publish NWB, you are in the right place!
    :maxdepth: 1
    :caption: For Users
 
-   intro_to_nwb/intro_to_nwb
+   intro_to_nwb/1_intro_to_nwb
    conversion_tutorial/user_guide
    extensions_tutorial/extensions_tutorial_home
    core_tools/core_tools_home

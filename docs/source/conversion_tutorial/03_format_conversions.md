@@ -1,18 +1,18 @@
-# 4. Automated Conversions using NWB Conversion Tools
+# 3. Automated Conversions using NWB Conversion Tools
 
 To make converting to NWB faster and less laborious (for our own team and for others),
 and manage the volume and variety of neurophysiology data, we have developed 
 a system of conversion tools for converting different proprietary data formats
 to NWB. [NWB Conversion Tools](https://nwb-conversion-tools.readthedocs.io/en/main/) relies on two tiers
-of structure, represented by the two main classes in the package: ``DataInterface``
-and ``NWBConverter``. 
+of structure, represented by the two main classes in the package: [``DataInterface``](https://nwb-conversion-tools.readthedocs.io/en/main/user_guide.html#datainterface)
+and [``NWBConverter``](https://nwb-conversion-tools.readthedocs.io/en/main/user_guide.html#nwbconverter). 
 
 ``DataInterface`` provides a unified API for converting data from
 any one data format, such as raw data from an acquisition system or processed
 data from spike sorting or image segmentation software. ``DataInterface``s load the
 raw data in an efficient way, extract metadata, and contain logic for how to write
-this information properly into NWB. ``DataInterfaces`` cover a large variety of
-different source formats (TODO: create list of supported types of nwb conversion tools docs).
+this information properly into NWB. ``DataInterfaces`` cover a [large variety of
+different source formats](https://nwb-conversion-tools.readthedocs.io/en/main/api/interfaces.html).
 
 Users often need to write data from multiple sources. An example would be an 
 extracellular electrophysiology experiment where the user needs to write raw

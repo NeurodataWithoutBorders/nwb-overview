@@ -20,32 +20,36 @@ modality:
       - PyNWB
       - MatNWB
     * - Reading NWB files
-      - `Jupyter notebook <https://github.com/NeurodataWithoutBorders/nwb_tutorial/blob/master/HCK09/pynwb_read_demo.ipynb>`__
-      - `15 min video <https://www.youtube.com/watch?v=ig_Xv2bTxjs&ab_channel=NeurodataWithoutBorders>`__
+      - `tutorial <https://github.com/NeurodataWithoutBorders/nwb_tutorial/blob/master/HCK09/pynwb_read_demo.ipynb>`__
+      - `tutorial <https://github.com/NeurodataWithoutBorders/nwb_tutorial/blob/master/HCK09/matnwb_read_demo.mlx?raw=true>`__
 
-        `MATLAB Live Script <https://github.com/NeurodataWithoutBorders/nwb_tutorial/blob/master/HCK09/matnwb_read_demo.mlx?raw=true>`__
+        `15 min video <https://www.youtube.com/watch?v=ig_Xv2bTxjs&ab_channel=NeurodataWithoutBorders>`__
     * - Writing extracellular electrophysiology
-      - `23 min video <https://www.youtube.com/watch?v=rlywed3ar-s&ab_channel=NeurodataWithoutBorders>`__
+      - `tutorial <https://pynwb.readthedocs.io/en/stable/tutorials/domain/ecephys.html#sphx-glr-tutorials-domain-ecephys-py>`__
 
-        `Jupyter notebook <https://github.com/NeurodataWithoutBorders/nwb_tutorial/blob/master/HCK08/ecephys_tutorial.ipynb>`__
-      - `46 min video <https://www.youtube.com/watch?v=W8t4_quIl1k&ab_channel=NeurodataWithoutBorders>`__
+        `23 min video <https://www.youtube.com/watch?v=rlywed3ar-s&ab_channel=NeurodataWithoutBorders>`__
 
-        `Written tutorial <https://neurodatawithoutborders.github.io/matnwb/tutorials/html/ecephys.html>`__
+      - `tutorial <https://neurodatawithoutborders.github.io/matnwb/tutorials/html/ecephys.html>`__
+
+        `46 min video <https://www.youtube.com/watch?v=W8t4_quIl1k&ab_channel=NeurodataWithoutBorders>`__
     * - Writing intracellular electrophysiology
-      - `Jupyter notebook <https://github.com/NeurodataWithoutBorders/nwb_tutorial/blob/master/HCK08/ICEphys_basic_hck8.ipynb>`__
-      - `Written tutorial <https://neurodatawithoutborders.github.io/matnwb/tutorials/html/icephys.html>`__
-    * - Writing optical physiology
-      - `31 min video <https://www.youtube.com/watch?v=HPjSxBjdFpM&ab_channel=NeurodataWithoutBorders>`__
+      - `tutorial <https://pynwb.readthedocs.io/en/stable/tutorials/domain/plot_icephys.html#sphx-glr-tutorials-domain-plot-icephys-py>`__
+      - `tutorial <https://neurodatawithoutborders.github.io/matnwb/tutorials/html/icephys.html>`__
+    * - Writing calcium imaging
+      - `tutorial <https://pynwb.readthedocs.io/en/stable/tutorials/domain/ophys.html#sphx-glr-tutorials-domain-ophys-py>`__
 
-        `Jupyter notebook <https://github.com/NeurodataWithoutBorders/nwb_tutorial/blob/master/HCK08/ophys_tutorial.ipynb>`__
-      - `39 min video <https://www.youtube.com/watch?v=OBidHdocnTc&ab_channel=NeurodataWithoutBorders>`__
+        `31 min video <https://www.youtube.com/watch?v=HPjSxBjdFpM&ab_channel=NeurodataWithoutBorders>`__
+      - `tutorial <https://neurodatawithoutborders.github.io/matnwb/tutorials/html/ophys.html>`__
 
-        `Written tutorial <https://neurodatawithoutborders.github.io/matnwb/tutorials/html/ophys.html>`__
-    * - Advanced write
-      - `26 min video <https://www.youtube.com/watch?v=wduZHfNOaNg&ab_channel=NeurodataWithoutBorders>`__
-      - `16 min video <https://www.youtube.com/watch?v=PIE_F4iVv98&ab_channel=NeurodataWithoutBorders>`__
+        `39 min video <https://www.youtube.com/watch?v=OBidHdocnTc&ab_channel=NeurodataWithoutBorders>`__
+    * - Advanced I/O
+      - `tutorials <https://pynwb.readthedocs.io/en/stable/tutorials/index.html#advanced-i-o>`__
 
-        `Written tutorial <https://neurodatawithoutborders.github.io/matnwb/tutorials/html/dataPipe.html>`__
+        `26 min video <https://www.youtube.com/watch?v=wduZHfNOaNg&ab_channel=NeurodataWithoutBorders>`__
+      - `tutorial <https://neurodatawithoutborders.github.io/matnwb/tutorials/html/dataPipe.html>`__
+
+        `16 min video <https://www.youtube.com/watch?v=PIE_F4iVv98&ab_channel=NeurodataWithoutBorders>`__
+
 
 These tutorials walk you through the most common data types of each of the modalities.
 With the tutorials for domain-specific conversion, extensions, advanced I/O,

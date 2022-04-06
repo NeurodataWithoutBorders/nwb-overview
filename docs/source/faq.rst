@@ -15,7 +15,7 @@ Yes! NWB 2.0 was officially released in January 2019, and the schema is stable. 
 I would like to use NWB. How do I get started?
 ----------------------------------------------
 
-See the :ref:`user-guide` page for more information.
+See the :ref:`conversion_home` page for more information.
 
 How do I cite NWB 2 in my research?
 -----------------------------------

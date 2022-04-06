@@ -1,4 +1,4 @@
-3. Using Neurodata Extensions
+4. Using Neurodata Extensions
 -----------------------------
 
 Neurophysiology is always changing as new technologies are developed. While the core NWB schema supports many of the

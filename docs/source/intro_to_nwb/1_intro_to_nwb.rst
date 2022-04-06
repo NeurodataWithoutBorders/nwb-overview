@@ -28,3 +28,4 @@ NWB format.
 
     2_file_structure
     3_basic_neurodata_types
+    4_apis

@@ -20,7 +20,7 @@ share it with collaborators and the public.
 We understand that using a different data format than you are accustomed to
 using can be daunting. This guide will walk you through what NWB is,
 how to use NWB tools to convert your data to NWB,
-and how to read and interact with your data (and any other NWB data) in the
+and how to read and interact with your data (and any other data) in the
 NWB format.
 
 .. toctree::

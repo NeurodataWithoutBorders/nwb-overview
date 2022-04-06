@@ -1,15 +1,14 @@
 Anatomy of an NWB File
 ======================
 
-First, we need to understand a few basic concepts of how an NWB is structured.
+First, we need to understand a few basic concepts of how an NWB file is structured.
 
 The goal of NWB is to package all of the data and metadata of a particular session
 into a single file in a standardized way.
 This includes the neurophysiology data itself, but also includes other data such
 as information about the data acquisition, experiment design, experimental subject,
 and behavior of that subject. The NWB schema defines data structures for
-the most common types of neurophysiology data. NWB currently supports
-the following experiment types:
+the most common types of neurophysiology data, such as:
 
 * extracellular electrophysiology (e.g., Neuropixel probes)
 * intracellular electrophysiology (e.g., patch clamping)
@@ -20,9 +19,9 @@ the following experiment types:
 An NWB file is an `HDF5 <https://www.hdfgroup.org/solutions/hdf5/>`_ file
 that is structured in a particular way and has the `.nwb` file extension.
 HDF5 files use a files-and-folders-like structure that allows you to organize
-data in a folder hierarchy, as you might do with files on your computer.
-Metadata can also be embedded within the file, which allows the file to be
-self-describing and easy for humans and machines to understand.
+your data in a folder hierarchy, as you might do with files on your computer.
+You can also embed metadata within the file, which allows the file to be
+self-describing and easy for both humans and machines to understand.
 
 If you inspect an NWB file, you would see something like the following::
 
@@ -52,7 +51,7 @@ If you inspect an NWB file, you would see something like the following::
 
 At a glance, you can see that there are objects within the file that represent
 acquired (raw) voltage data and processed position, lick event, and LFP data.
-There are also metadata fields that represent metadata about the devices and electrodes
+There are also fields that represent metadata about the devices and electrodes
 used, the institution and lab where the data was collected, subject information,
 per-trial metadata, a description of the session, and the session start time.
 
@@ -67,14 +66,14 @@ NWB file and quickly make sense of its contents.
 File hierarchy
 --------------
 
-NWB organizes data into different groups (i.e., internal folders) depending on the
+NWB organizes data into different internal groups (i.e., folders) depending on the
 type of data. Here are some of the groups within an NWB file and the types of data
 they are intended to store:
 
 * **acquisition**: raw, acquired data that should never change
 * **processing**: processed data, typically the results of preprocessing algorithms and could change
 * **analysis**: results of data analysis
-* **stimuli**: stimuli used in the experiment (e.g., images, videos, light pulses)
+* **stimuli**: stimuli used in the experiment (e.g., images, videos)
 
 Raw data
 ^^^^^^^^
@@ -88,8 +87,8 @@ Processed data
 Processed data, such as the extracted fluorescence traces from calcium imaging
 ROIs, are stored in containers placed within a modality-specific ``ProcessingModule``
 container in the ``processing`` group at the root of the NWB file.
-Any scripts or software that process raw data and generate processed
-data should store the results within a ``ProcessingModule``.
+Any scripts or software that process raw data should store the results
+within a ``ProcessingModule``.
 
 NWB organizes processed data into ``ProcessingModule`` containers with specific
 names based on the type of processed data:
@@ -108,4 +107,4 @@ names based on the type of processed data:
     * - behavior
       - "behavior"
 
-See the next section to learn about the basic neurodata types in NWB.
+See the next section to learn about neurodata types in NWB.

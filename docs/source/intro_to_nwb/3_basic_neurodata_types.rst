@@ -1,64 +1,64 @@
 Neurodata Types
 ===============
 
-The precise rules for how to store different types of data and the associated metadata are defined using *neurodata
-types*. Different types of data get different *neurodata types*, which are defined in the `NWB specification
+The precise rules for how to store different types of data and the associated metadata are defined using **neurodata
+types**. Different types of data get different neurodata types, which are defined in the `NWB specification
 <https://nwb-schema.readthedocs.io/en/latest/>`_.
-*neurodata types* act like classes in Object Oriented Programming in that use inheritance (a *neurodata type* can
-be a child of another, which is more specialized), and composition (a *neurodata type* can contain other *neurodata
-types*.)
+Neurodata types act like classes in Object-Oriented Programming in that they can use inheritance (a neurodata type can
+be a specialized child of another neurodata type) and composition (a neurodata type can contain other neurodata
+types).
 
 TimeSeries
 -----------
-:nwb-schema:ref:`sec-TimeSeries` objects store time series data and correspond to the *TimeSeries* specifications
-provided by the NWB schema. All
+:ref:`nwb-schema:sec-TimeSeries` objects store time series data and correspond to the *TimeSeries* specification
+provided by the NWB schema.
 
-Like the NWB specification, :py:class:`~pynwb.base.TimeSeries` PyNWB objects
-follow an object-oriented inheritance pattern, i.e., the class :py:class:`~pynwb.base.TimeSeries`
-serves as the base class for all other :py:class:`~pynwb.base.TimeSeries` types, such as,
+Like the NWB specification, PyNWB :py:class:`~pynwb.base.TimeSeries` objects
+follow an object-oriented inheritance pattern, i.e., the PyNWB class :py:class:`~pynwb.base.TimeSeries`
+serves as the base class for all other PyNWB :py:class:`~pynwb.base.TimeSeries` types, such as,
 :py:class:`~pynwb.ecephys.ElectricalSeries`, which itself may have further subtypes, e.g.,
-:py:class:`~pynwb.ecephys.SpikeEventSeries` (the same is true for MatNWB).
+:py:class:`~pynwb.ecephys.SpikeEventSeries`. The same is true for MatNWB.
 
 .. seealso::
-    For your reference, NWB defines the following main :nwb-schema:ref:`sec-TimeSeries` subtypes:
+    For your reference, NWB defines the following main :ref:`nwb-schema:sec-TimeSeries` subtypes:
 
     * **Extracellular electrophysiology:**
-      :nwb-schema:ref:`sec-ElectricalSeries`, :nwb-schema:ref:`sec-SpikeEventSeries`
+      :ref:`nwb-schema:sec-ElectricalSeries`, :ref:`nwb-schema:sec-SpikeEventSeries`
     * **Intracellular electrophysiology:**
-      :nwb-schema:ref:`sec-PatchClampSeries` is the base type for all intracellular time series, which
+      :ref:`nwb-schema:sec-PatchClampSeries` is the base type for all intracellular time series, which
       is further refined into subtypes depending on the type of recording:
-      :nwb-schema:ref:`sec-CurrentClampSeries`,
-      :nwb-schema:ref:`sec-IZeroClampSeries`,
-      :nwb-schema:ref:`sec-CurrentClampStimulusSeries`,
-      :nwb-schema:ref:`sec-VoltageClampSeries`,
-      :nwb-schema:ref:`sec-VoltageClampStimulusSeries`.
-    * **Optical physiology and imaging:** :nwb-schema:ref:`sec-ImageSeries` is the base type
+      :ref:`nwb-schema:sec-CurrentClampSeries`,
+      :ref:`nwb-schema:sec-IZeroClampSeries`,
+      :ref:`nwb-schema:sec-CurrentClampStimulusSeries`,
+      :ref:`nwb-schema:sec-VoltageClampSeries`,
+      :ref:`nwb-schema:sec-VoltageClampStimulusSeries`.
+    * **Optical physiology and imaging:** :ref:`nwb-schema:sec-ImageSeries` is the base type
       for image recordings and is further refined by the
-      :nwb-schema:ref:`sec-ImageMaskSeries`,
-      :nwb-schema:ref:`sec-OpticalSeries`, and
-      :nwb-schema:ref:`sec-TwoPhotonSeries` types.
+      :ref:`nwb-schema:sec-ImageMaskSeries`,
+      :ref:`nwb-schema:sec-OpticalSeries`, and
+      :ref:`nwb-schema:sec-TwoPhotonSeries` types.
       Other related time series types are:
-      :nwb-schema:ref:`sec-IndexSeries` and
-      :nwb-schema:ref:`sec-RoiResponseSeries`.
-    * **Others:** :nwb-schema:ref:`sec-OptogeneticSeries`,
-      :nwb-schema:ref:`sec-SpatialSeries`,
-      :nwb-schema:ref:`sec-DecompositionSeries`,
-      :nwb-schema:ref:`sec-AnnotationSeries`,
-      :nwb-schema:ref:`sec-AbstractFeatureSeries`, and
-      :nwb-schema:ref:`sec-IntervalSeries`.
+      :ref:`nwb-schema:sec-IndexSeries` and
+      :ref:`nwb-schema:sec-RoiResponseSeries`.
+    * **Others:** :ref:`nwb-schema:sec-OptogeneticSeries`,
+      :ref:`nwb-schema:sec-SpatialSeries`,
+      :ref:`nwb-schema:sec-DecompositionSeries`,
+      :ref:`nwb-schema:sec-AnnotationSeries`,
+      :ref:`nwb-schema:sec-AbstractFeatureSeries`, and
+      :ref:`nwb-schema:sec-IntervalSeries`.
 
 DynamicTable
 -------------
-Tabular (table-like) data are stored in `DynamicTables <https://hdmf-common-schema.readthedocs.io/en/stable/format
-.html#dynamictable>`_, column-based table to which you can add custom columns. It consists of a name, a description, a
-list of row IDs, and a list of columns.
+Tabular (table-like) data are stored in :ref:`hdmf-common-schema:sec-DynamicTable` objects,
+which are column-based tables to which you can add custom columns.
 
 .. seealso::
-    For your reference, NWB defines the following main `DynamicTables <https://hdmf-common-schema.readthedocs.io/en/stable/format.html#dynamictable>`_ subtypes:
+    For your reference, NWB defines the following main :ref:`hdmf-common-schema:sec-DynamicTable` subtypes:
 
-    * :nwb-schema:ref:`sec-TimeIntervals`: stores epoch and trial times and associated metadata.
-    * :nwb-schema:ref:`sec-Units`: stores spike times of sorted units and associated metadata.
-    * :nwb-schema:ref:`sec-PlaneSegmentation`: stores regions of interest for optical imaging with associated metadata.
+    * :ref:`nwb-schema:sec-TimeIntervals`: stores trials, epochs, and associated metadata.
+    * :ref:`nwb-schema:sec-Units`: stores spike times of sorted units and associated metadata.
+    * :ref:`nwb-schema:sec-PlaneSegmentation`: stores regions of interest for optical imaging with associated
+      metadata.
 
 Data values in NWB
 ------------------

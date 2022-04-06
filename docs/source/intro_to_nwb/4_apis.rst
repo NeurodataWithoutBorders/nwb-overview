@@ -20,4 +20,4 @@ see their respective documentation:
 
 To learn more about the NWB schema, please see the :nwb-schema-docs:`NWB Schema <>` documentation.
 
-To learn how to convert your data to NWB, continue to the next section.
+To learn how to convert your data to NWB, See :ref:`conversion_home`.

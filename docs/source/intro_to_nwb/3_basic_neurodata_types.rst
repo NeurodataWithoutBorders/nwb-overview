@@ -2,22 +2,27 @@ Neurodata Types
 ===============
 
 The precise rules for how to store different types of data and the associated metadata are defined using **neurodata
-types**. Different types of data get different neurodata types, which are defined in the `NWB specification
-<https://nwb-schema.readthedocs.io/en/latest/>`_.
+types**. Different types of data have different neurodata types. Together, these neurodata type definitions
+form the `NWB schema <https://nwb-schema.readthedocs.io/en/latest/>`_. The NWB schema defines over 60 different
+neurodata types, which cover the most common data types in extracellular electrophysiology, intracellular
+electrophysiology, optical physiology, and behavior.
+
 Neurodata types act like classes in Object-Oriented Programming in that they can use inheritance (a neurodata type can
 be a specialized child of another neurodata type) and composition (a neurodata type can contain other neurodata
 types).
 
 TimeSeries
 -----------
-:ref:`nwb-schema:sec-TimeSeries` objects store time series data and correspond to the *TimeSeries* specification
-provided by the NWB schema.
+The :ref:`nwb-schema:sec-TimeSeries` neurodata type defines how generic data values that change over time should be
+stored. In particular, the `TimeSeries` type must contain a description,
+an N-dimensional "data" dataset (array) where the first dimension is time, and either a 1-dimensional "timestamps"
+dataset or both a sampling rate and starting time.
 
-Like the NWB specification, PyNWB :py:class:`~pynwb.base.TimeSeries` objects
-follow an object-oriented inheritance pattern, i.e., the PyNWB class :py:class:`~pynwb.base.TimeSeries`
-serves as the base class for all other PyNWB :py:class:`~pynwb.base.TimeSeries` types, such as,
-:py:class:`~pynwb.ecephys.ElectricalSeries`, which itself may have further subtypes, e.g.,
-:py:class:`~pynwb.ecephys.SpikeEventSeries`. The same is true for MatNWB.
+The :ref:`nwb-schema:sec-TimeSeries` neurodata type is the base type for many other neurodata types, such as the
+:ref:`nwb-schema:sec-ElectricalSeries` for extracellular electrophysiology. `ElectricalSeries` inherits all of the
+properties of `TimeSeries` but additionally specifies that the "data" dataset must be 2-dimensional, where the second
+dimension is electrode, and it must contain an additional "electrodes" dataset with row indices into the "electrodes"
+table of the NWB file to indicate which electrodes correspond to the second dimension of the "data" dataset.
 
 .. seealso::
     For your reference, NWB defines the following main :ref:`nwb-schema:sec-TimeSeries` subtypes:
@@ -47,10 +52,18 @@ serves as the base class for all other PyNWB :py:class:`~pynwb.base.TimeSeries` 
       :ref:`nwb-schema:sec-AbstractFeatureSeries`, and
       :ref:`nwb-schema:sec-IntervalSeries`.
 
+All time values in a `TimeSeries` and other neurodata types must be stored in seconds relative to the
+``timestamps_reference_time`` value, a datetime value stored at the root of the NWB file.
+By default, this is the same as the ``session_start_time``,
+another datetime value stored at the root of the NWB file.
+
 DynamicTable
 -------------
 Tabular (table-like) data are stored in :ref:`hdmf-common-schema:sec-DynamicTable` objects,
 which are column-based tables to which you can add custom columns.
+
+Similar to `TimeSeries`, several neurodata types inherit from `DynamicTable` that are specialized
+for particular types of data and specify particular required or optional columns.
 
 .. seealso::
     For your reference, NWB defines the following main :ref:`hdmf-common-schema:sec-DynamicTable` subtypes:
@@ -60,27 +73,9 @@ which are column-based tables to which you can add custom columns.
     * :ref:`nwb-schema:sec-PlaneSegmentation`: stores regions of interest for optical imaging with associated
       metadata.
 
-Data values in NWB
-------------------
-
-Time values
-^^^^^^^^^^^
-All time values must be stored in seconds relative to the
-``timestamps_reference_time`` value, a datetime value stored at the root
-of the NWB file. By default, this is the same as the ``session_start_time``,
-a datetime value also stored at the root of the NWB file.
-
-Units of measurement
-^^^^^^^^^^^^^^^^^^^^
-All measurement data (e.g., electrical recordings, distances, frequencies)
-must be stored in SI units (e.g., volts, meters, hertz).
-
-
-
-
 
 
 NWB is faced with the challenge
 of supporting a large variety of different experiment types, so the data types and relationships
-can get quite complex. For this reason the NWB development team provides APIs to help users easily
-and efficiently read and write NWB files. These APIs are described in the next section.
+can get quite complex. For this reason, the NWB development team provides software to help users easily
+and efficiently read and write NWB files. These software packages are described in the next section.

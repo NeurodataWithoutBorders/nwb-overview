@@ -12,11 +12,7 @@ serves as the base class (superclass) for more specialized time series classes, 
 :py:class:`~pynwb.ecephys.ElectricalSeries` objects, just like how the corresponding neurodata types
 are defined in the NWB schema.
 
-To learn more about how to install the NWB APIs and use them to read and write NWB data, please
-see their respective documentation:
-
-* :pynwb-docs:`PyNWB <>` for Python
-* :matnwb-src:`MatNWB <>` for MATLAB
+See the :pynwb-docs:`PyNWB <>` and  :matnwb-src:`MatNWB <>` documentation to learn more about the tools and how to install the APIs.
 
 To learn more about the NWB schema, please see the :nwb-schema-docs:`NWB Schema <>` documentation.
 

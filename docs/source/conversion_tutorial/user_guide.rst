@@ -1,3 +1,5 @@
+.. _conversion_home:
+
 Converting neurophysiology data to NWB
 ======================================
 
@@ -16,4 +18,3 @@ automated tools for converting formats.
     04_format_conversions
     05_validation
     06_dandi
-

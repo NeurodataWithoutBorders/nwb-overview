@@ -72,6 +72,10 @@ for particular types of data and specify particular required or optional columns
     * :ref:`nwb-schema:sec-Units`: stores spike times of sorted units and associated metadata.
     * :ref:`nwb-schema:sec-PlaneSegmentation`: stores regions of interest for optical imaging with associated
       metadata.
+    * Several types for storing the structure of intracellular electrophysiology experiments
+      (:ref:`nwb-schema:sec-IntracellularRecordingsTable`, :ref:`nwb-schema:sec-SimultaneousRecordingsTable`,
+      :ref:`nwb-schema:sec-SequentialRecordingsTable`, :ref:`nwb-schema:sec-RepetitionsTable`,
+      :ref:`nwb-schema:sec-ExperimentalConditionsTable`)
 
 
 

@@ -25,6 +25,7 @@ extlinks = {
     'hdmf-docutils-docs': ('https://github.com/hdmf-dev/hdmf-docutils', ''),
     'hdmf-docutils-src': ('https://github.com/hdmf-dev/hdmf-docutils', ''),
     'nwb-schema-language-docs': ('https://schema-language.readthedocs.io/en/latest/', ''),
+    'nwb-storage-docs': ('https://nwb-storage.readthedocs.io/en/latest/', ''),
     'nwb-schema-docs': ('https://nwb-schema.readthedocs.io/en/latest/', ''),
     'nwb-schema-release-notes':('http://nwb-schema.readthedocs.io/en/latest/format_release_notes.html', ''),
     'nwb-schema-src': ('https://github.com/NeurodataWithoutBorders/nwb-schema', ''),

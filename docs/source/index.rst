@@ -53,7 +53,7 @@ the top half of the pyramid. If you are new to NWB and want to learn more; good 
     :class: align-center
     :width: 600
 
-At the top (dark blue), we have the :nwb-main:`NWB.org` website, which focuses on the NWB project at large and provides
+At the top (dark blue), we have the :nwb-main:`NWB.org <>` website, which focuses on the NWB project at large and provides
 information about the overall organization, goals, community, and policies of the NWB project and provides a first
 entry point to NWB.
 
@@ -67,7 +67,7 @@ Each of the APIs and tools provides their own in-depth tutorials and documentati
 and using the software.
 
 The core NWB software then builds on a broad range of NWB data modeling tools and technologies (light blue),
-e.g., :hdmf-docs:`HDMF <>` and the :ndx-catalog:`Neurodata Extension Catalog`.
+e.g., :hdmf-docs:`HDMF <>` and the :ndx-catalog:`Neurodata Extension Catalog <>`.
 
 Underlying all of this, is the :nwb-schema-docs:`NWB Format Specification <>`, which---in conjunction with the definition
 of the NWB  :nwb-schema-language-docs:`specification language <>` and :nwb-storage-docs:`data storage <>`---formally

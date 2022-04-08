@@ -43,7 +43,7 @@ The NWB reference APIs provide full support for reading and writing all componen
 :octicon:`code-review;1.5em` Validating NWB Files
 -------------------------------------------------
 
-NWB provides tools both to check that files comply with the NWB standard as well as to check whether the data complies with best NWB practices. Validating compliance with NWB schema ensures that files are structurally correct and can be read by NWB APIs. Validating compliance with best practices helps improve data quality and (re-)usability.
+NWB provides tools both to check that files comply with the :nwb-schema-docs:`NWB standard schema <>` as well as to check whether the data complies with :nwbinspector-docs:`NWB Best Practices <best_practices/best_practices_index.html>`. Validating compliance with the NWB schema ensures that files are structurally correct and can be read by NWB APIs. Validating compliance with best practices helps improve data quality and (re-)usability.
 
 **PyNWB: Validate schema compliance**
 

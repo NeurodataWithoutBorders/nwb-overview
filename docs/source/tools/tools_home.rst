@@ -170,6 +170,7 @@ Intracellular Electrical Physiology Tools
         :end-before: .. short_description_end
 
 .. raw:: html
+
     <br />
     <hr>
     <br />

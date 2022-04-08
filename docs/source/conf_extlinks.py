@@ -20,7 +20,6 @@ extlinks = {
     'nwbinspector-docs': ('https://nwbinspector.readthedocs.io/en/dev/', ''),
     'ndx-template-docs': ('https://github.com/nwb-extensions/ndx-template', ''),
     'ndx-template-src': ('https://github.com/nwb-extensions/ndx-template', ''),
-    'ndx-catalog': ('https://nwb-extensions.github.io/', ''),
     'ndx-catalog-github-org': ('https://github.com/nwb-extensions/', ''),
     'hdmf-docutils-docs': ('https://github.com/hdmf-dev/hdmf-docutils', ''),
     'hdmf-docutils-src': ('https://github.com/hdmf-dev/hdmf-docutils', ''),

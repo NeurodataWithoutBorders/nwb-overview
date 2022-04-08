@@ -54,7 +54,7 @@ the top half of the pyramid. If you are new to NWB and want to learn more; good 
     :width: 600
 
 At the top (dark blue), we have the :nwb-main:`NWB.org` website, which focuses on the NWB project at large and provides
-information about the overall organization, goals, community, and policies of the NWB project and functions as first
+information about the overall organization, goals, community, and policies of the NWB project and provides a first
 entry point to NWB.
 
 Next we have the :ref:`NWB Overview <main-home>` (i.e., this website) (black), which serves as an entry point for
@@ -70,8 +70,8 @@ The core NWB software then builds on a broad range of NWB data modeling tools an
 e.g., :hdmf-docs:`HDMF <>` and the :ndx-catalog:`Neurodata Extension Catalog`.
 
 Underlying all of this, is the :nwb-schema-docs:`NWB Format Specification <>`, which---in conjunction with the definition
-of the :nwb-schema-language-docs:`specification language <>` and :nwb-storage-docs:`data storage <>`---formally defines
-and governs the NWB data standard.
+of the NWB  :nwb-schema-language-docs:`specification language <>` and :nwb-storage-docs:`data storage <>`---formally
+defines and governs the NWB data standard.
 
 Last, but not least, there is a growing collection of :ref:`analysistools-home` (gray) developed by the broader
 neurophysiology community that support NWB.

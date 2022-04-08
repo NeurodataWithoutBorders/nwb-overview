@@ -169,7 +169,11 @@ Intracellular Electrical Physiology Tools
         :start-after: .. short_description_start
         :end-before: .. short_description_end
 
-
+.. raw:: html
+    <br />
+    <hr>
+    <br />
+   
 Behavior
 --------
 

@@ -158,6 +158,7 @@ Optical Physiology Tools
     <hr>
     <br />
 
+.. _analysistools-icephys:
 
 Intracellular Electrical Physiology Tools
 -----------------------------------------
@@ -175,6 +176,8 @@ Intracellular Electrical Physiology Tools
     <br />
     <hr>
     <br />
+    
+.. _analysistools-behavior:
    
 Behavior
 --------
@@ -186,9 +189,17 @@ Behavior
 .. include::  deeplabcut/deeplabcut.rst
         :start-after: .. short_description_start
         :end-before: .. short_description_end
+        
+.. raw:: html
+
+    <br />
+    <hr>
+    <br />
+   
+.. _analysistools-general:
 
 Data Analysis Toolbox
-------------------------------------------------
+----------------------
 
 .. image:: pynapple/logo2.png
     :class: align-left

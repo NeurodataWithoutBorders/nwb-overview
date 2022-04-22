@@ -1,11 +1,12 @@
 Documenting Extensions
 ----------------------
 
-Using the same tools used to generate the documentation for the `NWB core format <https://nwb-schema.readthedocs.io/en/latest/>`_,
+Using the same tools used to generate the documentation for the :nwb-schema-docs:`NWB core format <>`.
 one can easily generate documentation in HTML, PDF, ePub and many other formats for extensions.
 
-If you used ndx-template, then your repository is already pre-configured to automatically generate documentation for
-your extension. The ``docs`` directory structure should look like this.
+If you used :ndx-template-docs:`ndx-template`, then your repository is already pre-configured to
+automatically generate documentation for your extension using the :hdmf-docutils-docs:`HDMF DocUtils`
+and `Sphinx <https://www.sphinx-doc.org/>`_. The ``docs`` directory structure should look like this.
 
 .. code-block:: text
 
@@ -37,4 +38,4 @@ Within ``docs/source``, edit ``credits.rst``, ``description.rst``, and ``release
 
 Now that you have created documentation for your extension, it is time to learn how to publish in the NDX catalog.
 
-See published extensions and learn how to share your extension on the `NDX Catalog website <https://nwb-extensions.github.io/>`_.
+See published extensions and learn how to share your extension on the :ndx-catalog:`NDX Catalog website <>`.

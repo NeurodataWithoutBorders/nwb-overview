@@ -4,8 +4,8 @@ Documenting Extensions
 Using the same tools used to generate the documentation for the :nwb-schema-docs:`NWB core format <>`.
 one can easily generate documentation in HTML, PDF, ePub and many other formats for extensions.
 
-If you used :ndx-template-docs:`ndx-template`, then your repository is already pre-configured to
-automatically generate documentation for your extension using the :hdmf-docutils-docs:`HDMF DocUtils`
+If you used :ndx-template-docs:`ndx-template <>`, then your repository is already pre-configured to
+automatically generate documentation for your extension using the :hdmf-docutils-docs:`HDMF DocUtils <>`
 and `Sphinx <https://www.sphinx-doc.org/>`_. The ``docs`` directory structure should look like this.
 
 .. code-block:: text

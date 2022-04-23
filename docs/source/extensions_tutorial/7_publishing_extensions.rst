@@ -1,11 +1,15 @@
 Publishing extensions
 ---------------------
 
+.. image:: ../img/publishing_extensions.png
+   :width: 315px
+   :class: align-right
+
 Neurodata extensions can be shared with the community using the :ndx-catalog:`NDX Catalog <>`.
-The NDX Catalog manages basic metadata about extension while ownership of the source
-repositories for the extension remains with the developers. The publication process
-is divided into three main steps: 1) releasing your Git repository, 2) publishing your extension on PyPI,
-and 3) adding your extension to the NDX Catalog.
+As illustrated in the figure, the publication process is divided into three main steps:
+1) open release of the sources to the community using git, 2) open access of versioned
+releases via PyPI, and 3) open publication of the extension to the community via the
+:ndx-catalog:`NDX Catalog <>`.
 
 Releasing your extension on GitHub
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -41,7 +45,8 @@ Publishing your extension on the NDX Catalog
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The :ndx-catalog:`NDX Catalog <>` serves as a central, community-led catalog for extensions to
-the NWB data standard. To publish your extension on the catalog:
+the NWB data standard. The NDX Catalog manages basic metadata about extensions while ownership of the source
+repositories for the extensions remain with the developers. To publish your extension on the catalog:
 
 1. Fork the `staged-extensions <https://github.com/nwb-extensions/staged-extensions> repository.
    The ``staged-extensions`` repository is used to submit new extension to the catalog via pull requests.

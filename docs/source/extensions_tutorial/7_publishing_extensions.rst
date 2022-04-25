@@ -7,7 +7,7 @@ Publishing extensions
 
 Neurodata extensions can be shared with the community using the :ndx-catalog:`NDX Catalog <>`.
 As illustrated in the figure, the publication process is divided into three main steps:
-1) open release of the sources to the community using git, 2) open access of versioned
+1) open release of the sources to the community using GitHub, 2) open access of versioned
 releases via PyPI, and 3) open publication of the extension to the community via the
 :ndx-catalog:`NDX Catalog <>`.
 

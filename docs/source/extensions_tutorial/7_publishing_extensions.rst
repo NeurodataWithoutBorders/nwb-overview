@@ -19,11 +19,12 @@ Open Source: Releasing your extension Git repository
 3. The first step to publishing your extension then is to make your Git repository accessible online
    via GitHub, or any other public Git hosting service of your choice. To publish your extension
    on GitHub you will need a `GitHub account <https://github.com/>`_ and follow the following
-   `instructions to add an existing project to GitHub <https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line>`
+   `instructions to add an existing project to GitHub <https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line>`_
 4. Make a release for the extension on GitHub with the version number specified. e.g. if the version
-   is ``0.1.0``, then this page should exist: https://github.com/<my_username>/<my_extension>/releases/tag/0.1.0``.
-   See the `creating a release guide <https://help.github.com/en/github/administering-a-repository/creating-releases>` on GitHub for instructions on how to make a release on GitHub.
-
+   is ``0.1.0``, then this page should exist: ``https://github.com/<my_username>/<my_extension>/releases/tag/0.1.0``.
+   See the `creating a release guide <https://help.github.com/en/github/administering-a-repository/creating-releases>`_
+   on GitHub for instructions on how to make a release on GitHub. See the :nwb-main:`NWB Versioning Guidelines <versioning-guidelines>`
+   for details on how to version extensions.
 
 .. note::
 

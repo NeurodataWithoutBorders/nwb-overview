@@ -11,8 +11,8 @@ As illustrated in the figure, the publication process is divided into three main
 releases via PyPI, and 3) open publication of the extension to the community via the
 :ndx-catalog:`NDX Catalog <>`.
 
-Releasing your extension on GitHub
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Open Source: Releasing your extension Git repository
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Before publishing your licence online you should add a license file. Permissive licenses should be used if possible. A `BSD license <https://opensource.org/licenses/BSD-3-Clause>` is recommended.
 2. Modify ``README.md`` at the root directory of your extension repo to describe the extension for interested developers and users.
@@ -25,8 +25,14 @@ Releasing your extension on GitHub
    See the `creating a release guide <https://help.github.com/en/github/administering-a-repository/creating-releases>` on GitHub for instructions on how to make a release on GitHub.
 
 
-Publish your extension on PyPI
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. note::
+
+   We here focus on GitHub mainly because it is the services that is currently most commonly used by users
+   to share extension code repositories. However, NWB does not require the use of GitHub but users may use other
+   systems e.g., GitLab or Bitbucket, to share their sources.
+
+Open Access: Publish your extension on PyPI
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To make your extension installable for users via pip and manage public releases NWB uses the
 `Python Package Index (PyPI) <https://pypi.org/>`_ index.
@@ -41,8 +47,8 @@ To make your extension installable for users via pip and manage public releases 
     python setup.py sdist bdist_wheel
     twine upload dist/*
 
-Publishing your extension on the NDX Catalog
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Open Publication: Publishing your extension on the NDX Catalog
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The :ndx-catalog:`NDX Catalog <>` serves as a central, community-led catalog for extensions to
 the NWB data standard. The NDX Catalog manages basic metadata about extensions while ownership of the source
@@ -105,8 +111,8 @@ Once you have published your extension you can update and publish new version as
 5. The technical team will review your changes shortly after and provide feedback and request changes, if any.
 6. Your updated extension is ready once your PR has been approved and merged.
 
-Policies related to extensions
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Policies: Neurodata Extension (NDX) rules and guidelines
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * :nwb-main:`Sharing Guidelines <sharing-extensions-guidelines>`: requirements and strategy for sharing format extensions for NWB
 * :nwb-main:`Sharing Strategies <sharing-extensions-strategies>`: standard practices and strategies for sharing format extensions for NWB

@@ -1,11 +1,3 @@
-.. |ss| raw:: html
-
-    <strike>
-
-.. |se| raw:: html
-
-    </strike>
-
 .. _analysistools-extract:
 
 EXTRACT

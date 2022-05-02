@@ -151,6 +151,21 @@ Optical Physiology Tools
         :start-after: .. short_description_start
         :end-before: .. short_description_end
 
+.. raw:: html
+
+    <br />
+    <br />
+    <br />
+
+
+.. image:: extract/extract.png
+    :class: align-left
+    :width: 180
+
+.. include::  extract/extract.rst
+        :start-after: .. short_description_start
+        :end-before: .. short_description_end
+
 
 .. raw:: html
 

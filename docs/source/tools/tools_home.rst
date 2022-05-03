@@ -17,6 +17,7 @@ Analysis and Visualization Tools
     caiman/caiman
     suite2p/suite2p
     ciatah/ciatah
+    extract/extract
     mies/mies
     deeplabcut/deeplabcut
     pynapple/pynapple

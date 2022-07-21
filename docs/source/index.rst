@@ -1,3 +1,5 @@
+.. _main-home:
+
 NWB Software Overview
 ======================
 
@@ -5,7 +7,10 @@ NWB Software Overview
   :scale: 100 %
   :align: right
 
-This website is an entry point for researchers and developers interested in using :nwb-main:`NWB`. If you are a new NWB user and want to learn about the different tools available to convert your data to NWB, publish your NWB data, and visualize and analyze NWB data, then you are in the right place! These pages will guide you through the main workflow for each of those tasks and point you to the best tools to use for your preferred programming language and types of data.
+This website is an entry point for researchers and developers interested in using :nwb-main:`NWB`. If you are a new NWB
+user and want to learn about the different tools available to convert your data to NWB, publish your NWB data, and
+visualize and analyze NWB data, then you are in the right place! These pages will guide you through the main workflow
+for each of those tasks and point you to the best tools to use for your preferred programming language and types of data.
 
 
 .. toctree::
@@ -35,10 +40,6 @@ This website is an entry point for researchers and developers interested in usin
 
     nwb_source_codes
 
-
-For more information regarding the NWB Standard, please view
-
-- The `NWB Format Specification <https://nwb-schema.readthedocs.io/en/latest/>`_
 
 .. Indices and tables
 .. ==================

@@ -21,6 +21,7 @@ Analysis and Visualization Tools
     mies/mies
     deeplabcut/deeplabcut
     pynapple/pynapple
+    dandi/dandi
 
 
 This is a page is a collection of tools we are cataloging as a convenience reference for NWB users. This is not a comprehensive list of NWB tools. Many of these tools are built and supported by other groups, and are in active development. If you would like to contribute a tool, please see the instructions :nwb-overview-src:`here <>`.
@@ -192,9 +193,9 @@ Intracellular Electrical Physiology Tools
     <br />
     <hr>
     <br />
-    
+
 .. _analysistools-behavior:
-   
+
 Behavior
 --------
 
@@ -205,13 +206,13 @@ Behavior
 .. include::  deeplabcut/deeplabcut.rst
         :start-after: .. short_description_start
         :end-before: .. short_description_end
-        
+
 .. raw:: html
 
     <br />
     <hr>
     <br />
-   
+
 .. _analysistools-general:
 
 Data Analysis Toolbox
@@ -225,9 +226,29 @@ Data Analysis Toolbox
         :start-after: .. short_description_start
         :end-before: .. short_description_end
 
+.. raw:: html
 
+    <br />
+    <hr>
+    <br />
 
+.. _analysistools-archive:
+
+Data Archive, Publication, and Management
+-----------------------------------------
+
+.. image:: dandi/dandi-banner.png
+    :class: align-left
+    :width: 180
+
+.. include::  dandi/dandi.rst
+        :start-after: .. short_description_start
+        :end-before: .. short_description_end
 
 .. note::
 
-        **Disclaimer:** Reference herein to any specific product, process, or service by its trade name, trademark, manufacturer, or otherwise, does not constitute or imply its endorsement, recommendation, or favoring by the NWB development team, United States Government or any agency thereof, or The Regents of the University of California. Use of the NeurodataWithoutBorders name for endorsements is prohibited.
+        **Disclaimer:** Reference herein to any specific product, process, or service
+        by its trade name, trademark, manufacturer, or otherwise, does not constitute or
+        imply its endorsement, recommendation, or favoring by the NWB development team,
+        United States Government or any agency thereof, or The Regents of the University
+        of California. Use of the NeurodataWithoutBorders name for endorsements is prohibited.

@@ -63,7 +63,7 @@ Exploring NWB Files
 
 .. _analysistools-ecephys:
 
-Extracellular Electrophysiology Physiology Tools
+Extracellular Electrophysiology Tools
 ------------------------------------------------
 
 .. image:: spikeinterface/spike_interface_diagram.png

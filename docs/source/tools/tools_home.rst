@@ -20,6 +20,7 @@ Analysis and Visualization Tools
     extract/extract
     mies/mies
     deeplabcut/deeplabcut
+    sleap/sleap
     pynapple/pynapple
     dandi/dandi
 
@@ -213,6 +214,20 @@ Behavior
     <hr>
     <br />
 
+.. image:: sleap/sleap.gif
+    :class: align-left
+    :width: 180
+
+.. include::  sleap/sleap.rst
+        :start-after: .. short_description_start
+        :end-before: .. short_description_end
+        
+.. raw:: html
+
+    <br />
+    <hr>
+    <br />
+   
 .. _analysistools-general:
 
 Data Analysis Toolbox

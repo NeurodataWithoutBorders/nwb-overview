@@ -211,7 +211,7 @@ Behavior
 .. raw:: html
 
     <br />
-    <hr>
+    <br />
     <br />
 
 .. image:: sleap/sleap.gif

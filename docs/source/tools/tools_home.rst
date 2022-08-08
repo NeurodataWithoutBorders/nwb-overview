@@ -14,6 +14,7 @@ Analysis and Visualization Tools
     spikeinterface/spikeinterface
     cellexplorer/cellexplorer
     ecogvis/ecogvis
+    neo/neo
     caiman/caiman
     suite2p/suite2p
     ciatah/ciatah
@@ -101,6 +102,20 @@ Extracellular Electrophysiology Tools
     :width: 180
 
 .. include::  ecogvis/ecogvis.rst
+        :start-after: .. short_description_start
+        :end-before: .. short_description_end
+
+.. raw:: html
+
+    <br/>
+    <br/>
+
+
+.. image:: neo/neo_logo.png
+    :class: align-left
+    :width: 180
+
+.. include::  neo/neo.rst
         :start-after: .. short_description_start
         :end-before: .. short_description_end
 
@@ -221,13 +236,13 @@ Behavior
 .. include::  sleap/sleap.rst
         :start-after: .. short_description_start
         :end-before: .. short_description_end
-        
+
 .. raw:: html
 
     <br />
     <hr>
     <br />
-   
+
 .. _analysistools-general:
 
 Data Analysis Toolbox

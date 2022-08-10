@@ -11,6 +11,7 @@ Analysis and Visualization Tools
 
     nwbwidgets/nwbwidgets
     nwbexplorer/nwbexplorer
+    hdfview/hdfview
     spikeinterface/spikeinterface
     cellexplorer/cellexplorer
     ecogvis/ecogvis
@@ -55,6 +56,19 @@ Exploring NWB Files
         :start-after: .. short_description_start
         :end-before: .. short_description_end
 
+.. raw:: html
+
+    <br/>
+    <br/>
+
+.. image:: https://www.hdfgroup.org/wp-content/uploads/2017/07/hdfview-sample2.jpg
+    :class: align-left
+    :width: 180
+
+.. include::  hdfview/hdfview.rst
+        :start-after: .. short_description_start
+        :end-before: .. short_description_end
+
 
 .. raw:: html
 
@@ -92,6 +106,7 @@ Extracellular Electrophysiology Tools
 
 .. raw:: html
 
+    <br/>
     <br/>
     <br/>
 
@@ -221,13 +236,13 @@ Behavior
 .. include::  sleap/sleap.rst
         :start-after: .. short_description_start
         :end-before: .. short_description_end
-        
+
 .. raw:: html
 
     <br />
     <hr>
     <br />
-   
+
 .. _analysistools-general:
 
 Data Analysis Toolbox

@@ -1,5 +1,5 @@
-Building a custom API for an extension
-======================================
+Building a custom Python API for an extension
+=============================================
 
 Creating custom extensions is recommended if you want a stable API that can remain the same even as you make changes
 to the internal data organization. The :py:mod:`pynwb.core` module has various tools to make it easier to write
@@ -235,8 +235,27 @@ arguments for the :py:class:`~pynwb.core.NWBTableRegion` constructor--the *name*
 applies to, and the *region* itself.
 
 
-ObjectMapper: Customizing the mapping between NWBContainer and the Spec
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Custom data checks on ``__init__``
+----------------------------------
+
+When creating new instances of an API class, we commonly need to check that input parameters are valid.
+As a common practice the individual checks are typically implemented as separate functions
+named ``_check_....`` on the class and then called in ``__init__``.
+
+To support access to older file version (which may not have followed some new requirements)
+while at the same time preventing the creation of new data that is invalid, PyNWB allows
+us to detect in ``__init__`` whether the object is being constructed by
+the :py:class:`~hdmf.build.objectmapper.ObjectMapper` on read or directly by the user,
+simply by checking if  ``self._in_construct_mode`` is ``True/False``. For convenience,
+PyNWB provides the :py:func:`~pynwb.core.NWBMixin._error_on_new_warn_on_construct` method,
+which makes it easy to raise warnings on read and errors when creating new data.
+
+
+ObjectMapper
+------------
+
+Customizing the mapping between NWBContainer and the Spec
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If your :py:class:`~pynwb.core.NWBContainer` extension requires custom mapping of the
 :py:class:`~pynwb.core.NWBContainer`

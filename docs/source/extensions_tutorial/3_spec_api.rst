@@ -83,8 +83,7 @@ All larger blocks of numeric or text data should be stored in Datasets. Specifyi
 ``dtype`` defines the type of the data, which can be a basic type, compound type, or reference type.
 See a list of `dtype options <https://schema-language.readthedocs.io/en/latest/description.html#dtype>`_
 as part of the specification language docs. Basic types can be defined as string objects and more complex
-types via :py:class:`~pynwb.spec.NWBDtypeSpec` and
-`RefSpec <https://hdmf.readthedocs.io/en/latest/hdmf.spec.spec.html#hdmf.spec.spec.RefSpec>`_.
+types via :py:class:`~pynwb.spec.NWBDtypeSpec` and :py:class:`~hdmf.spec.spec.RefSpec`.
 
 
 ``shape`` is a specification defining the allowable shapes for the dataset. See the

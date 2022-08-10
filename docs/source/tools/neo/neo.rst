@@ -12,7 +12,7 @@ The goal of Neo is to improve interoperability between Python tools for analyzin
 visualizing and generating electrophysiology data, by providing a common, shared
 object model. In order to be as lightweight a dependency as possible, Neo
 is deliberately limited to representation of data, with no functions for data analysis
-or visualization. :bdg-link-primary:`Docs <mydocs>`
+or visualization. :bdg-link-primary:`Docs <https://neo.readthedocs.io/en/stable/>`
 :bdg-link-primary:`Neo NWBIO Docs <https://neo.readthedocs.io/en/stable/io.html#neo.io.NWBIO>`
 :bdg-link-primary:`Website <https://neuralensemble.org/neo/>`
 :bdg-link-primary:`Source <https://github.com/NeuralEnsemble/python-neo>`.

@@ -12,13 +12,30 @@ The glossary shown here provides a quick overview of the key software packages o
 
 The NWB reference APIs provide full support for reading and writing all components of the NWB standard, including support for extensions. The APIs are interoperable, i.e., files created with PyNWB can be read in MatNWB and vice versa. Both PyNWB and MatNWB support advanced read/write for efficient interaction with very large data files (i.e., data too large for main memory), via lazy data loading, iterative data write, and data compression among others.
 
-**PyNWB**:
+.. image:: https://raw.githubusercontent.com/NeurodataWithoutBorders/pynwb/dev/docs/source/figures/logo_pynwb.png
+    :class: align-left
+    :width: 80
 
- :pynwb-docs:`PyNWB <>` is the Python reference API for NWB. :bdg-link-primary:`Docs <https://pynwb.readthedocs.io/en/stable/>` :bdg-link-primary:`Source <https://github.com/NeurodataWithoutBorders/pynwb/>`
+:pynwb-docs:`PyNWB <>` is the Python reference API for NWB. :bdg-link-primary:`Docs <https://pynwb.readthedocs.io/en/stable/>` :bdg-link-primary:`Source <https://github.com/NeurodataWithoutBorders/pynwb/>`
 
-**MatNWB**
 
- :matnwb-docs:`MatNWB <>` is a MATLAB library for reading and writing NWB files. :bdg-link-primary:`Docs <https://neurodatawithoutborders.github.io/matnwb/>` :bdg-link-primary:`Source <https://github.com/NeurodataWithoutBorders/matnwb/>`
+.. raw:: html
+
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+.. image:: https://raw.githubusercontent.com/NeurodataWithoutBorders/matnwb/master/logo/logo_matnwb_small.png
+    :class: align-left
+    :width: 80
+
+:matnwb-docs:`MatNWB <>` is a MATLAB library for reading and writing NWB files. :bdg-link-primary:`Docs <https://neurodatawithoutborders.github.io/matnwb/>` :bdg-link-primary:`Source <https://github.com/NeurodataWithoutBorders/matnwb/>`
+
+.. raw:: html
+
+    <br/>
 
 ---------------------
 

@@ -14,13 +14,14 @@ The NWB reference APIs provide full support for reading and writing all componen
 
 .. image:: https://raw.githubusercontent.com/NeurodataWithoutBorders/pynwb/dev/docs/source/figures/logo_pynwb.png
     :class: align-left
-    :width: 80
+    :width: 100
 
-:pynwb-docs:`PyNWB <>` is the Python reference API for NWB. :bdg-link-primary:`Docs <https://pynwb.readthedocs.io/en/stable/>` :bdg-link-primary:`Source <https://github.com/NeurodataWithoutBorders/pynwb/>`
+:pynwb-docs:`PyNWB <>` is the Python reference API for NWB. :bdg-link-primary:`Docs <https://pynwb.readthedocs.io/en/stable/>` :bdg-link-primary:`Tutorials <https://pynwb.readthedocs.io/en/stable/tutorials/index.html>` :bdg-link-primary:`Source <https://github.com/NeurodataWithoutBorders/pynwb/>`
 
 
 .. raw:: html
 
+    <br/>
     <br/>
     <br/>
     <br/>
@@ -29,13 +30,15 @@ The NWB reference APIs provide full support for reading and writing all componen
 
 .. image:: https://raw.githubusercontent.com/NeurodataWithoutBorders/matnwb/master/logo/logo_matnwb_small.png
     :class: align-left
-    :width: 80
+    :width: 100
 
-:matnwb-docs:`MatNWB <>` is a MATLAB library for reading and writing NWB files. :bdg-link-primary:`Docs <https://neurodatawithoutborders.github.io/matnwb/>` :bdg-link-primary:`Source <https://github.com/NeurodataWithoutBorders/matnwb/>`
+:matnwb-docs:`MatNWB <>` is a MATLAB library for reading and writing NWB files. :bdg-link-primary:`Docs <https://neurodatawithoutborders.github.io/matnwb/>` :bdg-link-primary:`Tutorials <https://neurodatawithoutborders.github.io/matnwb/#tutorials>`  :bdg-link-primary:`Source <https://github.com/NeurodataWithoutBorders/matnwb/>`
 
 .. raw:: html
 
     <br/>
+    <br/>
+
 
 ---------------------
 
@@ -62,13 +65,19 @@ The NWB reference APIs provide full support for reading and writing all componen
 
 NWB provides tools to check that files comply with the :nwb-schema-docs:`NWB standard schema <>` as well as to check whether the data complies with :nwbinspector-docs:`NWB Best Practices <best_practices/best_practices_index.html>`. Validating compliance with the NWB schema ensures that files are structurally correct and can be read by NWB APIs. Validating compliance with best practices helps improve data quality and (re-)usability.
 
-**NWB Inspector: Validate best practice**
+.. image:: https://raw.githubusercontent.com/NeurodataWithoutBorders/nwbinspector/dev/docs/logo/logo.png
+    :class: align-left
+    :width: 120
 
- The :nwbinspector-docs:`NWB Inspector <>` is a python library and command-line tool for inspecting NWB files for adherence to :nwbinspector-docs:`NWB best practices <best_practices/best_practices_index.html>`. By default, the Inspector also runs the PyNWB validator to check for compliance with the NWB schema. The Inspector can also be easily extended to integrate custom data checks and to configure checks. :bdg-link-primary:`Docs <https://nwbinspector.readthedocs.io/en/add_docs/>` :bdg-link-primary:`Source <https://github.com/NeurodataWithoutBorders/nwbinspector>`
+:nwbinspector-docs:`NWB Inspector <>` is a python library and command-line tool for inspecting NWB files for adherence to :nwbinspector-docs:`NWB best practices <best_practices/best_practices_index.html>`. By default, the Inspector also runs the PyNWB validator to check for compliance with the NWB schema. The Inspector can also be easily extended to integrate custom data checks and to configure checks. :bdg-link-primary:`Docs <https://nwbinspector.readthedocs.io/en/add_docs/>` :bdg-link-primary:`Source <https://github.com/NeurodataWithoutBorders/nwbinspector>`
 
-**PyNWB: Validate schema compliance**
 
- The :pynwb-docs:`PyNWB <>` reference Python API includes classes and command line tools for validating compliance of files with the core NWB schema and the schema of NWB Neurodata Extensions (NDX). :bdg-link-primary:`Validation Docs <https://pynwb.readthedocs.io/en/stable/validation.html>`
+.. image:: https://raw.githubusercontent.com/NeurodataWithoutBorders/pynwb/dev/docs/source/figures/logo_pynwb.png
+    :class: align-left
+    :width: 120
+
+
+The :pynwb-docs:`PyNWB <>` reference Python API includes classes and command line tools for validating compliance of files with the core NWB schema and the schema of NWB Neurodata Extensions (NDX). :bdg-link-primary:`Validation Docs <https://pynwb.readthedocs.io/en/stable/validation.html>`
 
 
 .. hint::
@@ -87,15 +96,17 @@ NWB provides tools to check that files comply with the :nwb-schema-docs:`NWB sta
 
 Neurodata Extensions (NDX) are used to extend the NWB data standard, e.g., to integrate new data types with NWB or define standard for lab- or project-specific metadata. The collection of tools listed here are used to create, document, publish extensions. To learn more about how create extensions see the :ref:`extending-nwb` section.
 
+.. image:: https://nwb-extensions.github.io/images/ndx-logo-text.png
+    :class: align-left
+    :width: 120
+
+The :ndx-catalog:`Neurodata Extensions Catalog (NDX Catalog) <>` is a community-led catalog of Neurodata Extensions (NDX) to the NWB data standard. The :ndx-catalog:`NDX Catalog <>` provides a central portal to search, publish, and review of NDX. :bdg-link-primary:`Catalog <https://nwb-extensions.github.io/>` :bdg-link-primary:`Source <https://github.com/nwb-extensions/>`
+
 **NDX Template**
 
  The :ndx-template-docs:`NDX Template <>`  provides a template for creating Neurodata Extensions (NDX) for the NWB data standard. :bdg-link-primary:`Source <https://github.com/nwb-extensions/ndx-template>`
 
  When creating a new extension, the NDX-template will create a detailed NEXTSTEPS.md file describing how to create an extension and how to submit it to the NDX catalog.
-
-**NDX Catalog**
-
- The :ndx-catalog:`Neurodata Extensions Catalog (NDX Catalog) <>` is a community-led catalog of Neurodata Extensions (NDX) to the NWB data standard. The :ndx-catalog:`NDX Catalog <>` provides a central portal to search, publish, and review of NDX. :bdg-link-primary:`Catalog <https://nwb-extensions.github.io/>` :bdg-link-primary:`Source <https://github.com/nwb-extensions/>`
 
 **Publishing NDX**
 
@@ -126,6 +137,8 @@ Neurodata Extensions (NDX) are used to extend the NWB data standard, e.g., to in
 
 Understanding core development tools (e.g., HDMF) is useful for developers in particular when we need to dive deeper into the core data infrastructure for NWB, e.g., when changing or creating new storage methods or when developing features for common data types (e.g., :py:class:`~hdmf.common.DynamicTable`) that are defined in HDMF and used in NWB.
 
-**HDMF**
+.. image:: https://raw.githubusercontent.com/hdmf-dev/hdmf/dev/docs/source/hdmf_logo.png
+    :class: align-left
+    :width: 120
 
- The :hdmf-docs:`Hierarchical Data Modeling Framework (HDMF) <>` is a python package for working with hierarchical data. It provides APIs for specifying data models, reading and writing data to different storage backends, and representing data with Python object. HDMF builds the foundation for the :pynwb-docs:`PyNWB <>` Python API for NWB. :bdg-link-primary:`Docs <https://hdmf.readthedocs.io/en/stable/>` :bdg-link-primary:`Source <https://github.com/hdmf-dev/hdmf>`
+The :hdmf-docs:`Hierarchical Data Modeling Framework (HDMF) <>` is a python package for working with hierarchical data. It provides APIs for specifying data models, reading and writing data to different storage backends, and representing data with Python object. HDMF builds the foundation for the :pynwb-docs:`PyNWB <>` Python API for NWB. :bdg-link-primary:`Docs <https://hdmf.readthedocs.io/en/stable/>` :bdg-link-primary:`Source <https://github.com/hdmf-dev/hdmf>`

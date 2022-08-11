@@ -43,16 +43,21 @@ The NWB reference APIs provide full support for reading and writing all componen
 :octicon:`code-review;1.5em` Validating NWB Files
 -------------------------------------------------
 
-NWB provides tools both to check that files comply with the :nwb-schema-docs:`NWB standard schema <>` as well as to check whether the data complies with :nwbinspector-docs:`NWB Best Practices <best_practices/best_practices_index.html>`. Validating compliance with the NWB schema ensures that files are structurally correct and can be read by NWB APIs. Validating compliance with best practices helps improve data quality and (re-)usability.
+NWB provides tools to check that files comply with the :nwb-schema-docs:`NWB standard schema <>` as well as to check whether the data complies with :nwbinspector-docs:`NWB Best Practices <best_practices/best_practices_index.html>`. Validating compliance with the NWB schema ensures that files are structurally correct and can be read by NWB APIs. Validating compliance with best practices helps improve data quality and (re-)usability.
+
+**NWB Inspector: Validate best practice**
+
+ The :nwbinspector-docs:`NWB Inspector <>` is a python library and command-line tool for inspecting NWB files for adherence to :nwbinspector-docs:`NWB best practices <best_practices/best_practices_index.html>`. By default, the Inspector also runs the PyNWB validator to check for compliance with the NWB schema. The Inspector can also be easily extended to integrate custom data checks and to configure checks. :bdg-link-primary:`Docs <https://nwbinspector.readthedocs.io/en/add_docs/>` :bdg-link-primary:`Source <https://github.com/NeurodataWithoutBorders/nwbinspector>`
 
 **PyNWB: Validate schema compliance**
 
  The :pynwb-docs:`PyNWB <>` reference Python API includes classes and command line tools for validating compliance of files with the core NWB schema and the schema of NWB Neurodata Extensions (NDX). :bdg-link-primary:`Validation Docs <https://pynwb.readthedocs.io/en/stable/validation.html>`
 
 
-**NWB Inspector: Validate best practice**
+.. hint::
 
- The :nwbinspector-docs:`NWB Inspector <>` is a python library and command-line tool for inspecting NWB files for adherence to :nwbinspector-docs:`NWB best practices <best_practices/best_practices_index.html>` :bdg-link-primary:`Docs <https://nwbinspector.readthedocs.io/en/add_docs/>` :bdg-link-primary:`Source <https://github.com/NeurodataWithoutBorders/nwbinspector>`
+    In practice, most user should use the :nwbinspector-docs:`NWB Inspector <>` to validate NWB files, as it helps to check for compliance with both the schema and best practices and provides greater flexibility. Direct use of :pynwb-docs:`PyNWB's validator <validation.html>` is primarily useful for use case where schema compliance and performance are of primary concern, for example, during development of extensions or as part of automated test environments.
+
 
 ---------------------
 

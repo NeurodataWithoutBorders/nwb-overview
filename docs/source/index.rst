@@ -19,9 +19,9 @@ for each of those tasks and point you to the best tools to use for your preferre
 
    intro_to_nwb/1_intro_to_nwb
    conversion_tutorial/user_guide
+   file_read/file_read
    extensions_tutorial/extensions_tutorial_home
    core_tools/core_tools_home
-   file_read/file_read
 
 .. toctree::
    :maxdepth: 1

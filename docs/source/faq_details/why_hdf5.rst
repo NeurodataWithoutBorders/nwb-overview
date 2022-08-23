@@ -40,6 +40,19 @@ Binary files do not allow for complex hierarchical data including Groups, Attrib
 Relational database (e.g. SQL)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The :hdmf-specification-language:`HDMF specification language <>` is inherently hierarchical, not tabular, and we need a storage layer that can express the hierarchical nature of the data as well. There are some approaches for mapping between relational tables and hierarchical structures such as object relational mappers, but this is not as good of a solution as using a storage layer that is hierarchical by nature.
+The :hdmf-specification-language:`HDMF specification language <>` is inherently hierarchical, not tabular, and we
+need a storage layer that can express the hierarchical nature of the data as well. There are some approaches for
+mapping between relational tables and hierarchical structures such as object relational mappers, but this is not as
+good of a solution as using a storage layer that is hierarchical by nature.
+
+While we think relational databases are not ideal as an NWB backend, we do recognize that they can be a powerful
+choice for storing scientific data because they enforce formal relationships between data and enable flexible,
+complex queries. If you are interested in using relational databases for neuroscience research, we would recommend
+exploring :datajoint:`DataJoint <>`, an open-source framework for programming scientific databases with computational
+workflows with APIs in MATLAB and Python. :datajoint-elements:`DataJoint Elements <>` is a collection of curated
+modules for assembling workflows for the major modalities of neurophysiology experiments. The NWB team is
+collaborating with DataJoint to build import/export functionality between DataJoint Elements and NWB files. For labs
+interested in leveraging the benefits of relational databases and NWB, using DataJoint internally and using NWB to
+archive and share data could provide the best of both worlds.
 
 

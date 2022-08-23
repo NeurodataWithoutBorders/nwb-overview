@@ -44,6 +44,8 @@ extlinks = {
     'nwb-helpdesk': ('https://github.com/dandi/helpdesk/discussions', ''),
     'nwb-mailing-list': ('http://visitor.r20.constantcontact.com/manage/optin?v=001nQUq2GTjwCjZxK_V2'
                          '-6RLElLJO1HMVtoNLJ-wGyDCukZQZxu2AFJmNh6NS0_lGMsWc2w9hZpeNn74HuWdv5RtLX9qX0o0Hy1P0hOgMrkm2NoGAX3VoY25wx8HAtIZwredcCuM0nCUGodpvoaue3SzQ%3D%3D', ''),
+    'datajoint': ('https://www.datajoint.org/', ''),
+    'datajoint-elements': ('https://elements.datajoint.org/', ''),
 }
 
 # Use this for mapping for links to commonly used documentation

@@ -1,0 +1,10 @@
+groups:
+- neurodata_type_def: MyBrainLabMetaData
+  neurodata_type_inc: LabMetaData
+  name: MyBrainLabMetaData
+  doc: type for storing lab metadata for MyBrainLab
+  datasets:
+  - name: tissue_preparation
+    dtype: text
+    doc: Lab-specific description of the preparation of the tissue
+    quantity: '?'

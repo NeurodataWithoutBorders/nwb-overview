@@ -1,0 +1,13 @@
+namespaces:
+- author:
+  - Peter Brain
+  contact:
+  - peterbrain@brainlab.org
+  doc: Extension describing lab-sepcific metadata for MyBrainLab
+  name: ndx-my-brainlab
+  schema:
+  - namespace: core
+    neurodata_types:
+    - LabMetaData
+  - source: ndx-my-brainlab.extensions.yaml
+  version: 0.1.0

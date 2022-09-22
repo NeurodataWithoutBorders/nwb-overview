@@ -23,6 +23,14 @@ a convenient base type, which makes it easy to add your data to an :py:class:`py
 without having to modify the :py:class:`pynwb.file.NWBFile` type itself
 (since adding of :py:class:`pynwb.file.LabMetaData` is already implemented).
 
+.. note::
+
+     NWB uses dynamically extensible table structures based on :py:class:`~hdmf.common.table.DynamicTable`
+     to describe metadata and derived results, e.g., :py:class:`~pynwb.epochs.TimeIntervals` for epochs or trials
+     or :py:class:`~pynwb.file.ElectrodeTable` to describe extracellular electrodes. Depending on the
+     type of metadata, use of these existing dynamic table structures can help avoid the need for
+     custom extensions by including the data as additional, custom columns in the appropriate existing tables.
+
 Creating the extension
 """"""""""""""""""""""
 
@@ -122,11 +130,6 @@ Reading an NWB file that uses the extension
 ...
 
 
-.. note::
 
-     NWB uses dynamically extensible table structures based on :py:class:`~hdmf.common.table.DynamicTable`
-     to describe metadata and derived results, e.g., :py:class:`~pynwb.epochs.TimeIntervals` for epochs or trials
-     or :py:class:`~pynwb.file.ElectrodeTable` to describe extracellular electrodes. For additional information
-     related to such existing table structures we can often avoid the need for custom extensions by including
-     the data as additional, custom columns in these existing tables.
+
 

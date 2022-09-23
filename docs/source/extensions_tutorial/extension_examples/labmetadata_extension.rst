@@ -347,8 +347,8 @@ Publishing the extension
             git push -u origin dev
 
         * Make a release for the extension on GitHub with the version number specified by selecting the ``Create a new release`` link on the
-          front page of the GitHub repository and specify the version tag (e.g., ``0.1.0``) and name (same as tag) for the release.
-          If version is 0.1.0, then this page should exist: https://github.com/NeurodataWithoutBorders/ndx-labmetadata-example/releases/tag/0.1.0 .
+          front page of the GitHub repository and specify the version tag (e.g., ``0.1.0``) and name (same as tag) for the release (e.g., see the
+          `0.1.0 example release <https://github.com/NeurodataWithoutBorders/ndx-labmetadata-example/releases/tag/0.1.0>`_).
           For instructions on how to make a release on GitHub see `here <https://help.github.com/en/github/administering-a-repository/creating-releases>`_ .
 
     .. tab:: PyPI (install)
@@ -357,7 +357,7 @@ Publishing the extension
 
             - Follow these directions: https://packaging.python.org/tutorials/packaging-projects/
             - You may need to modify `setup.py`
-            - If your extension version is 0.1.0, then this page should exist: https://pypi.org/project/ndx-labmetadata-example/0.1.0
+            - If your extension version is 0.1.0, then this page should exist: ``https://pypi.org/project/ndx-labmetadata-example/0.1.0``
 
         * Once your GitHub release and ``setup.py`` are ready, publishing on PyPI:
 

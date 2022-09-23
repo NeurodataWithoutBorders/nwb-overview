@@ -19,4 +19,3 @@ the `NWB Specification Language <https://schema-language.readthedocs.io/en/lates
     6_documenting_extension
     7_publishing_extensions
     8_examples
-    9_best_practices

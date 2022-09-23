@@ -52,7 +52,9 @@ The NWB reference APIs provide full support for reading and writing all componen
     :class: align-left, no-scaled-link
     :width: 100
 
-The :nwbconversiontool-docs:`NWB Conversion Tools <>` is a Python library for automatic conversion from proprietary data formats to NWB.  :bdg-link-primary:`Docs <https://nwb-conversion-tools.readthedocs.io/en/main/>` :bdg-link-primary:`Source <https://github.com/catalystneuro/nwb-conversion-tools>`
+The :neuroconv-docs:`NeuroConv <>` is a Python library for automatic conversion from proprietary data formats
+to NWB.
+:bdg-link-primary:`Docs <https://neuroconv.readthedocs.io/en/main/index.html>` :bdg-link-primary:`Source <https://github.com/catalystneuro/neuroconv>`
 
 .. raw:: html
 

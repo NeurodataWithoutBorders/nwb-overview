@@ -235,26 +235,21 @@ Creating unit tests
 Documenting the extension
 """""""""""""""""""""""""
 
-.. tabs::
+* **REAME.md:** Add instructions to the ``README.md`` file. This typically includes information on how to install the
+  extension and an example on how to use the extension
+* **Schema and user documentation:**
 
-    .. tab:: REAME.md
+    * Install the latest release of hdmf_docutils: ``python -m pip install hdmf-docutils``
+    * Generate the documentation for your extension based on the YAML schema files via:
 
-        Add instructions to the ``README.md`` file. This typically includes information on how to install the
-        extension and an example on how to use the extension
+    .. code-block:: bash
 
-    .. tab:: Schema and user documenation
+        cd docs/
+        make html
 
-        * Install the latest release of hdmf_docutils: ``python -m pip install hdmf-docutils``
-        * Generate the documentation for your extension based on the YAML schema files via:
-
-        .. code-block:: bash
-
-            cd docs/
-            make html
-
-        * To view the docs simply open ``docs/build/html/index.html`` in your browser
-        * See the `docs/README.md <https://github.com/NeurodataWithoutBorders/ndx-labmetadata-example/blob/dev/docs/README.md>`
-          for instructions on how to customize documentation for your extension.
+    * To view the docs simply open ``docs/build/html/index.html`` in your browser
+    * See the `docs/README.md <https://github.com/NeurodataWithoutBorders/ndx-labmetadata-example/blob/dev/docs/README.md>`
+      for instructions on how to customize documentation for your extension.
 
 See :ref:`extension-documentation` for more details.
 
@@ -335,93 +330,18 @@ Reading an NWB file that uses the extension
 Publishing the extension
 """""""""""""""""""""""""
 
-Here we briefly describe the steps for publishing our extension. For further details see :ref:`extension-publishing`.
+The steps to publish an extension are the same for all extensions. We, therefore, here only briefly describe
+he main steps for publishing our extension. For a more in-depth guide see :ref:`extension-publishing` page.
 
-.. tabs::
+* **GitHub (Open Source):** To make the sources of your extension openly accessible, publish the extension
+  on GitHub following the instructions on :ref:`extension-publishing-github`.
 
-    .. tab:: GitHub (Open Source)
+* **PyPI (Open Access):** Publish your extension on [PyPI](https://pypi.org/) to make it easy to install for
+  users and to create a persistent release of the extension following the :ref:`extension-publishing-pypi` guide.
 
-        * To publish the extension on GitHub follow the instructions on `adding locally hosted code to GitHub <https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github#adding-a-local-repository-to-github-using-git>`_. Here we used the GitHub web interface in the browser to create a new repository named ``ndx-labmetadata-example`` as part of the ``NeurodataWithoutBorders`` GitHub organization. To add our extension source we then call:
-
-        .. code-block:: bash
-
-            git remote add origin https://github.com/NeurodataWithoutBorders/ndx-labmetadata-example.git
-            git branch -M dev
-            git push -u origin dev
-
-        * Make a release for the extension on GitHub with the version number specified by selecting the ``Create a new release`` link on the
-          front page of the GitHub repository and specify the version tag (e.g., ``0.1.0``) and name (same as tag) for the release (e.g., see the
-          `0.1.0 example release <https://github.com/NeurodataWithoutBorders/ndx-labmetadata-example/releases/tag/0.1.0>`_).
-          For instructions on how to make a release on GitHub see `here <https://help.github.com/en/github/administering-a-repository/creating-releases>`_ .
-
-    .. tab:: PyPI (Open Access)
-
-        * Publish your extension on [PyPI](https://pypi.org/) to make it easy to install for users and to create a persistent release of the extension
-
-            - Follow these directions: https://packaging.python.org/tutorials/packaging-projects/
-            - You may need to modify `setup.py`
-            - If your extension version is 0.1.0, then this page should exist: ``https://pypi.org/project/ndx-labmetadata-example/0.1.0``
-
-        * Once your GitHub release and ``setup.py`` are ready, publishing on PyPI:
-
-            .. code-block:: bash
-
-                python setup.py sdist bdist_wheel
-                twine upload dist/*
-
-        * Once the extension is publishd user can install it via:
-
-            .. code-block:: bash
-
-                pip install ndx-labmetadata-example
-
-    .. tab:: NDX Catalog (Open Publication)
-
-        * Go to :nwb_extension_git:`staged-extensions` and fork the repository.
-
-        * Clone the fork onto your local filesystem.
-
-        * Copy the directory `staged-extensions/example` to a new directory `staged-extensions/ndx-labmetadata-example`:
-
-            .. code-block:: bash
-
-                cp -r staged-extensions/example staged-extensions/ndx-labmetadata-example
-
-
-        * Edit `staged-extensions/ndx-labmetadata-example/ndx-meta.yaml` with information on where to find the extension.
-
-            .. code-block:: yaml
-
-                  name: ndx-labmetadata-example
-                  version: 0.1.0
-                  src: https://github.com/oruebel/ndx-labmetadata-example
-                  pip: https://pypi.org/project/ndx-labmetadata-example/
-                  license: BSD-3
-                  maintainers:
-                    - oruebel
-
-        * Edit `staged-extensions/ndx-labmetadata-example/README.md` to add information about your extension.
-          You may copy it from `ndx-labmetadata-example/README.md`.
-
-            .. code-block:: bash
-
-                cp ndx-labmetadata-example/README.md staged-extensions/ndx-labmetadata-example/README.md
-
-        * Add and commit your changes to Git and push your changes to GitHub.
-
-            .. code-block:: bash
-
-                cd staged-extensions
-                git add ndx-labmetadata-example
-                git commit -m "Add new catalog entry for ndx-labmetadata-example" .
-                git push
-
-        * Open a pull request
-
-        * When your pull request is merged, a new repository, called ``ndx-labmetadata-example-record`` will be created
-          in the nwb_extension_git:`ndx-extensiosn <>`  GitHub organization and you will be added as a
-          maintainer for that repository.
-
-
+* **NDX Catalog (Open Publication)**: The :ndx-catalog:`NDX Catalog <>` serves as a central, community-led catalog
+  for extensions to the NWB data standard. The NDX Catalog manages basic metadata about extensions while ownership
+  of the source repositories for the extensions remain with the developers. For a step-by-step guide the
+  :ref:`extension-publishing-ndxcatalog` guide.
 
 

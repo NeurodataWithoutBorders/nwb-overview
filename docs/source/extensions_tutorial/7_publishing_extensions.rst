@@ -13,10 +13,12 @@ As illustrated in the figure, the publication process is divided into three main
 releases via PyPI, and 3) open publication of the extension to the community via the
 :ndx-catalog:`NDX Catalog <>`.
 
+.. _extension-publishing-github:
+
 Open Source: Releasing your extension Git repository
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1. Before publishing your licence online you should add a license file. Permissive licenses should be used if possible. A `BSD license <https://opensource.org/licenses/BSD-3-Clause>` is recommended.
+1. Before publishing your extension online you should add a license file. Permissive licenses should be used if possible. A `BSD license <https://opensource.org/licenses/BSD-3-Clause>` is recommended.
 2. Modify ``README.md`` at the root directory of your extension repo to describe the extension for interested developers and users.
 3. The first step to publishing your extension then is to make your Git repository accessible online
    via GitHub, or any other public Git hosting service of your choice. To publish your extension
@@ -34,6 +36,8 @@ Open Source: Releasing your extension Git repository
    extensions repositories. However, users may chose to use other services (e.g.,  GitLab or Bitbucket)
    to share their sources.
 
+.. _extension-publishing-pypi:
+
 Open Access: Releasing your extension on PyPI
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -49,6 +53,8 @@ To make your extension installable for users via pip and manage public releases 
 
     python setup.py sdist bdist_wheel
     twine upload dist/*
+
+.. _extension-publishing-ndxcatalog:
 
 Open Publication: Publishing your extension on the NDX Catalog
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

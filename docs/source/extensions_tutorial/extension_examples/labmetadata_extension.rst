@@ -63,7 +63,7 @@ with ``Enter`` to accept the default response (e.g., to start with ``version=0.1
     py_pkg_name [ndx_labmetadata_example]:
 
 **3.** Edit ``ndx-my-brainlabsrc/spec/create_extension_spec.py`` that was generated for you to define the
-schema of your extension.
+schema of your extension. See :ref:`extension-spec-api` section for details on how to use the specification API.
 
 * Add ``LabMetaData`` as an include type:
 
@@ -256,6 +256,7 @@ Documenting the extension
         * See the `docs/README.md <https://github.com/NeurodataWithoutBorders/ndx-labmetadata-example/blob/dev/docs/README.md>`
           for instructions on how to customize documentation for your extension.
 
+See :ref:`extension-documentation` for more details.
 
 Writing data using the extension
 """"""""""""""""""""""""""""""""
@@ -334,9 +335,11 @@ Reading an NWB file that uses the extension
 Publishing the extension
 """""""""""""""""""""""""
 
+Here we briefly describe the steps for publishing our extension. For further details see :ref:`extension-publishing`.
+
 .. tabs::
 
-    .. tab:: GitHub (release)
+    .. tab:: GitHub (Open Source)
 
         * To publish the extension on GitHub follow the instructions on `adding locally hosted code to GitHub <https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github#adding-a-local-repository-to-github-using-git>`_. Here we used the GitHub web interface in the browser to create a new repository named ``ndx-labmetadata-example`` as part of the ``NeurodataWithoutBorders`` GitHub organization. To add our extension source we then call:
 
@@ -351,7 +354,7 @@ Publishing the extension
           `0.1.0 example release <https://github.com/NeurodataWithoutBorders/ndx-labmetadata-example/releases/tag/0.1.0>`_).
           For instructions on how to make a release on GitHub see `here <https://help.github.com/en/github/administering-a-repository/creating-releases>`_ .
 
-    .. tab:: PyPI (install)
+    .. tab:: PyPI (Open Access)
 
         * Publish your extension on [PyPI](https://pypi.org/) to make it easy to install for users and to create a persistent release of the extension
 
@@ -372,7 +375,7 @@ Publishing the extension
 
                 pip install ndx-labmetadata-example
 
-    .. tab:: NDX Catalog (sharing/publication)
+    .. tab:: NDX Catalog (Open Publication)
 
         * Go to :nwb_extension_git:`staged-extensions` and fork the repository.
 
@@ -385,26 +388,17 @@ Publishing the extension
                 cp -r staged-extensions/example staged-extensions/ndx-labmetadata-example
 
 
-        * Edit `staged-extensions/ndx-labmetadata-example/ndx-meta.yaml` with information on where to find your NWB extension.
+        * Edit `staged-extensions/ndx-labmetadata-example/ndx-meta.yaml` with information on where to find the extension.
 
-            - The YAML file MUST contain a dict with the following keys:
-              - ``name``: extension namespace name
-              - ``version``: extension version
-              - ``src``: URL for the main page of the public repository (e.g. on GitHub, BitBucket, GitLab) that contains the sources of the extension
-              - ``pip``: URL for the main page of the extension on PyPI
-              - ``license``: name of the license of the extension
-              - ``maintainers``: list of GitHub usernames of those who will reliably maintain the extension
-            - You may copy and modify the following YAML that was auto-generated:
+            .. code-block:: yaml
 
-                .. code-block:: yaml
-
-                      name: ndx-labmetadata-example
-                      version: 0.1.0
-                      src: https://github.com/oruebel/ndx-labmetadata-example
-                      pip: https://pypi.org/project/ndx-labmetadata-example/
-                      license: BSD-3
-                      maintainers:
-                        - oruebel
+                  name: ndx-labmetadata-example
+                  version: 0.1.0
+                  src: https://github.com/oruebel/ndx-labmetadata-example
+                  pip: https://pypi.org/project/ndx-labmetadata-example/
+                  license: BSD-3
+                  maintainers:
+                    - oruebel
 
         * Edit `staged-extensions/ndx-labmetadata-example/README.md` to add information about your extension.
           You may copy it from `ndx-labmetadata-example/README.md`.

@@ -1,3 +1,5 @@
+.. _extension-publishing:
+
 Publishing extensions
 ---------------------
 

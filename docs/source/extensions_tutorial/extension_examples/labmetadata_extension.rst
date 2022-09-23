@@ -164,17 +164,17 @@ Creating unit tests
 
 
             class TestLabMetaDataExtensionExample(TestCase):
-            """Test basic functionality of LabMetaDataExtensionExample without read/write"""
+                """Test basic functionality of LabMetaDataExtensionExample without read/write"""
 
-            def setUp(self):
-                """Set up an NWB file. Necessary because TetrodeSeries requires references to electrodes."""
-                self.nwbfile = mock_NWBFile()
+                def setUp(self):
+                    """Set up an NWB file. Necessary because TetrodeSeries requires references to electrodes."""
+                    self.nwbfile = mock_NWBFile()
 
-            def test_constructor(self):
-                """Test that the constructor for TetrodeSeries sets values as expected."""
-                tissue_preparation = "Example tissue preparation"
-                lmdee_object = LabMetaDataExtensionExample(tissue_preparation=tissue_preparation)
-                self.assertEqual(lmdee_object.tissue_preparation, tissue_preparation)
+                def test_constructor(self):
+                    """Test that the constructor for TetrodeSeries sets values as expected."""
+                    tissue_preparation = "Example tissue preparation"
+                    lmdee_object = LabMetaDataExtensionExample(tissue_preparation=tissue_preparation)
+                    self.assertEqual(lmdee_object.tissue_preparation, tissue_preparation)
 
         .. code-tab:: py Roundtrip test  (read/write)
 

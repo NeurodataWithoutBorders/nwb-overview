@@ -3,7 +3,7 @@
 Extensions for lab-specific metadata: Extending ``LabMetaData``
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Use Case
+Use case
 """"""""
 
 .. short_description_start

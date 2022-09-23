@@ -57,7 +57,7 @@ intersphinx_mapping = {
     'hdmf': ('https://hdmf.readthedocs.io/en/stable/', None),
     'pynwb': ('https://pynwb.readthedocs.io/en/stable/', None),
     'pandas': ('https://pandas.pydata.org/pandas-docs/stable/', None),
-    'neuroconv': ('https://github.com/catalystneuro/neuroconv/en/main/', None),
+    'neuroconv': ('https://neuroconv.readthedocs.io/en/main/', None),
     "nwb-schema": ("https://nwb-schema.readthedocs.io/en/latest/", None),
     "hdmf-common-schema": ("https://hdmf-common-schema.readthedocs.io/en/stable/", None),
 }

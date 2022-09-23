@@ -11,7 +11,7 @@ and [``NWBConverter``](https://neuroconv.readthedocs.io/en/main/user_guide/nwbco
 any one data format, such as raw data from an acquisition system or processed
 data from spike sorting or image segmentation software. ``DataInterface``s load the
 raw data in an efficient way, extract metadata, and write  this information properly 
-into NWB. ``DataInterfaces``cover a 
+into NWB. ``DataInterfaces`` cover a 
 [large variety of different source formats](https://neuroconv.readthedocs.io/en/main/conversion_examples_gallery/conversion_example_gallery.html).
 
 Users often need to write data from multiple sources. An example would be an 

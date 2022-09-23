@@ -30,6 +30,7 @@ extensions = [
     'sphinx.ext.extlinks',
     'sphinx_design',
     'sphinx_rtd_theme',
+    'sphinx_tabs.tabs',
 ]
 
 intersphinx_disabled_domains = ['std']

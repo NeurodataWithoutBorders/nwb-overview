@@ -15,8 +15,8 @@ extlinks = {
     'hdmf-specification-language': ('https://hdmf-schema-language.readthedocs.io/en/latest/', ''),
     'matnwb-src': ('https://github.com/NeurodataWithoutBorders/matnwb/', ''),
     'matnwb-docs': ('https://neurodatawithoutborders.github.io/matnwb/', ''),
-    'nwbconversiontool-docs': ('https://nwb-conversion-tools.readthedocs.io/en/main/', ''),
-    'nwbconversiontool-src': ('https://github.com/catalystneuro/nwb-conversion-tools/', ''),
+    'neuroconv-docs': ('https://neuroconv.readthedocs.io/en/main/', ''),
+    'neuroconv-src': ('https://github.com/catalystneuro/neuroconv', ''),
     'nwbinspector-docs': ('https://nwbinspector.readthedocs.io/en/dev/', ''),
     'ndx-template-docs': ('https://github.com/nwb-extensions/ndx-template', ''),
     'ndx-template-src': ('https://github.com/nwb-extensions/ndx-template', ''),
@@ -45,6 +45,8 @@ extlinks = {
     'nwb-helpdesk': ('https://github.com/dandi/helpdesk/discussions', ''),
     'nwb-mailing-list': ('http://visitor.r20.constantcontact.com/manage/optin?v=001nQUq2GTjwCjZxK_V2'
                          '-6RLElLJO1HMVtoNLJ-wGyDCukZQZxu2AFJmNh6NS0_lGMsWc2w9hZpeNn74HuWdv5RtLX9qX0o0Hy1P0hOgMrkm2NoGAX3VoY25wx8HAtIZwredcCuM0nCUGodpvoaue3SzQ%3D%3D', ''),
+    'datajoint': ('https://www.datajoint.org/', ''),
+    'datajoint-elements': ('https://elements.datajoint.org/', ''),
 }
 
 # Use this for mapping for links to commonly used documentation
@@ -57,7 +59,7 @@ intersphinx_mapping = {
     'hdmf': ('https://hdmf.readthedocs.io/en/stable/', None),
     'pynwb': ('https://pynwb.readthedocs.io/en/stable/', None),
     'pandas': ('https://pandas.pydata.org/pandas-docs/stable/', None),
-    'nct': ('https://nwb-conversion-tools.readthedocs.io/en/main/', None),
+    'neuroconv': ('https://neuroconv.readthedocs.io/en/main/', None),
     "nwb-schema": ("https://nwb-schema.readthedocs.io/en/latest/", None),
     "hdmf-common-schema": ("https://hdmf-common-schema.readthedocs.io/en/stable/", None),
 }

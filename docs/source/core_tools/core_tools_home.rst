@@ -52,7 +52,9 @@ The NWB reference APIs provide full support for reading and writing all componen
     :class: align-left, no-scaled-link
     :width: 100
 
-The :nwbconversiontool-docs:`NWB Conversion Tools <>` is a Python library for automatic conversion from proprietary data formats to NWB.  :bdg-link-primary:`Docs <https://nwb-conversion-tools.readthedocs.io/en/main/>` :bdg-link-primary:`Source <https://github.com/catalystneuro/nwb-conversion-tools>`
+The :neuroconv-docs:`NeuroConv <>` is a Python library for automatic conversion from proprietary data formats
+to NWB.
+:bdg-link-primary:`Docs <https://neuroconv.readthedocs.io/en/main/index.html>` :bdg-link-primary:`Source <https://github.com/catalystneuro/neuroconv>`
 
 .. raw:: html
 
@@ -73,7 +75,7 @@ NWB provides tools to check that files comply with the :nwb-schema-docs:`NWB sta
     :class: align-left, no-scaled-link
     :width: 100
 
-:nwbinspector-docs:`NWB Inspector <>` is a python library and command-line tool for inspecting NWB files for adherence to :nwbinspector-docs:`NWB best practices <best_practices/best_practices_index.html>`. By default, the Inspector also runs the PyNWB validator to check for compliance with the NWB schema. The Inspector can also be easily extended to integrate custom data checks and to configure checks. :bdg-link-primary:`Docs <https://nwbinspector.readthedocs.io/en/add_docs/>` :bdg-link-primary:`Source <https://github.com/NeurodataWithoutBorders/nwbinspector>`
+:nwbinspector-docs:`NWB Inspector <>` is a python library and command-line tool for inspecting NWB files for adherence to :nwbinspector-docs:`NWB best practices <best_practices/best_practices_index.html>`. By default, the Inspector also runs the PyNWB validator to check for compliance with the NWB schema. The Inspector can also be easily extended to integrate custom data checks and to configure checks. :bdg-link-primary:`Docs <https://nwbinspector.readthedocs.io/>` :bdg-link-primary:`Source <https://github.com/NeurodataWithoutBorders/nwbinspector>`
 
 
 .. image:: figures/pynwb_logo_framed.png

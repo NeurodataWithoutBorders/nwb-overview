@@ -21,6 +21,7 @@ Analysis and Visualization Tools
     ciatah/ciatah
     extract/extract
     mies/mies
+    patchview/patchview
     deeplabcut/deeplabcut
     sleap/sleap
     pynapple/pynapple
@@ -218,6 +219,16 @@ Intracellular Electrical Physiology Tools
 .. include::  mies/mies.rst
         :start-after: .. short_description_start
         :end-before: .. short_description_end
+
+
+.. image:: patchview/patchview.png
+    :class: align-left
+    :width: 180
+
+.. include::  patchview/patchview.rst
+        :start-after: .. short_description_start
+        :end-before: .. short_description_end
+
 
 .. raw:: html
 

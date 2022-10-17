@@ -20,7 +20,7 @@ PatchView
 
 NWB (NeurodataWithoutBorders) APIs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-PatchView read Heka or Axon file format for patch-clamp data, and use `pynwb <https://github.com/NeurodataWithoutBorders/pynwb>`_ to exports to NWB files.
+PatchView reads Heka or Axon format files for patch-clamp data, and uses `PyNWB <https://github.com/NeurodataWithoutBorders/pynwb>`_ to export to NWB files.
 
 Code snippet shows how to convert data from original Heka .dat file into an extended `NWBFile` object, query the content and generate a visualization.
 

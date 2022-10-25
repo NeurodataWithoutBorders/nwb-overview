@@ -331,7 +331,7 @@ Publishing the extension
 """""""""""""""""""""""""
 
 The steps to publish an extension are the same for all extensions. We, therefore, here only briefly describe
-he main steps for publishing our extension. For a more in-depth guide see :ref:`extension-publishing` page.
+he main steps for publishing our extension. For a more in-depth guide, see the page :ref:`extension-publishing`
 
 * **GitHub (Open Source):** To make the sources of your extension openly accessible, publish the extension
   on GitHub by following the instructions on :ref:`extension-publishing-github`.

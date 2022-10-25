@@ -289,7 +289,7 @@ Writing data using the extension
         with NWBHDF5IO(path=filename, mode="a") as io:
             io.write(nwbfile)
 
-   .. code-tab:: c Matlab
+   .. code-tab:: c MATLAB
 
       Coming soon ...
 
@@ -321,7 +321,7 @@ Reading an NWB file that uses the extension
         # Get the custom lab metadata object
         lab_meta_data = nwbfile.get_lab_meta_data(name="custom_lab_metadata")
 
-    .. code-tab:: c Matlab
+    .. code-tab:: c MATLAB
 
         Coming soon ...
 

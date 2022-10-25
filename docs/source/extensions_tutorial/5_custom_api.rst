@@ -1,3 +1,5 @@
+.. _extension-custom-api:
+
 Building a custom Python API for an extension
 =============================================
 

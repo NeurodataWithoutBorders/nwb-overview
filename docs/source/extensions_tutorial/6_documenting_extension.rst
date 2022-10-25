@@ -1,3 +1,5 @@
+.. _extension-documentation:
+
 Documenting Extensions
 ----------------------
 

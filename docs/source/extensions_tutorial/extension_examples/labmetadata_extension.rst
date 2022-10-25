@@ -107,23 +107,22 @@ schema of your extension. See :ref:`extension-spec-api` section for details on h
    cd ndx-labmetadata-example
    python src/spec/create_extension_spec.py
 
-**5.** To make sure our schema files are tracked by Git, we now add the YAML schema files we just created to the repo:
-
-.. code-block:: bash
-
-    git add spec/*.yaml
-    git commit -m "Added extension schema files"
-
-
-**6.** Edit  ``src/pynwb/__init__.py`` to define Python API classes for our new extension data types via :py:meth:`pynwb.get_class`.
+**5.** Edit  ``src/pynwb/__init__.py`` to define Python API classes for our new extension data types via :py:meth:`pynwb.get_class`.
 
 .. code-block:: python
 
     LabMetaDataExtensionExample = get_class('LabMetaDataExtensionExample', 'ndx-labmetadata-example')
 
-**7.** Define unit tests for the extension. The :nwb_extension_git:`ndx-template` created an example test
+**6.** Define unit tests for the extension. The :nwb_extension_git:`ndx-template` created an example test
 module ``src/pynwb/tests/test_tetrodeseries.py`` to illustrate how to implement tests. Here we simply remove
 this file and replace it with our own tests `test_labmetadata_example.py <https://github.com/NeurodataWithoutBorders/ndx-labmetadata-example/blob/dev/src/pynwb/tests/test_labmetadata_example.py>`_. More details below in :ref:`extension-example-labmetadata-unittest`.
+
+**7.** To make sure our extension schema and source code files are version controlled, we now add all the files we just created to the Git repo:
+
+.. code-block:: bash
+
+    git add .
+    git commit -m "Added API classes, tests, and schema files"
 
 
 **8.** Install your extension (Python only)(Optional)

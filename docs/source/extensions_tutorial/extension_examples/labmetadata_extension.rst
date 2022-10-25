@@ -44,7 +44,7 @@ Creating the extension
 **2.** Answer a few simple questions of the cookiecutter template. We can respond to many questions
 with ``Enter`` to accept the default response (e.g., to start with ``version=0.1.0``):
 
-.. code-block::
+.. code-block:: none
 
     namespace [ndx-my-namespace]: ndx-labmetadata-example
     description [My NWB extension]: Example extension to illustrate how to extend LabMetaData for adding lab-specific metadata

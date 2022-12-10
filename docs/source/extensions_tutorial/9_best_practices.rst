@@ -3,6 +3,7 @@
 NWB Extension Best Practices
 ----------------------------
 
+
 Define new ``neurodata_types`` at the top-level (a.k.a., do not nest type definitions)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -151,3 +152,8 @@ For defining new types via ``neurodata_type_def`` use:
 * **Explicit**. E.g., avoid the use of ambiguous abbreviation in names.
 
 
+Always use the ``ndx-template`` to create new extensions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+By using the :nwb_extension_git:`ndx-template` to create new extensions helps ensure
+that extensions can be easily shared and reused and published via the :ndx-catalog:`NDX Catalog <>`.

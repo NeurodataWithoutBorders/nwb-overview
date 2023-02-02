@@ -20,9 +20,7 @@ See the :ref:`conversion_home` page for more information.
 How do I cite NWB 2 in my research?
 -----------------------------------
 
-O. Rübel, A. J. Tritt, B. Dichter, T. Braun, N. Cain, N. Clack, T. J. Davidson, M. Dougherty, J.-C. Fillion-Robin, N. Graddis, M. Grauer, J. T. Kiggins, L. Niu, D. Ozturk, W. Schroeder, I. Soltesz, F. T. Sommer, K. Svoboda, L. Ng, L. M. Frank, K. Bouchard. NWB:N 2.0: An Accessible Data Standard for Neurophysiology. January 18, 2019. doi: https://doi.org/10.1101/523035 (preprint)
-(:nwb2-biorxiv:`Online Abstract <>`)
-(:nwb2-biorxiv-pdf:`PDF <>`)
+Oliver Rübel, Andrew Tritt, Ryan Ly, Benjamin K. Dichter, Satrajit Ghosh, Lawrence Niu, Pamela Baker, Ivan Soltesz, Lydia Ng, Karel Svoboda, Loren Frank, Kristofer E. Bouchard,  The Neurodata Without Borders ecosystem for neurophysiological data science, Oct. 2022,  eLife 11:e78362. https://doi.org/10.7554/eLife.78362 
 
 How do I install PyNWB?
 -----------------------

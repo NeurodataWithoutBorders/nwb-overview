@@ -49,7 +49,7 @@ within it Datasets, Attributes, Links, and/or other Groups. Groups are specified
     group a neurodata type. It is also generally better to extend your neurodata type from an existing type. Look
     through the `NWB schema <https://nwb-schema.readthedocs.io/en/latest/>`_ to see if a core neurodata type would
     work as a base for your new type. If no existing type works, consider extending
-    :py:class:`~pynwb.base.NWBDataInterface``, which allows you to add the object to a processing module.
+    :py:class:`~pynwb.base.NWBDataInterface`, which allows you to add the object to a processing module.
 
 .. tip::
      New neurodata types should always be declared at the top level of the schema rather than nesting type

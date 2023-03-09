@@ -28,7 +28,7 @@ Analysis and Visualization Tools
     dandi/dandi
 
 
-This is a page is a collection of tools we are cataloging as a convenience reference for NWB users. This is not a comprehensive list of NWB tools. Many of these tools are built and supported by other groups, and are in active development. If you would like to contribute a tool, please see the instructions :nwb-overview-src:`here <>`.
+This page is a collection of tools we are cataloging as a convenience reference for NWB users. This is not a comprehensive list of NWB tools. Many of these tools are built and supported by other groups, and are in active development. If you would like to contribute a tool, please see the instructions :nwb-overview-src:`here <>`.
 
 
 .. _analysistools-explore:

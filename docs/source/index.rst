@@ -32,6 +32,7 @@ for each of those tasks and point you to the best tools to use for your preferre
 .. toctree::
    :maxdepth: 1
 
+   community_gallery/community_gallery.rst
    faq
 
 .. toctree::

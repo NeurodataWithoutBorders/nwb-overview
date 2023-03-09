@@ -1,4 +1,4 @@
-.. _faq-home:
+.. _community-gallery:
 
 ***************************
 Community Gallery
@@ -34,6 +34,13 @@ The Bristol Neuroscience Data Guide includes tutorials for converting data to NW
 
 Data Analysis and Reuse
 -----------------------
+
+.. image:: figures/dandi_example_notebooks.png
+    :class: align-left, no-scaled-link
+    :width: 100
+
+
+The :ref:`analysistools-dandi` (Distributed Archives for Neurophysiology Data Integration) maintains a `collection of example notebooks <https://github.com/dandi/example-notebooks>`_ associated with datasets, conference tools, or more generally notebooks that illustrate the use of data on DANDI.
 
 
 .. note::

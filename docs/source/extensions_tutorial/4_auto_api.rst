@@ -1,5 +1,9 @@
+.. _extension-auto-api:
+
 Generating an API for an extension
------------------------------------------------------
+------------------------------------
+
+.. _extension-auto-matlabnapi:
 
 Generating a MatNWB API
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -12,6 +16,8 @@ In MatNWB, simply call ``generateExtension("path/to/extension/namespace.yaml");`
 
 .. note::
     As seen above, MatNWB will convert namespace names if they are not valid identifiers in MATLAB. See `Variable Names <https://www.mathworks.com/help/matlab/matlab_prog/variable-names.html>`_ for more information. In most cases, the conversion conforms with MATLAB's approach with `matlab.lang.makeValidName() <https://www.mathworks.com/help/matlab/ref/matlab.lang.makevalidname.html>`_
+
+.. _extension-auto-pythonapi:
 
 Generating a PyNWB API
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -36,7 +42,7 @@ created when you use the ``load_namespaces`` flag on :py:func:`~pynwb.NWBHDF5IO.
 Customizing automatically generated APIs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Once these classes are generated, you can customize them by dynamically adding or replacing attributes/methods (a.k.a., monkey patching). 
+Once these classes are generated, you can customize them by dynamically adding or replacing attributes/methods (a.k.a., monkey patching).
 
 A typical example is adding methods. Let's say you wanted a method that could
 return data from only the first channel. You could add that method like this:
@@ -72,7 +78,7 @@ next section.
 .. tip::
     This approach is easy, but note your API will be locked to your specification. If you make changes to your
     specification there will be corresponding changes to the API, and this is likely to break existing code.
-    Also, monkey patches can be very confusing to someone who is not aware of them. Differences 
-    between the installed module and the actual behavior of the source code can lead to frustrated 
+    Also, monkey patches can be very confusing to someone who is not aware of them. Differences
+    between the installed module and the actual behavior of the source code can lead to frustrated
     developers. As such, this approach should be used with great care. In the
     next section we will show you how to create your own custom API that is more robust.

@@ -1,3 +1,5 @@
+.. _extension-spec-api:
+
 The Spec API
 ------------
 

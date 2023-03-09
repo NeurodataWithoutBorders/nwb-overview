@@ -90,6 +90,27 @@ With ``.. include`` directive with the ``start-after`` and ``end-before`` parame
 **Step 7** Create a pull request to this repo with your changes
 
 
+Adding a Community Project
+==========================
+
+To contribute a new project to the community gallery, please create a pull request to this repo. Adding a tool requires the following steps.
+
+**Step 1:** Create a new entry on the  ``docs/source/community_gallery/community_gallery.rst page. An entry should consist of a small figure or icon and brief description, following the style of the existing entries.
+
+    * Figure should be added to the folder ``docs/source/community_gallery/figures``
+    * If you design the figure in PowerPoint then please add the source slide to the ``docs/source/community_gallery/figures/figure_icons_source.pptx`` file
+
+**Step 2:** Build the docs and and review your changes via
+
+.. code-block::
+
+    cd docs
+    make html
+    open build/html/index.html
+
+**Step 3** Create a pull request to this repo with your changes
+
+
 External links
 ==============
 

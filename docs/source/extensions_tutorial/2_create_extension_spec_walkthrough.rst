@@ -1,3 +1,5 @@
+.. _extension-create:
+
 Creating an extension
 =====================
 

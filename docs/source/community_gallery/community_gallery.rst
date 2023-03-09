@@ -4,7 +4,7 @@
 Community Gallery
 ***************************
 
-This page is a collection of community conversion and analysis projects cataloged here as a convenience reference for NWB users. This list is not a comprehensive list and many of the projects and resources are built and supported by other groups, and are in active development. If you would like to contribute a project or resources, please see the instructions :nwb-overview-src:`here <>`.
+This page is a collection of community conversion and analysis projects cataloged here as a convenient reference for NWB users. This list is not comprehensive and many of the projects and resources are built and supported by other groups, and are in active development. If you would like to contribute a project or resources, please see the instructions :nwb-overview-src:`here <>`.
 
 
 Data Conversion

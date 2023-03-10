@@ -5,7 +5,7 @@ HDF Tools
 
 .. short_description_start
 
-There are a broad range of useful tools for inspecting and browsing HDF5 files. For example,
+:ref:`analysistools-hdftools`: There are a broad range of useful tools for inspecting and browsing HDF5 files. For example,
 HDFView and HDF5 plugins for Jupyter or VSCode provide general visual
 tools for browsing HDF5 files. In addition, the HDF5 library
 ships with a range of command line tools

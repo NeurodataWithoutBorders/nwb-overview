@@ -113,7 +113,7 @@ The different libraries each offer slightly different approaches towards visuali
 .. figure:: jupyterlab_h5web_nwb_example.png
     :width: 600
 
-    *jupyterlab-h5web* visualization of an example NWB file/
+    *jupyterlab-h5web* visualization of an example NWB file.
 
 
 .. figure:: jupyterlab_hdf5_nwb_example.png
@@ -145,4 +145,7 @@ Much like the `jupyterlab-h5web <https://github.com/silx-kit/jupyterlab-h5web>`_
           "*.nwb": "h5web.viewer",
         },
 
+.. figure:: vscode_h5web_nwb_example.png
+    :width: 600
 
+    *vscode-h5web* visualization of an example NWB file.

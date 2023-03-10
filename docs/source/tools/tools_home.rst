@@ -11,7 +11,7 @@ Analysis and Visualization Tools
 
     nwbwidgets/nwbwidgets
     nwbexplorer/nwbexplorer
-    hdfview/hdfview
+    hdftools/hdftools
     spikeinterface/spikeinterface
     cellexplorer/cellexplorer
     ecogvis/ecogvis
@@ -63,11 +63,11 @@ Exploring NWB Files
     <br/>
     <br/>
 
-.. image:: https://www.hdfgroup.org/wp-content/uploads/2017/07/hdfview-sample2.jpg
+.. image:: hdftools/jupyterlab_h5web_nwb_example.png
     :class: align-left
     :width: 180
 
-.. include::  hdfview/hdfview.rst
+.. include::  hdftools/hdftools.rst
         :start-after: .. short_description_start
         :end-before: .. short_description_end
 

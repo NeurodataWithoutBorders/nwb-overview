@@ -24,6 +24,7 @@ Analysis and Visualization Tools
     patchview/patchview
     deeplabcut/deeplabcut
     sleap/sleap
+    visiomode/visiomode
     pynapple/pynapple
     dandi/dandi
 
@@ -260,6 +261,20 @@ Behavior
     :width: 180
 
 .. include::  sleap/sleap.rst
+        :start-after: .. short_description_start
+        :end-before: .. short_description_end
+
+.. raw:: html
+
+    <br />
+    <br />
+    <br />
+
+.. image:: visiomode/visiomode_logo.png
+    :class: align-left
+    :width: 180
+
+.. include::  visiomode/visiomode.rst
         :start-after: .. short_description_start
         :end-before: .. short_description_end
 

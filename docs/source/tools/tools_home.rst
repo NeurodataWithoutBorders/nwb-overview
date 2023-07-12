@@ -10,6 +10,7 @@ Analysis and Visualization Tools
     :hidden:
 
     nwbwidgets/nwbwidgets
+    neurosift/neurosift
     nwbexplorer/nwbexplorer
     hdftools/hdftools
     spikeinterface/spikeinterface
@@ -48,6 +49,16 @@ Exploring NWB Files
 .. raw:: html
 
     <br/>
+    <br/>
+    <br/>
+
+
+.. include::  neurosift/neurosift.rst
+        :start-after: .. short_description_start
+        :end-before: .. short_description_end
+
+.. raw:: html
+
     <br/>
     <br/>
 

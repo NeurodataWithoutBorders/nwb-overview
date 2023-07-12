@@ -5,12 +5,12 @@ Neurosift
 
 .. short_description_start
 
-:ref:`analysistools-neurosift` provides interactive neuroscience visualizations in the browser.
+:ref:`analysistools-neurosift` provides interactive neuroscience visualizations in the browser. Neurosift caters to both individual users through its local mode, allowing the visualization of views directly from your device, as well as a remote access function for presenting your findings to other users on different machines.
 :bdg-link-primary:`Source <https://github.com/flatironinstitute/neurosift>`
 
 .. short_description_end
 
-Neurosift caters to both individual users through its local mode, allowing the visualization of views directly from your device, as well as a remote access function for presenting your findings to other users on different machines. With Neurosift, you have the ability to construct a multitude of synchronized visuals such as spike raster plots, audio spectrograms, videos, video annotations, position decode fields, timeseries graphs, and more.
+With Neurosift, you have the ability to construct a multitude of synchronized visuals such as spike raster plots, audio spectrograms, videos, video annotations, position decode fields, timeseries graphs, and more.
 
 Neurosift is also integrated with DANDI Archive for visualizing NWB files directly in your browser. You can browse the contents of a dandiset directly in your browser, and visualize the items using Neurosift views. Here is an example:
 

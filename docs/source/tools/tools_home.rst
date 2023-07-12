@@ -52,6 +52,16 @@ Exploring NWB Files
     <br/>
     <br/>
 
+.. image:: neurosift/neurosift-logo.png
+    :class: align-left
+    :width: 180
+
+.. raw:: html
+
+    <br/>
+    <br/>
+    <br/>
+
 
 .. include::  neurosift/neurosift.rst
         :start-after: .. short_description_start

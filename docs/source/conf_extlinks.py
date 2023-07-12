@@ -45,8 +45,8 @@ extlinks = {
     'nwb-overview-src': ('https://github.com/NeurodataWithoutBorders/nwb-overview/%s', '%s'),
     'nwb-main': ('https://www.nwb.org/%s', '%s'),
     'nwb-helpdesk': ('https://github.com/dandi/helpdesk/discussions/%s', '%s'),
-    'nwb-mailing-list': ('http://visitor.r20.constantcontact.com/manage/optin?v=001nQUq2GTjwCjZxK_V2'
-                         '-6RLElLJO1HMVtoNLJ-wGyDCukZQZxu2AFJmNh6NS0_lGMsWc2w9hZpeNn74HuWdv5RtLX9qX0o0Hy1P0hOgMrkm2NoGAX3VoY25wx8HAtIZwredcCuM0nCUGodpvoaue3SzQ%3D%3D', '%s'),
+    # 'nwb-mailing-list': ('http://visitor.r20.constantcontact.com/manage/optin?v=001nQUq2GTjwCjZxK_V2'
+    #                      '-6RLElLJO1HMVtoNLJ-wGyDCukZQZxu2AFJmNh6NS0_lGMsWc2w9hZpeNn74HuWdv5RtLX9qX0o0Hy1P0hOgMrkm2NoGAX3VoY25wx8HAtIZwredcCuM0nCUGodpvoaue3SzQ%3D%3D', '%s'),
     'datajoint': ('https://www.datajoint.org/%s', '%s'),
     'datajoint-elements': ('https://www.datajoint.com/elements/%s', '%s'),
     'openscope-databook': ('https://alleninstitute.github.io/openscope_databook/%s', '%s'),

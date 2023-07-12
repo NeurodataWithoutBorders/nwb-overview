@@ -10,7 +10,7 @@ and editing of the extension separately from the code that uses it. When startin
 recommend using the :nwb_extension_git:`ndx-template` repository, which automatically generates a repository with
 the appropriate directory structure.
 
-After you finish the instructions :nwb_extension_git:`here <ndx-template/blob/main/README.md#user-content-getting-started>`,
+After you finish the instructions :nwb_extension_git:`here <ndx-template/blob/main/README.md>`,
 you should have a directory structure that looks like this
 
 .. code-block:: bash

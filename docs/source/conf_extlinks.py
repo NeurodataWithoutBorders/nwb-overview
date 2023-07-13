@@ -45,8 +45,7 @@ extlinks = {
     'nwb-overview-src': ('https://github.com/NeurodataWithoutBorders/nwb-overview/%s', '%s'),
     'nwb-main': ('https://www.nwb.org/%s', '%s'),
     'nwb-helpdesk': ('https://github.com/dandi/helpdesk/discussions/%s', '%s'),
-    # 'nwb-mailing-list': (r'http://visitor.r20.constantcontact.com/manage/optin?v=001nQUq2GTjwCjZxK_V2'
-    #                      r'-6RLElLJO1HMVtoNLJ-wGyDCukZQZxu2AFJmNh6NS0_lGMsWc2w9hZpeNn74HuWdv5RtLX9qX0o0Hy1P0hOgMrkm2NoGAX3VoY25wx8HAtIZwredcCuM0nCUGodpvoaue3SzQ%3D%3D', '%s'),
+    'nwb-mailing-list': ('https://mailchi.mp/fe2a9bc55a1a/nwb-signup/%s', '%s'),
     'datajoint': ('https://www.datajoint.org/%s', '%s'),
     'datajoint-elements': ('https://www.datajoint.com/elements/%s', '%s'),
     'openscope-databook': ('https://alleninstitute.github.io/openscope_databook/%s', '%s'),

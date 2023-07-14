@@ -44,7 +44,7 @@ To contribute a new tool to the list of analysis, visualization and data managem
 
 **Step 3:** Update the ``<my*>`` parts and add a brief description of your tool as well as an image for your tool.
 
-**Step 4:** You may add additional sections as approbriate to the page, e.g., to describe tool features, usage, or installation. In particular, also consider adding a section on ``Compatability with NWB`` to describe how your tools integrate with NWB (e.g., does your tool support read/write/update of specific neurodata_types in NWB and does your tool require any extensions).
+**Step 4:** You may add additional sections as appropriate to the page, e.g., to describe tool features, usage, or installation. In particular, also consider adding a section on ``Compatability with NWB`` to describe how your tools integrate with NWB (e.g., does your tool support read/write/update of specific neurodata_types in NWB and does your tool require any extensions).
 
 **Step 5:** In ``docs/source/tools/tools_home.rst`` Add your tool to the toctree at the top of the page to ensure the tool gets listed in the main menu
 

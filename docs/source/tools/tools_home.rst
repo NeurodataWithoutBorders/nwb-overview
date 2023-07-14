@@ -21,6 +21,7 @@ Analysis and Visualization Tools
     suite2p/suite2p
     ciatah/ciatah
     extract/extract
+    cicada/cicada
     mies/mies
     patchview/patchview
     deeplabcut/deeplabcut
@@ -221,6 +222,22 @@ Optical Physiology Tools
 .. include::  extract/extract.rst
         :start-after: .. short_description_start
         :end-before: .. short_description_end
+
+.. raw:: html
+
+    <br />
+    <br />
+    <br />
+
+
+.. image:: cicada/cicada_screenshot.png
+    :class: align-left
+    :width: 180
+
+.. include::  cicada/cicada.rst
+        :start-after: .. short_description_start
+        :end-before: .. short_description_end
+
 
 
 .. raw:: html

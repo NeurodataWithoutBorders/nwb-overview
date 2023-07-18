@@ -240,7 +240,7 @@ Optical Physiology Tools
 .. raw:: html
 
     <br />
-    <hr>
+    <br/>
     <br />
 
 

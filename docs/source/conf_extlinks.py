@@ -36,6 +36,7 @@ extlinks = {
     'hdmf-github-org': ('https://github.com/hdmf-dev/%s', '%s'),
     'nwb-widgets-docs': ('https://github.com/NeurodataWithoutBorders/nwb-jupyter-widgets/%s', '%s'),
     'nwb-widgets-src': ('https://github.com/NeurodataWithoutBorders/nwb-jupyter-widgets/%s', '%s'),
+    'nwb-guide-src': ('https://github.com/NeurodataWithoutBorders/nwb-guide/%s', '%s'),
     'caiman-docs': ('https://caiman.readthedocs.io/en/master/%s', '%s'),
     'hdf5': ('https://www.hdfgroup.org/solutions/hdf5/%s', '%s'),
     'zarr': ('https://zarr.readthedocs.io/en/stable/%s', '%s'),

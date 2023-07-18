@@ -27,7 +27,8 @@ for each of those tasks and point you to the best tools to use for your preferre
    :maxdepth: 1
    :titlesonly:
 
-   tools/tools_home
+   tools/analysis_tools_home
+   tools/acquisition_tools_home
 
 .. toctree::
    :maxdepth: 1

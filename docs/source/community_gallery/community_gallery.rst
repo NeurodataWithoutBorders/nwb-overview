@@ -60,6 +60,22 @@ The :openscope-databook:`OpenScope Databook <>` provides scripts and documentati
 
 
 
+.. raw:: html
+
+    <br/>
+
+.. image:: figures/ibl_brainmap.png
+    :class: align-left, no-scaled-link
+    :width: 100
+
+
+The :ibl-website:`International Brain Laboratory (IBL) <>` released a Brainwide Map of neural activity during decision-making, consisting of 547 Neuropixel recordings of 32,784 neurons across 194 regions of the mouse brain. At Cosyne 2023, the IBL team presented an `Introduction to IBL and the Brain-wide map dataset <https://colab.research.google.com/drive/1Ua-NlpYYZCIOF56xbsT9YR71Enkotd-b>`_ and tutorials on `Using IBL data with NWB <https://colab.research.google.com/drive/1zr6lP_zzRgPZuHs3nB5oGnFtPKrduQ3L>`_  and `Using IBL data with ONE <https://colab.research.google.com/drive/1y3sRI1wC7qbWqN6skvulzPOp6xw8tLm7>`_.
+
+
+.. raw:: html
+
+    <br/>
+
 
 .. note::
 

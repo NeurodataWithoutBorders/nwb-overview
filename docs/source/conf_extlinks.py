@@ -36,6 +36,7 @@ extlinks = {
     'hdmf-github-org': ('https://github.com/hdmf-dev/%s', '%s'),
     'nwb-widgets-docs': ('https://github.com/NeurodataWithoutBorders/nwb-jupyter-widgets/%s', '%s'),
     'nwb-widgets-src': ('https://github.com/NeurodataWithoutBorders/nwb-jupyter-widgets/%s', '%s'),
+    'nwb-guide-src': ('https://github.com/NeurodataWithoutBorders/nwb-guide/%s', '%s'),
     'caiman-docs': ('https://caiman.readthedocs.io/en/master/%s', '%s'),
     'hdf5': ('https://www.hdfgroup.org/solutions/hdf5/%s', '%s'),
     'zarr': ('https://zarr.readthedocs.io/en/stable/%s', '%s'),
@@ -50,6 +51,7 @@ extlinks = {
     'datajoint-elements': ('https://www.datajoint.com/elements/%s', '%s'),
     'openscope-databook': ('https://alleninstitute.github.io/openscope_databook/%s', '%s'),
     'openscope-project': ('https://alleninstitute.org/what-we-do/brain-science/research/mindscope-program/openscope/%s', '%s'),
+    'ibl-website': ('https://www.internationalbrainlab.com/%s', '%s'),
     'mindscope-program': ('https://alleninstitute.org/what-we-do/brain-science/research/mindscope-program/%s', '%s'),
     'jupyter-book': ('https://jupyterbook.org/en/stable/%s', '%s'),
 }

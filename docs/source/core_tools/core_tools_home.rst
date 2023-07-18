@@ -59,12 +59,25 @@ to NWB.
 .. raw:: html
 
     <br/>
+    <br/>
+    <br/>
+
+.. image:: figures/guide_logo_framed.png
+    :class: align-left, no-scaled-link
+    :width: 100
+
+The :nwb-guide-src:`NWB GUIDE <>` is a desktop app that provides a no-code **G**\ raphical **U**\ ser **I**\ nterface for **D**\ ata **E**\ ntry for converting neurophysiology data to NWB using :neuroconv-docs:`NeuroConv <>`. **Note:** NWB GUIDE is in pre-release status and under active development. :bdg-link-primary:`Source <https://github.com/NeurodataWithoutBorders/nwb-guide>`
+
+
+.. raw:: html
+
+    <br/>
 
 ---------------------
 
 .. raw:: html
 
-    <br/
+    <br/>
 
 :octicon:`code-review;1.5em` Validating NWB Files
 -------------------------------------------------
@@ -140,12 +153,19 @@ The :nwb_extension_git:`staged-extensions` GitHub repository is used to register
 
 The :hdmf-docutils-docs:`HDMF Documentation Utilities (hdmf-docuils) <>` provide utility tools for creating documentation for extension schema defined using the :nwb-schema-language-docs:`NWB Schema Language <>`. The :ndx-template-docs:`NDX Template <>` automatically sets up the documentation for extensions via the :hdmf-docutils-docs:`hdmf-docuils <>` and as such are part of most NDX code repositories without having to interact with the tool directly. :bdg-link-primary:`Source <https://github.com/hdmf-dev/hdmf-docutils>`
 
+.. image:: figures/specification_language_logo_framed.png
+    :class: align-left, no-scaled-link
+    :width: 100
+
+
+The :hdmf-specification-language:`HDMF Specification Language <>` defines formal structures for describing the organization of complex data using basic concepts, e.g., Groups, Datasets, Attributes, and Links. The HDMF specification language is defined by the :hdmf-docs:`Hierarchical Data Modeling Framework (HDMF) <>`. The :nwb-schema-language-docs:`NWB Specification Language <>` then is a derivative of the :hdmf-specification-language:`HDMF Specification Language <>` with minor modifications for NWB (e.g., to use the term `neurodata_type`). :bdg-link-primary:`Source <https://github.com/hdmf-dev/hdmf-schema-language>` :bdg-link-primary:`Docs <https://hdmf-schema-language.readthedocs.io>`.
+
 
 .. image:: figures/nwbschema_logo_framed.png
     :class: align-left, no-scaled-link
     :width: 100
 
-The NWB data standard is governed by the :nwb-schema-docs:`NWB Format Specification <>` (a.k.a., the NWB Schema).  When creating new extensions we typically build on and reuse existing *neurodata_types* already available in NWB. The :nwb-schema-docs:`NWB Format Specification <>` provides a reference definition for all types available in NWB. The NWB schema itself builds on the :hdmf-common-schema-docs:`HDMF Common Schema <>`. :bdg-link-primary:`Docs <https://nwb-schema.readthedocs.io/en/latest/>` :bdg-link-primary:`Source <https://github.com/NeurodataWithoutBorders/nwb-schema>`
+The NWB data standard is governed by the :nwb-schema-docs:`NWB Format Specification <>` (a.k.a., the NWB Schema) described using the :nwb-schema-language-docs:`NWB Specification Language <>`.  When creating new extensions we typically build on and reuse existing *neurodata_types* already available in NWB. The :nwb-schema-docs:`NWB Format Specification <>` provides a reference definition for all types available in NWB. The NWB schema itself builds on the :hdmf-common-schema-docs:`HDMF Common Schema <>`. :bdg-link-primary:`Docs <https://nwb-schema.readthedocs.io/en/latest/>` :bdg-link-primary:`Source <https://github.com/NeurodataWithoutBorders/nwb-schema>`
 
 
 .. image:: figures/hdmf_common_schema_logo_framed.png

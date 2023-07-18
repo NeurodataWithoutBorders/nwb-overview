@@ -329,6 +329,10 @@ Data Archive, Publication, and Management
         :start-after: .. short_description_start
         :end-before: .. short_description_end
 
+.. raw:: html
+
+    <br/>
+
 .. note::
 
         **Disclaimer:** Reference herein to any specific product, process, or service

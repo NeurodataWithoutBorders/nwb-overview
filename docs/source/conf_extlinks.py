@@ -50,6 +50,7 @@ extlinks = {
     'datajoint-elements': ('https://www.datajoint.com/elements/%s', '%s'),
     'openscope-databook': ('https://alleninstitute.github.io/openscope_databook/%s', '%s'),
     'openscope-project': ('https://alleninstitute.org/what-we-do/brain-science/research/mindscope-program/openscope/%s', '%s'),
+    'ibl-website': ('https://www.internationalbrainlab.com/%s', '%s'),
     'mindscope-program': ('https://alleninstitute.org/what-we-do/brain-science/research/mindscope-program/%s', '%s'),
     'jupyter-book': ('https://jupyterbook.org/en/stable/%s', '%s'),
 }

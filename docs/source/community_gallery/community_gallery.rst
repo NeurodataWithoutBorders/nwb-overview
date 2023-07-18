@@ -49,6 +49,22 @@ Data Analysis and Reuse
 
 The :openscope-databook:`OpenScope Databook <>` provides scripts and documentation used for brain data analysis and visualization, primarily working with NWB files and the :ref:`analysistools-dandi` archive. Through :jupyter-book:`Jupyter Book <>`, this code is structured as a series of notebooks intended to explain and educate users on how to work with brain data. This resource is provided by the Allen Institute’s :openscope-project:`OpenScope Project <>`, an endeavor of The Allen Institute :mindscope-program:`Mindscope Program <>`. OpenScope is a platform for high-throughput and reproducible neurophysiology open to external scientists to test theories of brain function.
 
+.. raw:: html
+
+    <br/>
+
+.. image:: figures/ibl_brainmap.png
+    :class: align-left, no-scaled-link
+    :width: 100
+
+
+The :ibl-website:`International Brain Laboratory (IBL) <>` released a Brainwide Map of neural activity during decision-making, consisting of 547 Neuropixel recordings of 32,784 neurons across 194 regions of the mouse brain. At Cosyne 2023, the IBL team presented an `Introduction to IBL and the Brain-wide map dataset <https://colab.research.google.com/drive/1Ua-NlpYYZCIOF56xbsT9YR71Enkotd-b#scrollTo=7XzVVlhsVHMK>`_ and tutorials on `Using IBL data with NWB <https://colab.research.google.com/drive/1zr6lP_zzRgPZuHs3nB5oGnFtPKrduQ3L>`_  and `Using IBL data with ONE <https://colab.research.google.com/drive/1y3sRI1wC7qbWqN6skvulzPOp6xw8tLm7#scrollTo=GSvi21Dn84wJ>`_.
+
+
+.. raw:: html
+
+    <br/>
+
 
 .. note::
 

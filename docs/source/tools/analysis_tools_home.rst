@@ -22,11 +22,9 @@ Analysis and Visualization Tools
     ciatah/ciatah
     extract/extract
     cicada/cicada
-    mies/mies
     patchview/patchview
     deeplabcut/deeplabcut
     sleap/sleap
-    visiomode/visiomode
     pynapple/pynapple
     dandi/dandi
 
@@ -250,15 +248,6 @@ Optical Physiology Tools
 Intracellular Electrical Physiology Tools
 -----------------------------------------
 
-.. image:: mies/mies_screenshot.png
-    :class: align-left
-    :width: 180
-
-.. include::  mies/mies.rst
-        :start-after: .. short_description_start
-        :end-before: .. short_description_end
-
-
 .. image:: patchview/patchview.png
     :class: align-left
     :width: 180
@@ -301,19 +290,6 @@ Behavior
         :start-after: .. short_description_start
         :end-before: .. short_description_end
 
-.. raw:: html
-
-    <br />
-    <br />
-    <br />
-
-.. image:: visiomode/visiomode_logo.png
-    :class: align-left
-    :width: 180
-
-.. include::  visiomode/visiomode.rst
-        :start-after: .. short_description_start
-        :end-before: .. short_description_end
 
 .. raw:: html
 

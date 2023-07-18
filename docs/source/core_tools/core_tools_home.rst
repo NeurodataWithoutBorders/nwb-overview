@@ -158,7 +158,7 @@ The :hdmf-docutils-docs:`HDMF Documentation Utilities (hdmf-docuils) <>` provide
     :width: 100
 
 
-The :hdmf-specification-language:`HDMF Specification Language` defines formal structures for describing the organization of complex data using basic concepts, e.g., Groups, Datasets, Attributes, and Links. The HDMF specification language is defined by the :hdmf-docs:`Hierarchical Data Modeling Framework (HDMF) <>`. The :nwb-schema-language-docs:`NWB Specification Language <>` then is a derivative of the :hdmf-specification-language:`HDMF Specification Language` with minor modifications for NWB (e.g., to use the term `neurodata_type`). :bdg-link-primary:`Source <https://github.com/hdmf-dev/hdmf-schema-language>` :bdg-link-primary:`Docs <https://hdmf-schema-language.readthedocs.io>`.
+The :hdmf-specification-language:`HDMF Specification Language <>` defines formal structures for describing the organization of complex data using basic concepts, e.g., Groups, Datasets, Attributes, and Links. The HDMF specification language is defined by the :hdmf-docs:`Hierarchical Data Modeling Framework (HDMF) <>`. The :nwb-schema-language-docs:`NWB Specification Language <>` then is a derivative of the :hdmf-specification-language:`HDMF Specification Language <>` with minor modifications for NWB (e.g., to use the term `neurodata_type`). :bdg-link-primary:`Source <https://github.com/hdmf-dev/hdmf-schema-language>` :bdg-link-primary:`Docs <https://hdmf-schema-language.readthedocs.io>`.
 
 
 .. image:: figures/nwbschema_logo_framed.png

@@ -59,12 +59,25 @@ to NWB.
 .. raw:: html
 
     <br/>
+    <br/>
+    <br/>
+
+.. image:: figures/guide_logo_framed.png
+    :class: align-left, no-scaled-link
+    :width: 100
+
+The :nwb-guide-src:`NWB GUIDE <>` is a desktop app that provides a no-code **G**\ raphical **U**\ ser **I**\ nterface for **D**\ ata **E**\ ntry for converting neurophysiology data to NWB using :neuroconv-docs:`NeuroConv <>`. **Note:** NWB GUIDE is in pre-release status and under active development. :bdg-link-primary:`Source <https://github.com/NeurodataWithoutBorders/nwb-guide>`
+
+
+.. raw:: html
+
+    <br/>
 
 ---------------------
 
 .. raw:: html
 
-    <br/
+    <br/>
 
 :octicon:`code-review;1.5em` Validating NWB Files
 -------------------------------------------------

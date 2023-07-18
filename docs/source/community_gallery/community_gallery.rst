@@ -38,6 +38,10 @@ Data Analysis and Reuse
 
 :ref:`analysistools-dandi` (Distributed Archives for Neurophysiology Data Integration) maintains a `collection of example notebooks <https://github.com/dandi/example-notebooks>`_ associated with datasets, conference tools, or more generally notebooks that illustrate the use of data on DANDI. :bdg-link-primary:`Source <https://github.com/dandi/example-notebooks>`
 
+.. raw:: html
+
+    <br/>
+    
 In addition, the neuroscience community is creating examples demonstrating the reuse of NWB data published on DANDI. For example:
 
        * The `INCF working group on NWB <https://www.incf.org/sig/incf-working-group-nwb>`_ has created a `library of MATLAB examples <https://github.com/INCF/example-live-scripts>`_ using DANDI datasets authored as MATLAB live scripts. :bdg-link-primary:`Source <https://github.com/INCF/example-live-scripts>`

@@ -101,6 +101,7 @@ To contribute a new project to the community gallery, please create a pull reque
 
     * Figure should be added to the folder ``docs/source/community_gallery/figures``
     * If you design the figure in PowerPoint then please add the source slide to the ``docs/source/community_gallery/figures/figure_icons_source.pptx`` file
+    * External links are typically defined as roles in the ``docs/source/conf_extlinks.py``
 
 **Step 2:** Build the docs and and review your changes via
 

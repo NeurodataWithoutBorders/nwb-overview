@@ -51,6 +51,7 @@ Exploring NWB Files
 
     <br/>
     <br/>
+    <br/>
 
 .. image:: neurosift/neurosift-logo.png
     :class: align-left
@@ -58,8 +59,6 @@ Exploring NWB Files
 
 .. raw:: html
 
-    <br/>
-    <br/>
     <br/>
 
 

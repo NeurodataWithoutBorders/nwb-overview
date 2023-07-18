@@ -22,6 +22,7 @@ Analysis and Visualization Tools
     ciatah/ciatah
     extract/extract
     cicada/cicada
+    optinist/optinist
     patchview/patchview
     deeplabcut/deeplabcut
     sleap/sleap
@@ -235,6 +236,21 @@ Optical Physiology Tools
         :end-before: .. short_description_end
 
 
+
+.. raw:: html
+
+    <br />
+    <hr>
+    <br />
+
+
+.. image:: optinist/optinist.png
+    :class: align-left
+    :width: 180
+
+.. include::  optinist/optinist.rst
+        :start-after: .. short_description_start
+        :end-before: .. short_description_end
 
 .. raw:: html
 

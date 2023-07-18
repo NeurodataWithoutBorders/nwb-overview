@@ -46,9 +46,11 @@ To contribute a new tool to the list of analysis, visualization and data managem
 
 **Step 4:** You may add additional sections as appropriate to the page, e.g., to describe tool features, usage, or installation. In particular, also consider adding a section on ``Compatability with NWB`` to describe how your tools integrate with NWB (e.g., does your tool support read/write/update of specific neurodata_types in NWB and does your tool require any extensions).
 
-**Step 5:** In ``docs/source/tools/tools_home.rst`` Add your tool to the toctree at the top of the page to ensure the tool gets listed in the main menu
+**Step 5:** Add your tool to the tools index page. For analysis and visualization, edit  ``docs/source/tools/analysis_tools_home.rst`` and for data acquistion and control tools edit ``docs/source/tools/acquisition_tools_home.rst``
 
-**Step 6:** In the section that best fits your tool on ``docs/source/tools/tools_home.rst`` add the following and again update the ``<my*>`` marked parts.
+**Step 5.1:** Add your tool to the toctree at the top of the page tools index page to ensure the tool gets listed in the main menu
+
+**Step 5.2:** In the section that best fits your tool on the tools index page add the following and again update the ``<my*>`` marked parts.
 
 .. code-block::
 
@@ -79,7 +81,7 @@ With ``.. include`` directive with the ``start-after`` and ``end-before`` parame
 
 
 
-**Step 7:** Build the docs and and review your changes via
+**Step 6a:** Build the docs and and review your changes via
 
 .. code-block::
 

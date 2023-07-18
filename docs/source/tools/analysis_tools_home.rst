@@ -255,6 +255,7 @@ Optical Physiology Tools
 .. raw:: html
 
     <br />
+    <br/>
     <hr>
     <br />
 

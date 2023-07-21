@@ -13,8 +13,8 @@ automated tools for converting formats.
     :maxdepth: 2
 
     01_core_nwb
-    02_nwb_apis
-    03_format_conversions
+    02_format_conversions
+    03_nwb_apis
     04_using_extensions
     05_validation
     06_dandi

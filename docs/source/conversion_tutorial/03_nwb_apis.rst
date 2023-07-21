@@ -1,4 +1,4 @@
-2. NWB APIs: PyNWB & MatNWB
+3. NWB APIs: PyNWB & MatNWB
 ===========================
 
 The NWB team develops and supports APIs in Python

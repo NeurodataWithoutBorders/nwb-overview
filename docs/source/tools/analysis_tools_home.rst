@@ -330,6 +330,20 @@ Data Analysis Toolbox
 .. raw:: html
 
     <br />
+    <br />
+    <br />
+
+.. image:: spyglass/Spyglass.png
+    :class: align-left
+    :width: 180
+
+.. include::  spyglass/spyglass.rst
+        :start-after: .. short_description_start
+        :end-before: .. short_description_end
+
+.. raw:: html
+
+    <br />
     <hr>
     <br />
 

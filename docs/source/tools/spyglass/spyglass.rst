@@ -9,7 +9,7 @@ Spyglass
 :bdg-link-primary:`Docs <https://lorenfranklab.github.io/spyglass/0.4/>`
 :bdg-link-primary:`Source <https://github.com/LorenFrankLab/spyglass>`.
 
-.. short_description_endß
+.. short_description_end
 
 .. image:: Spyglass.png
     :class: align-center

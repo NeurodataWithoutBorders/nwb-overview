@@ -27,6 +27,7 @@ Analysis and Visualization Tools
     deeplabcut/deeplabcut
     sleap/sleap
     pynapple/pynapple
+    spyglass/spyglass
     dandi/dandi
 
 

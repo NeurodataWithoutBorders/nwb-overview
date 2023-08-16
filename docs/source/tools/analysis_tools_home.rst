@@ -29,6 +29,7 @@ Analysis and Visualization Tools
     pynapple/pynapple
     spyglass/spyglass
     dandi/dandi
+    datajoint/datajoint
 
 
 This page is a collection of tools we are cataloging as a convenience reference for NWB users. This is not a comprehensive list of NWB tools. Many of these tools are built and supported by other groups, and are in active development. If you would like to contribute a tool, please see the instructions :nwb-overview-src:`here <>`.
@@ -358,6 +359,18 @@ Data Archive, Publication, and Management
     :width: 180
 
 .. include::  dandi/dandi.rst
+        :start-after: .. short_description_start
+        :end-before: .. short_description_end
+
+.. raw:: html
+
+    <br/>
+
+.. image:: datajoint/datajoint-site-logo.png
+    :class: align-left
+    :width: 180
+
+.. include::  datajoint/datajoint.rst
         :start-after: .. short_description_start
         :end-before: .. short_description_end
 

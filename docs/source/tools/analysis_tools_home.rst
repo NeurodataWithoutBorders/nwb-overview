@@ -27,6 +27,7 @@ Analysis and Visualization Tools
     deeplabcut/deeplabcut
     sleap/sleap
     pynapple/pynapple
+    spyglass/spyglass
     dandi/dandi
     datajoint/datajoint
 
@@ -325,6 +326,20 @@ Data Analysis Toolbox
     :width: 180
 
 .. include::  pynapple/pynapple.rst
+        :start-after: .. short_description_start
+        :end-before: .. short_description_end
+
+.. raw:: html
+
+    <br />
+    <br />
+    <br />
+
+.. image:: spyglass/Spyglass.png
+    :class: align-left
+    :width: 180
+
+.. include::  spyglass/spyglass.rst
         :start-after: .. short_description_start
         :end-before: .. short_description_end
 

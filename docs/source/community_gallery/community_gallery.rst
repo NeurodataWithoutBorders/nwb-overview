@@ -26,6 +26,21 @@ The Bristol Neuroscience Data Guide includes tutorials for converting data to NW
 .. raw:: html
 
     <br/>
+    <hr>
+
+The DataJoint-NWB Showcase showcases a collection of published datasets with matching DataJoint pipelines and NWB 2.0 export capability. Each showcase comprises the following:
+
+* Basic project summary
+* The DataJoint pipeline to ingest the data
+* Notebook demonstration of working with the data pipeline to query, extract data and recreate some representative figures
+* Scripts to export the data from the DataJoint pipeline into NWB 2.0 files.
+
+:bdg-link-primary:`GitHub <https://github.com/datajoint-company/DataJoint-NWB-showcase>`
+
+
+.. raw:: html
+
+    <br/>
 
 
 Data Analysis and Reuse

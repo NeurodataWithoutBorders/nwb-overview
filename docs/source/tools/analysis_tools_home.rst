@@ -23,6 +23,7 @@ Analysis and Visualization Tools
     extract/extract
     cicada/cicada
     optinist/optinist
+    graft/graft
     patchview/patchview
     deeplabcut/deeplabcut
     sleap/sleap
@@ -261,6 +262,10 @@ Optical Physiology Tools
     <br/>
     <hr>
     <br />
+
+.. include::  graft/graft.rst
+        :start-after: .. short_description_start
+        :end-before: .. short_description_end
 
 .. _analysistools-icephys:
 

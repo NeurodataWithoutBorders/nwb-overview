@@ -1,7 +1,7 @@
 .. _analysistools-dandi:
 
 DANDI
-------
+-----
 
 .. short_description_start
 

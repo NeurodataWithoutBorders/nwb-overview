@@ -8,6 +8,7 @@ sys.path.append(os.path.dirname(__file__))
 # Import the definition of external links
 from conf_extlinks import extlinks
 from conf_extlinks import intersphinx_mapping
+from conf_nwb_analytics import build_project_analytics
 import sphinx_rtd_theme
 
 
@@ -71,3 +72,6 @@ html_theme_options = {
     'includehidden': True,
     'titles_only': False
 }
+
+# -- Build the nwb project analytics in the current directory
+build_project_analytics(target_dir=os.path.dirname(__file__))

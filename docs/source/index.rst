@@ -41,6 +41,7 @@ for each of those tasks and point you to the best tools to use for your preferre
     :caption: For Developers
 
     nwb_source_codes
+    nwb-project-analytics/docs/source/index.rst
 
 
 .. Indices and tables

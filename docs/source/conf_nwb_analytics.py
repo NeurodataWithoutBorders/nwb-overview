@@ -18,6 +18,8 @@ def build_project_analytics(target_dir=None):
         repo_url = "https://github.com/NeurodataWithoutBorders/nwb-project-analytics.git"
         clone_command = f"git clone {repo_url} {target_dir}"
         os.system(clone_command)
+        # remove the readme.rst file to avoid Sphinx warnings and possible unrelated linkcheck errors
+        os.remove(os.path.join(target_dir, "README.rst"))
     else:
         print(f"{target_dir} already checked out. Use 'make clean' to do a full rebuild.")
 

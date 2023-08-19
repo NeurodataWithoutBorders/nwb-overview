@@ -156,4 +156,7 @@ cython_debug/
 # PyCharm
 .idea/
 
+# Custom data checkouts as part of the docs build
+docs/source/nwb-project-analytics/
+
 # End of https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks

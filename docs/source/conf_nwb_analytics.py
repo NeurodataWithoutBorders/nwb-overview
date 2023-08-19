@@ -1,9 +1,8 @@
 """
 Configure and build the nwb project analytics sources
 """
-
-import sys
 import os
+
 
 def build_project_analytics(target_dir=None):
     """
@@ -15,13 +14,12 @@ def build_project_analytics(target_dir=None):
     """
     # Clone the project analytics repo
     target_dir = os.path.join(os.path.dirname(__file__), "nwb-project-analytics")
-    #if os.path.exists(target_dir):
-    #    import shutil
-    #    shutil.rmtree(target_dir)
     if not os.path.exists(target_dir):
         repo_url = "https://github.com/NeurodataWithoutBorders/nwb-project-analytics.git"
         clone_command = f"git clone {repo_url} {target_dir}"
         os.system(clone_command)
+    else:
+        print(f"{target_dir} already checked out. Use 'make clean' to do a full rebuild.")
 
     # Build the project analytics docs (assuming all dependencies are installed)
     docs_dir = os.path.join(target_dir, "docs")

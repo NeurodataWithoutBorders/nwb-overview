@@ -25,7 +25,6 @@ formats: all
 python:
   install:
     - requirements: requirements.txt
-    - requirements: requirements_nwb_analytics.txt
 
 # Optionally include all submodules
 submodules:

@@ -165,3 +165,9 @@ Once the mapping is defined, we can refer to specific types much like we would r
     }
 
 With this we can now easly link to elements in those packages. E.g., to links to the docs of ``pandas.DataFrame`` we would write ``:py:class:`~pandas.DataFrame``` in the docs. Similarly, to link to ``NWBFile`` in ``PyNWB`` we would write ``:py:class:`~pynwb.file.NWBFile``` in the docs. When including the ``~`` we tell Sphinx to ignore the package when rendering in the text, i.e., ``:py:class:`~pynwb.file.NWBFile``` (with ``~``) will render as ``NWBFile`` in the docs, whereas ``:py:class:`pynwb.file.NWBFile``` (without ``~``) will render as the full name ``pynwb.file.NWBFile``.
+
+
+NWB Software Analytics
+======================
+
+Software analytics are being managed via the :ref:`NWB Project Analytics <https://github.com/NeurodataWithoutBorders/nwb-project-analytics>`. This page checks out and renders the `nwb_project_analytics` automatically as part of the sphinx build process. The code statistics are being updated nightly via GitHub Actions on the `nwb_project_analytics` repository and are cached in the `data` folder of that repo. The rst sources and figures are then being generated automatically during the sphinx build.

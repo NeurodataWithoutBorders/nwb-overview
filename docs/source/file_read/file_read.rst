@@ -8,7 +8,7 @@ This section provides an introduction on how to read NWB files in Python using P
 Reading With PyNWB
 ~~~~~~~~~~~~~~~~~~
 
-* See the PyNWB tutorial on :pynwb-docs:`Reading and Exploring an NWB File  <tutorials/general/read_basics.html>`
+* See the PyNWB tutorial on :pynwb-docs:`Reading and Exploring an NWB File  <tutorials/general/plot_read_basics.html>`
   for an introduction to how to read, explore, and do basic visualizations with an NWB file in Python.
 * The :pynwb-docs:`Query Intracellular Electrophysiology Metadata <tutorials/domain/plot_icephys_pandas.html>`
   PyNWB tutorial then focuses specifically on how to read and query metadata related to intracellular

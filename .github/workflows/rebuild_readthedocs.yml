@@ -1,0 +1,18 @@
+name: Rebuild ReadTheDocs
+on:
+  schedule:
+    - cron: '0 5 * * 0'  # every Sunday at 05:00 UTC (midnight EST)
+  push:
+  workflow_dispatch:
+
+jobs:
+  rebuild-readthedocs:
+    name: Trigger build of latest version
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send POST request
+        # this uses Ryan's RTD API token
+        run: |
+          curl \
+          -X POST \
+          -H "Authorization: Token <${{ secrets.RTD_TOKEN }}>" https://readthedocs.org/api/v3/projects/nwb-overview/versions/latest/builds/

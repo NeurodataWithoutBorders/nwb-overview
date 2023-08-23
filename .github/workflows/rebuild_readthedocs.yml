@@ -1,0 +1,23 @@
+name: Rebuild ReadTheDocs
+on:
+  schedule:
+    - cron: '0 5 * * 0'  # every Sunday at 05:00 UTC (midnight EST)
+  push:
+  workflow_dispatch:
+
+jobs:
+  rebuild-readthedocs:
+    name: Trigger build of latest version
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send POST request
+        # this uses Ryan's RTD API token
+        run: |
+          curl_output=$(curl -w "%{http_code}\\n" -s -X POST \
+            -H "Authorization: Token ${{ secrets.RTD_TOKEN }}" \
+            https://readthedocs.org/api/v3/projects/nwb-overview/versions/latest/builds/ \
+            -o /dev/null)
+          echo $curl_output
+
+          # return exit code 1 if returned http code is not 202
+          [ "$curl_output" = "202" ]

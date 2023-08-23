@@ -20,4 +20,4 @@ jobs:
           echo $curl_output
 
           # return exit code 1 if returned http code is not 202
-          [ "$curl_output" != "202" ]
+          [ "$curl_output" = "202" ]

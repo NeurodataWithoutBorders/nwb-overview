@@ -15,4 +15,4 @@ jobs:
         run: |
           curl \
           -X POST \
-          -H "Authorization: Token <${{ secrets.RTD_TOKEN }}>" https://readthedocs.org/api/v3/projects/nwb-overview/versions/latest/builds/
+          -H "Authorization: Token ${{ secrets.RTD_TOKEN }}" https://readthedocs.org/api/v3/projects/nwb-overview/versions/latest/builds/

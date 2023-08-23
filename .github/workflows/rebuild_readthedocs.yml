@@ -17,6 +17,7 @@ jobs:
             -H "Authorization: Token ${{ secrets.RTD_TOKEN }}" \
             https://readthedocs.org/api/v3/projects/nwb-overview/versions/latest/builds/ \
             -o /dev/null)
+          echo $curl_output
 
           # return exit code 1 if returned http code is not 202
           [ "$curl_output" != "202" ]

@@ -13,6 +13,10 @@ jobs:
       - name: Send POST request
         # this uses Ryan's RTD API token
         run: |
-          curl \
-          -X POST \
-          -H "Authorization: Token ${{ secrets.RTD_TOKEN }}" https://readthedocs.org/api/v3/projects/nwb-overview/versions/latest/builds/
+          curl_output=$(curl -w "%{http_code}\\n" -s -X POST \
+            -H "Authorization: Token ${{ secrets.RTD_TOKEN }}" \
+            https://readthedocs.org/api/v3/projects/nwb-overview/versions/latest/builds/ \
+            -o /dev/null)
+
+          # return exit code 1 if returned http code is not 202
+          [ "$curl_output" != "202" ] ||

@@ -41,7 +41,7 @@ This page is a collection of tools we are cataloging as a convenience reference 
 Exploring NWB Files
 -------------------
 
-.. image:: nwbwidgets/nwbwidgets_icon.png
+.. image:: nwbwidgets/nwbwidgets_logo.png
     :class: align-left
     :width: 180
 

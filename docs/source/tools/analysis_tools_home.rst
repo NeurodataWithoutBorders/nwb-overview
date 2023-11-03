@@ -27,6 +27,7 @@ Analysis and Visualization Tools
     patchview/patchview
     deeplabcut/deeplabcut
     sleap/sleap
+    cebra/cebra
     pynapple/pynapple
     spyglass/spyglass
     dandi/dandi
@@ -325,6 +326,19 @@ Behavior
 
 Data Analysis Toolbox
 ----------------------
+
+.. image:: cebra/cebra.png
+    :class: align-left
+    :width: 180
+
+.. include::  cebra/cebra.rst
+        :start-after: .. short_description_start
+        :end-before: .. short_description_end
+
+.. raw:: html
+
+    <br />
+    <br />
 
 .. image:: pynapple/logo2.png
     :class: align-left

@@ -13,6 +13,10 @@ of this framework by tracking various body parts in multiple species across a
 broad collection of behaviors.
 :bdg-link-primary:`Documentation <http://www.mackenziemathislab.org/deeplabcut>`
 
+.. image:: https://img.shields.io/github/stars/DeepLabCut/DeepLabCut?style=social
+    :alt: GitHub Repo stars for DeepLabCut
+    :target: https://github.com/DeepLabCut/DeepLabCut
+
 .. short_description_end
 
 

@@ -1,7 +1,7 @@
 .. _analysistools-sleap:
 
 SLEAP
-----------
+-----
 
 .. short_description_start
 
@@ -10,6 +10,10 @@ framework for multi-animal pose tracking. It can be used to track any type or
 number of animals and includes an advanced labeling/training GUI for active 
 learning and proofreading.
 :bdg-link-primary:`Documentation <https://sleap.ai>`
+
+.. image:: https://img.shields.io/github/stars/talmolab/sleap?style=social
+    :alt: GitHub Repo stars for SLEAP
+    :target: https://github.com/talmolab/sleap
 
 .. short_description_end
 

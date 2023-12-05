@@ -10,4 +10,8 @@ GraFT
 :bdg-link-primary:`NWB tutorials  <https://github.com/adamshch/GraFT-analysis/tree/main/code/nwb_tutorials>`
 :bdg-link-primary:`Cite  <https://pubmed.ncbi.nlm.nih.gov/35533160/>`
 
+.. image:: https://img.shields.io/github/stars/adamshch/GraFT-analysis?style=social
+    :alt: GitHub Repo stars for GraFT
+    :target: https://github.com/adamshch/GraFT-analysis
+
 .. short_description_end

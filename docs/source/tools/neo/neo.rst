@@ -17,6 +17,9 @@ or visualization. :bdg-link-primary:`Docs <https://neo.readthedocs.io/en/stable/
 :bdg-link-primary:`Website <https://neuralensemble.org/neo/>`
 :bdg-link-primary:`Source <https://github.com/NeuralEnsemble/python-neo>`.
 
+.. image:: https://img.shields.io/github/stars/NeuralEnsemble/python-neo?style=social
+    :alt: GitHub Repo stars for NEO
+    :target: https://github.com/NeuralEnsemble/python-neo
 
 .. short_description_end
 

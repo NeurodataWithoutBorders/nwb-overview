@@ -13,8 +13,12 @@ Brain Modeling Toolkit (BMTK)
 
 .. short_description_end
 
+
 .. image:: bmtk_levels_of_resolution_sm.png
     :class: align-left
-    :width: 400
+    :width: 800
 
-**Cite** Dai et al. Brain Modeling Toolkit: An open-source software suite for multiscale modeling of brain circuits. PLoS Comput Biol 16(11): e1008386. https://doi.org/10.1371/journal.pcbi.1008386
+
+**Reference:**
+
+Dai et al. Brain Modeling Toolkit: An open-source software suite for multiscale modeling of brain circuits. PLoS Comput Biol 16(11): e1008386. https://doi.org/10.1371/journal.pcbi.1008386

@@ -100,7 +100,6 @@ Exploring NWB Files
 
     <br/>
     <br/>
-    <br/>
 
 .. image:: hdftools/jupyterlab_h5web_nwb_example.png
     :class: align-left

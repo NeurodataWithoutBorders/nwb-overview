@@ -74,7 +74,7 @@ html_theme_options = {
 
 # these links cannot be checked in github actions
 linkcheck_ignore = [
-    " https://crates.io/crates/nwbview",
+    "https://crates.io/crates/nwbview",
 ]
 
 # -- Build the nwb project analytics in the current directory

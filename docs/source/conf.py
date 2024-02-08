@@ -72,5 +72,10 @@ html_theme_options = {
     'titles_only': False
 }
 
+# these links cannot be checked in github actions
+linkcheck_ignore = [
+    " https://crates.io/crates/nwbview",
+]
+
 # -- Build the nwb project analytics in the current directory
 build_project_analytics(target_dir=os.path.dirname(__file__))

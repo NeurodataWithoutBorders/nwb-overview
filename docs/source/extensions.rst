@@ -39,6 +39,9 @@ community. Here is a list of NEPs that have been started:
 | NEP002 | Probe devices and channel mapping in extracellular ephys | Alessio Buccino | [google doc](https://docs.google.com/document/d/1q-haFEEHEgZpRoCzzQsuSWCKN4QfMsTzLnlptLaf-yw/edit?usp=sharing) |
 +--------+----------------------------------------------------------+-----------------+----------------------------------------------------------------------------------------------------------------+
 
+To add a new NEP to this list, please file an issue on the :nwb-overview-src:`NWB Overview GitHub repo <>`
+or create a pull request that modifies the table.
+
 Review of NEPs for acceptance to the NWB core data standard is led by the 
 :nwb-tab:`NWB Technical Advisory Board (TAB) <>`
 and involves several phases. To submit a NEP for review and explore previous NEP reviews, see the 

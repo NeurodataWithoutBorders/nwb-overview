@@ -32,12 +32,22 @@ through NWB Enhancement Proposals (NEPs).
 NEPs are often collaborative and led by members of the community to address a significant need by the 
 community. Here is a list of NEPs that have been started:
 
-+--------+----------------------------------------------------------+-----------------+----------------------------------------------------------------------------------------------------------------+
-| NEP    | Title                                                    | Lead            | URLs                                                                                                           |
-+========+==========================================================+=================+================================================================================================================+
-| NEP001 | Events and TTL Data                                      | Ryan Ly         | [google doc](https://docs.google.com/document/d/1qcsjyFVX9oI_746RdMoDdmQPu940s0YtDjb1en1Xtdw/edit?usp=sharing) |
-| NEP002 | Probe devices and channel mapping in extracellular ephys | Alessio Buccino | [google doc](https://docs.google.com/document/d/1q-haFEEHEgZpRoCzzQsuSWCKN4QfMsTzLnlptLaf-yw/edit?usp=sharing) |
-+--------+----------------------------------------------------------+-----------------+----------------------------------------------------------------------------------------------------------------+
+.. list-table:: NEPs
+   :widths: 15 45 25 15
+   :header-rows: 1
+
+   * - NEP
+     - Title
+     - Lead
+     - URLs
+   * - NEP001
+     - Events and TTL Data
+     - Ryan Ly
+     - `Google Doc <https://docs.google.com/document/d/1qcsjyFVX9oI_746RdMoDdmQPu940s0YtDjb1en1Xtdw/edit?usp=sharing>`_
+   * - NEP002
+     - Probe devices and channel mapping in extracellular ephys
+     - Alessio Buccino
+     - `Google Doc <https://docs.google.com/document/d/1q-haFEEHEgZpRoCzzQsuSWCKN4QfMsTzLnlptLaf-yw/edit?usp=sharing>`_
 
 To add a new NEP to this list, please file an issue on the :nwb-overview-src:`NWB Overview GitHub repo <>`
 or create a pull request that modifies the table.

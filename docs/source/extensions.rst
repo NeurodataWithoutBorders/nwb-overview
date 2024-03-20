@@ -14,6 +14,7 @@ make sure that someone has not already created an extension that suits your need
 or that you could build off of.
 
 Policies on Community-driven Development and Integration of New Neuroscience Technologies with NWB
+--------------------------------------------------------------------------------------------------
 
 - `Sharing Guidelines: requirements and strategy for sharing format extensions for NWB <https://docs.google.com/document/d/e/2PACX-1vRxbT-EEAyYbQL3P0TREpySJkMhV7ea2-aRO75_s4PhqzxnJa9p-s0SzVWrlkzEBaTw82bgzZBtxEuj/pub>`_
 - `Sharing Strategies: standard practices and strategies for sharing format extensions for NWB <https://docs.google.com/document/d/e/2PACX-1vSpLLPQV2XlfT-Qnpi_aqLPJzRjCko6Ur0U5COCEAQg5uLIN0h5vej5EPtsf6UNx1qiAIKXPiIveSWo/pub>`_

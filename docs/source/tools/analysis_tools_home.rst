@@ -18,6 +18,7 @@ Analysis and Visualization Tools
     cellexplorer/cellexplorer
     ecogvis/ecogvis
     neo/neo
+    eeglab/eeglab
     caiman/caiman
     suite2p/suite2p
     ciatah/ciatah
@@ -180,6 +181,20 @@ Extracellular Electrophysiology Tools
     <hr>
     <br />
 
+.. image:: eeglab/400px-Eeglab_small.jpg
+    :class: align-left
+    :width: 180
+
+.. include::  eeglab/eeglab.rst
+        :start-after: .. short_description_start
+        :end-before: .. short_description_end
+
+
+.. raw:: html
+
+    <br />
+    <hr>
+    <br />
 
 .. _analysistools-ophys:
 

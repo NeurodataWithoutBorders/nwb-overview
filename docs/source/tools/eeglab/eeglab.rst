@@ -13,6 +13,6 @@ EEGLAB
 
 .. short_description_end
 
-.. image:: eeglab_screenshot.png
+.. image:: 400px-Eeglab_small.jpg
     :class: align-left
     :width: 400

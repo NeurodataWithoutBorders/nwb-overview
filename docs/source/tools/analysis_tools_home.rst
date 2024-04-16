@@ -178,7 +178,6 @@ Extracellular Electrophysiology Tools
 .. raw:: html
 
     <br />
-    <hr>
     <br />
 
 .. image:: eeglab/400px-Eeglab_small.jpg

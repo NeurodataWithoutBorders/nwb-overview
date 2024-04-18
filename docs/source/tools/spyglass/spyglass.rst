@@ -9,6 +9,10 @@ Spyglass
 :bdg-link-primary:`Docs <https://lorenfranklab.github.io/spyglass/>`
 :bdg-link-primary:`Source <https://github.com/LorenFrankLab/spyglass>`.
 
+.. image:: https://img.shields.io/github/stars/LorenFrankLab/spyglass?style=social
+    :alt: GitHub Repo stars for Spyglass
+    :target: https://github.com/LorenFrankLab/spyglass
+
 .. short_description_end
 
 .. image:: Spyglass.png

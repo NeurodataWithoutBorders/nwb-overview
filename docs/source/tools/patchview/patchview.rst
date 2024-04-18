@@ -10,6 +10,10 @@ PatchView
 :bdg-link-primary:`Source <https://github.com/ZeitgeberH/patchview>`
 :bdg-link-primary:`Publication <https://joss.theoj.org/papers/10.21105/joss.04706>`
 
+.. image:: https://img.shields.io/github/stars/ZeitgeberH/patchview?style=social
+    :alt: GitHub Repo stars for PatchView
+    :target: https://github.com/ZeitgeberH/patchview
+
 .. short_description_end
 
 .. image:: patchview.png

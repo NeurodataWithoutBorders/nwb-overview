@@ -8,6 +8,10 @@ Neurosift
 :ref:`analysistools-neurosift` provides interactive neuroscience visualizations in the browser. Neurosift caters to both individual users through its local mode, allowing the visualization of views directly from your device, as well as a remote access function for presenting your findings to other users on different machines.
 :bdg-link-primary:`Source <https://github.com/flatironinstitute/neurosift>`
 
+.. image:: https://img.shields.io/github/stars/flatironinstitute/neurosift?style=social
+    :alt: GitHub Repo stars for neurosift
+    :target: https://github.com/flatironinstitute/neurosift
+
 .. short_description_end
 
 With Neurosift, you have the ability to construct a multitude of synchronized visuals such as spike raster plots, audio spectrograms, videos, video annotations, position decode fields, timeseries graphs, and more.

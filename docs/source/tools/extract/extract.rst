@@ -13,6 +13,10 @@ performance.
 :bdg-link-primary:`NWB tutorials <https://github.com/schnitzer-lab/EXTRACT-public/tree/master/Learning%20materials/NWB%20Tutorials>`
 :bdg-link-primary:`Publication <https://www.biorxiv.org/content/10.1101/2021.03.24.436279v2>`
 
+.. image:: https://img.shields.io/github/stars/schnitzer-lab/EXTRACT-public?style=social
+    :alt: GitHub Repo stars for EXTRACT
+    :target: https://github.com/schnitzer-lab/EXTRACT-public
+
 .. short_description_end
 
 

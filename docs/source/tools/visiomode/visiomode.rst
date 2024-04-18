@@ -7,6 +7,10 @@ Visiomode
 
 :ref:`analysistools-visiomode` is an open-source platform for building touchscreen-based behavioral tasks for rodents. It leverages the inherent flexibility of touchscreens to offer a simple yet adaptable software and hardware platform. Visiomode is built on the Raspberry Pi computer combining a web-based interface and powerful plug-in system with an operant chamber that can be adapted to generate a wide range of behavioral tasks. :bdg-link-primary:`Docs <https://www.visiomode.org>` :bdg-link-primary:`Source <https://github.com/DuguidLab/visiomode>` :bdg-link-primary:`Publication <https://doi.org/10.1016/j.jneumeth.2022.109779>`
 
+.. image:: https://img.shields.io/github/stars/DuguidLab/visiomode?style=social
+    :alt: GitHub Repo stars for visiomode
+    :target: https://github.com/DuguidLab/visiomode
+
 .. short_description_end
 
 .. image:: visiomode_graphical_abstract.png

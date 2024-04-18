@@ -14,7 +14,7 @@ that can be useful for developers (e.g., *h5ls* and *h5dump* to introspect,
 While these tools do not provide NWB-specific functionality, they are useful
 (mainly for developers) to debug and browse NWB HDF5 files.
 :bdg-link-primary:`HDFView <https://www.hdfgroup.org/downloads/hdfview/>`
-:bdg-link-primary:`HDF5 CLI tools <https://portal.hdfgroup.org/display/HDF5/HDF5+Command-line+Tools>`
+:bdg-link-primary:`HDF5 CLI tools <https://docs.hdfgroup.org/hdf5/v1_14/_view_tools_command.html>`
 :bdg-link-primary:`vscode-h5web <https://marketplace.visualstudio.com/items?itemName=h5web.vscode-h5web>`
 :bdg-link-primary:`h5glance <https://github.com/European-XFEL/h5glance>`
 :bdg-link-primary:`jupyterlab-h5web <https://github.com/silx-kit/jupyterlab-h5web>`
@@ -64,33 +64,33 @@ HDF5 Command-line Tools
 """""""""""""""""""""""
 
 The HDF5 software distribution ships with a broad range of
-`HDF5 command-line utilities <https://portal.hdfgroup.org/display/HDF5/HDF5+Command-line+Tools>`_ that
+`HDF5 command-line utilities <https://docs.hdfgroup.org/hdf5/v1_14/_view_tools_command.html>`_ that
 cover a broad range of tasks useful for debugging and inspecting HDF5 files, for example:
 
 * **CLI tools for inspecting HDF5 files:**
 
-    * `h5ls <https://portal.hdfgroup.org/display/HDF5/h5ls>`_  lists selected information about file objects in the specified format
+    * ``h5ls``  lists selected information about file objects in the specified format
 
         .. tip::
 
             *h5ls* can also be used with remote files on S3 via ``h5ls --vfd=ros3 -r <s3path>`` or on Windows
             via ``h5ls --vfd=ros3 --s3-cred="(,,)" <s3path>``
 
-    * `h5dump <https://portal.hdfgroup.org/display/HDF5/h5dump>`_ enables the user to examine the contents of an HDF5 file and dump those contents to an ASCII file.
-    * `h5diff <https://portal.hdfgroup.org/display/HDF5/h5diff>`_ compares two HDF5 files and reports the differences. *h5diff* is for serial use while *ph5diff* is for use in parallel environments.
-    * `h5check <https://portal.hdfgroup.org/display/HDF5/h5check>`_ verifies that an HDF5 file is encoded according to the HDF5 specification.
-    * `h5stat <https://portal.hdfgroup.org/display/HDF5/h5stat>`_ displays object and metadata information for an HDF5 file.
-    * `h5watch <https://portal.hdfgroup.org/display/HDF5/h5watch>`_ Outputs new records appended to a dataset as the dataset grows similar to the Unix user command ``tail``.
-    * *h5debug* debugs an existing HDF5 file at a low level.
+    * ``h5dump`` enables the user to examine the contents of an HDF5 file and dump those contents to an ASCII file.
+    * ``h5diff`` compares two HDF5 files and reports the differences. *h5diff* is for serial use while *ph5diff* is for use in parallel environments.
+    * ``h5check`` verifies that an HDF5 file is encoded according to the HDF5 specification.
+    * ``h5stat`` displays object and metadata information for an HDF5 file.
+    * ``h5watch`` Outputs new records appended to a dataset as the dataset grows similar to the Unix user command ``tail``.
+    * ``h5debug`` debugs an existing HDF5 file at a low level.
 
 * **CLI tools to copy, clean, and edit HDF5 files:**
 
-    * `h5repack <https://portal.hdfgroup.org/display/HDF5/h5repack>`_  copies an HDF5 file to a new file with or without compression/chunking and is typically used to apply HDF5 filters to an input file and saving the output in a new output file.
-    * `h5copy <https://portal.hdfgroup.org/display/HDF5/h5copy>`_ copies an HDF5 object (a dataset, named datatype, or group) from an input HDF5 file to an output HDF5 file.
-    * `h5repart <https://portal.hdfgroup.org/display/HDF5/h5repart>`_ repartitions a file or family of files, e.g,. to  join a family of files into a single file or to copy one family of files to another while changing the size of the family members.
-    *  `h5clear <https://portal.hdfgroup.org/display/HDF5/h5clear>`_  clears superblock status_flags field, removes metadata cache image, prints EOA and EOF, or sets EOA of a file.
+    * ``h5repack``  copies an HDF5 file to a new file with or without compression/chunking and is typically used to apply HDF5 filters to an input file and saving the output in a new output file.
+    * ``h5copy`` copies an HDF5 object (a dataset, named datatype, or group) from an input HDF5 file to an output HDF5 file.
+    * ``h5repart`` repartitions a file or family of files, e.g,. to  join a family of files into a single file or to copy one family of files to another while changing the size of the family members.
+    * ``h5clear`` clears superblock status_flags field, removes metadata cache image, prints EOA and EOF, or sets EOA of a file.
 
-These are just a few select tools most relevant to debugging NWB files. See the `HDF5 command-line utilities page <https://portal.hdfgroup.org/display/HDF5/HDF5+Command-line+Tools>`_ for a more detailed overview.
+These are just a few select tools most relevant to debugging NWB files. See the `HDF5 command-line utilities page <https://docs.hdfgroup.org/hdf5/v1_14/_view_tools_command.html>`_ for a more detailed overview.
 
 
 .. _analysistools-hdftools-jupyter:

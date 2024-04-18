@@ -172,7 +172,7 @@ Extracellular Electrophysiology Tools
 Optical Physiology Tools
 ------------------------
 
-.. image:: caiman/caiman_icon.png
+.. image:: caiman/caiman_logo.png
     :class: align-left
     :width: 180
 

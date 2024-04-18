@@ -7,6 +7,10 @@ SpikeInterface
 
 :ref:`analysistools-spikeinterface` is a collection of Python modules designed to improve the accessibility, reliability, and reproducibility of spike sorting and all its associated computations. :bdg-link-primary:`Video tutorial <https://www.youtube.com/watch?v=fvKG_-xQ4D8>` :bdg-link-primary:`Demo Notebook <https://github.com/SpikeInterface/spiketutorials/tree/master/Official_Tutorial_SI_0.96_Oct22>` :bdg-link-primary:`Docs  <https://spikeinterface.readthedocs.io/en/latest/>` :bdg-link-primary:`Source  <https://github.com/SpikeInterface>`
 
+.. image:: https://img.shields.io/github/stars/SpikeInterface/spikeinterface?style=social
+    :alt: GitHub Repo stars for SpikeInterface
+    :target: https://github.com/SpikeInterface/spikeinterface
+
 .. short_description_end
 
 With SpikeInterface, users can:

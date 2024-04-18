@@ -15,5 +15,9 @@ CEBRA
 :bdg-link-primary:`Docs <https://cebra.ai/docs/>`
 :bdg-link-primary:`NWB tutorial <https://stes.io/NeuroDataReHack2023/>`.
 
+.. image:: https://img.shields.io/github/stars/AdaptiveMotorControlLab/cebra?style=social
+    :alt: GitHub Repo stars for CEBRA
+    :target: https://github.com/AdaptiveMotorControlLab/cebra
+
 
 .. short_description_end

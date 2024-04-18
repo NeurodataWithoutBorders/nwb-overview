@@ -7,6 +7,10 @@ suite2p
 
 :ref:`analysistools-suite2p` is an imaging processing pipeline written in Python . suite2p includes modules for 1) Registration, 2) Cell detection, 3) Spike detection, and a 4) Visualization GUI. :bdg-link-primary:`Video Tutorial <https://www.youtube.com/watch?v=Ey9_xVPinmo>` :bdg-link-primary:`Docs <https://suite2p.readthedocs.io/en/latest/>` :bdg-link-primary:`Source <https://github.com/MouseLand/suite2p>`.
 
+.. image:: https://img.shields.io/github/stars/MouseLand/suite2p?style=social
+    :alt: GitHub Repo stars for suite2p
+    :target: https://github.com/MouseLand/suite2p
+
 .. short_description_end
 
 .. only:: html

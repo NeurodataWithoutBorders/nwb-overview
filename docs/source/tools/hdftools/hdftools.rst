@@ -14,7 +14,7 @@ that can be useful for developers (e.g., *h5ls* and *h5dump* to introspect,
 While these tools do not provide NWB-specific functionality, they are useful
 (mainly for developers) to debug and browse NWB HDF5 files.
 :bdg-link-primary:`HDFView <https://www.hdfgroup.org/downloads/hdfview/>`
-:bdg-link-primary:`HDF5 CLI tools <https://docs.hdfgroup.org/hdf5/v1_14/_view_tools_command.html>`
+:bdg-link-primary:`HDF5 CLI tools <https://portal.hdfgroup.org/hdf5/v1_14/_view_tools_command.html>`
 :bdg-link-primary:`vscode-h5web <https://marketplace.visualstudio.com/items?itemName=h5web.vscode-h5web>`
 :bdg-link-primary:`h5glance <https://github.com/European-XFEL/h5glance>`
 :bdg-link-primary:`jupyterlab-h5web <https://github.com/silx-kit/jupyterlab-h5web>`
@@ -64,7 +64,7 @@ HDF5 Command-line Tools
 """""""""""""""""""""""
 
 The HDF5 software distribution ships with a broad range of
-`HDF5 command-line utilities <https://docs.hdfgroup.org/hdf5/v1_14/_view_tools_command.html>`_ that
+`HDF5 command-line utilities <https://portal.hdfgroup.org/hdf5/v1_14/_view_tools_command.html>`_ that
 cover a broad range of tasks useful for debugging and inspecting HDF5 files, for example:
 
 * **CLI tools for inspecting HDF5 files:**
@@ -90,7 +90,7 @@ cover a broad range of tasks useful for debugging and inspecting HDF5 files, for
     * ``h5repart`` repartitions a file or family of files, e.g,. to  join a family of files into a single file or to copy one family of files to another while changing the size of the family members.
     * ``h5clear`` clears superblock status_flags field, removes metadata cache image, prints EOA and EOF, or sets EOA of a file.
 
-These are just a few select tools most relevant to debugging NWB files. See the `HDF5 command-line utilities page <https://docs.hdfgroup.org/hdf5/v1_14/_view_tools_command.html>`_ for a more detailed overview.
+These are just a few select tools most relevant to debugging NWB files. See the `HDF5 command-line utilities page <https://portal.hdfgroup.org/hdf5/v1_14/_view_tools_command.html>`_ for a more detailed overview.
 
 
 .. _analysistools-hdftools-jupyter:

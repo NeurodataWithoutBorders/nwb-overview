@@ -97,7 +97,7 @@ Adding a Community Project
 
 To contribute a new project to the community gallery, please create a pull request to this repo. Adding a tool requires the following steps.
 
-**Step 1:** Create a new entry on the  ``docs/source/community_gallery/community_gallery.rst page. An entry should consist of a small figure or icon and brief description, following the style of the existing entries.
+**Step 1:** Create a new entry on the ``docs/source/community_gallery/community_gallery.rst`` page. An entry should consist of a small figure or icon and brief description, following the style of the existing entries.
 
     * Figure should be added to the folder ``docs/source/community_gallery/figures``
     * If you design the figure in PowerPoint then please add the source slide to the ``docs/source/community_gallery/figures/figure_icons_source.pptx`` file
@@ -120,7 +120,7 @@ External links
 Adding new external links
 -------------------------
 
-For managing links to external resources we use the :ref:`extlinks <https://www.sphinx-doc.org/en/master/usage/extensions/extlinks.html>` of sphinx. The mapping of links is defined in the ``/docs/source/conf_extlinks.py`` as part of ``extlinks`` dictionary. To update or add a new link edit the ``extlinks`` dictionary. For example, ``extlinks`` includes the entry
+For managing links to external resources we use the `extlinks <https://www.sphinx-doc.org/en/master/usage/extensions/extlinks.html>`_ of sphinx. The mapping of links is defined in the ``/docs/source/conf_extlinks.py`` as part of ``extlinks`` dictionary. To update or add a new link edit the ``extlinks`` dictionary. For example, ``extlinks`` includes the entry
 
 .. code-block:
 
@@ -129,7 +129,7 @@ For managing links to external resources we use the :ref:`extlinks <https://www.
         'pynwb_issue': ('https://github.com/NeurodataWithoutBorders/pynwb/issues/%s', 'pynwb#%s')
     }
 
-The key in the dict defines the alias name as a new role so that we can writhe ``:pynwb_issue:```` to create a link. The value is the dict are a tuple consisting of the ``URL`` and the ``caption``.
+The key in the dict defines the alias name as a new role so that we can write ``:pynwb_issue:`` to create a link. The value is the dict are a tuple consisting of the ``URL`` and the ``caption``.
 
 * **URL** The ``URL`` may contain ``%s`` once to extend the URL, e.g, in the case of linking to issues we need to add the issue number.
 * **Caption**:
@@ -140,9 +140,9 @@ The key in the dict defines the alias name as a new role so that we can writhe `
 Creating external links in the docs
 -----------------------------------
 
-The ``extlinks`` dict in ``/docs/source/conf_extlinks.py`` defines a set of new roles. This allows us to refer, e.g., to specific usses in PyNWB via ``:pynwb_issue:`1``` which will in turn will be rendered as the text "pynwb#1" in the docs with the appropriate link to the issue. Similarly, if we want to refer to the INCF training we can write ``:incf_collection:`INCF Training``` in the text. Since the caption is an empty string in the ``extlinks`` dict for the ``incf_collection`` key, the link will be rendered using the provided text, i.e., here "INCF Training" with the approbriate link.
+The ``extlinks`` dict in ``/docs/source/conf_extlinks.py`` defines a set of new roles. This allows us to refer, e.g., to specific usses in PyNWB via ``:pynwb_issue:`1` `` which will in turn will be rendered as the text "pynwb#1" in the docs with the appropriate link to the issue. Similarly, if we want to refer to the INCF training we can write ``:incf_collection:`INCF Training` `` in the text. Since the caption is an empty string in the ``extlinks`` dict for the ``incf_collection`` key, the link will be rendered using the provided text, i.e., here "INCF Training" with the approbriate link.
 
-Normally the ``extlinks`` extension will add the part we link to the URL. To use the exact URL as defined in ``extlinks`` dict use the following syntax ``:pynwb-docs:`PyNWB <>```, which will render the text (here PyNWB) with a hyperlink to the exact, unmodified URL.
+Normally the ``extlinks`` extension will add the part we link to the URL. To use the exact URL as defined in ``extlinks`` dict use the following syntax ``:pynwb-docs:`PyNWB <>` ``, which will render the text (here PyNWB) with a hyperlink to the exact, unmodified URL.
 
 Linking to external packages
 =============================
@@ -164,10 +164,10 @@ Once the mapping is defined, we can refer to specific types much like we would r
         'pandas': ('https://pandas.pydata.org/pandas-docs/stable/', None),
     }
 
-With this we can now easly link to elements in those packages. E.g., to links to the docs of ``pandas.DataFrame`` we would write ``:py:class:`~pandas.DataFrame``` in the docs. Similarly, to link to ``NWBFile`` in ``PyNWB`` we would write ``:py:class:`~pynwb.file.NWBFile``` in the docs. When including the ``~`` we tell Sphinx to ignore the package when rendering in the text, i.e., ``:py:class:`~pynwb.file.NWBFile``` (with ``~``) will render as ``NWBFile`` in the docs, whereas ``:py:class:`pynwb.file.NWBFile``` (without ``~``) will render as the full name ``pynwb.file.NWBFile``.
+With this we can now easly link to elements in those packages. E.g., to links to the docs of ``pandas.DataFrame`` we would write ``:py:class:`~pandas.DataFrame` `` in the docs. Similarly, to link to ``NWBFile`` in ``PyNWB`` we would write ``:py:class:`~pynwb.file.NWBFile` `` in the docs. When including the ``~`` we tell Sphinx to ignore the package when rendering in the text, i.e., ``:py:class:`~pynwb.file.NWBFile` `` (with ``~``) will render as ``NWBFile`` in the docs, whereas ``:py:class:`pynwb.file.NWBFile` `` (without ``~``) will render as the full name ``pynwb.file.NWBFile``.
 
 
 NWB Software Analytics
 ======================
 
-Software analytics are being managed via the :ref:`NWB Project Analytics <https://github.com/NeurodataWithoutBorders/nwb-project-analytics>`. This page checks out and renders the `nwb_project_analytics` automatically as part of the sphinx build process. The code statistics are being updated nightly via GitHub Actions on the `nwb_project_analytics` repository and are cached in the `data` folder of that repo. The rst sources and figures are then being generated automatically during the sphinx build.
+Software analytics are being managed via the `NWB Project Analytics <https://github.com/NeurodataWithoutBorders/nwb-project-analytics>`_. This page checks out and renders the `nwb_project_analytics` automatically as part of the sphinx build process. The code statistics are being updated nightly via GitHub Actions on the `nwb_project_analytics` repository and are cached in the `data` folder of that repo. The rst sources and figures are then being generated automatically during the sphinx build.

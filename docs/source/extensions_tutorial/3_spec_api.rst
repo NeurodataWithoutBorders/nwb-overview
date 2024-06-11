@@ -111,14 +111,14 @@ list of :py:class:`~pynwb.spec.NWBDtypeSpec` objects to the ``dtype`` argument.
     spec = NWBDatasetSpec(
         doc='A custom NWB type',
         name='qux',
-        attribute=[
+        attributes=[
             NWBAttributeSpec('baz', 'a value for baz', 'text'),
-            ],
+        ],
         dtype=[
             NWBDtypeSpec('foo', 'column for foo', 'int'),
-            NWBDtypeSpec('bar', 'a column for bar', 'float')
-            ]
-        )
+            NWBDtypeSpec('bar', 'a column for bar', 'float'),
+        ],
+    )
 
 .. tip::
     Column-based tables are also possible and more flexible. See the documentation for :hdmf-docs:`DynamicTable <tutorials/plot_dynamictable_tutorial.html>`.

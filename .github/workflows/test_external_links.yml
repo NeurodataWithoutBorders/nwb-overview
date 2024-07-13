@@ -1,5 +1,10 @@
 name: Testing External Links
-on: pull_request
+on:
+  schedule:
+    - cron: '0 5 * * 0'  # every Sunday at 05:00 UTC (midnight EST)
+  pull_request:
+  workflow_dispatch:
+
 jobs:
   build-and-test:
     name: Testing External Links
@@ -7,12 +12,12 @@ jobs:
     strategy:
       fail-fast: false
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - run: git fetch --prune --unshallow --tags
       - name: Setup Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5
         with:
-          python-version: 3.9
+          python-version: 3.12
       - name: Install sphinx Dependencies
         run: pip install -r requirements.txt
       - name: Test External Links

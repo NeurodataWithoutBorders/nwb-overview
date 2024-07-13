@@ -10,7 +10,7 @@ which *extracts* the activities of cells as time series from both one-photon and
 EXTRACT makes minimal assumptions about the data, which is the main reason behind its high robustness and superior
 performance.
 :bdg-link-primary:`Source <https://github.com/schnitzer-lab/EXTRACT-public>`
-:bdg-link-primary:`NWB tutorials <https://github.com/schnitzer-lab/EXTRACT-public/tree/master/Learning%20materials/NWB%20Tutorials>`
+:bdg-link-primary:`NWB demos <https://github.com/schnitzer-lab/EXTRACT-public/tree/master/Learning%20materials/Additional%20demos/NWB%20Demos>`
 :bdg-link-primary:`Publication <https://www.biorxiv.org/content/10.1101/2021.03.24.436279v2>`
 
 .. image:: https://img.shields.io/github/stars/schnitzer-lab/EXTRACT-public?style=social

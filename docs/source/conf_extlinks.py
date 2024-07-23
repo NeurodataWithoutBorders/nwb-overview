@@ -48,7 +48,7 @@ extlinks = {
     'nwb-helpdesk': ('https://github.com/dandi/helpdesk/discussions/%s', '%s'),
     'nwb-mailing-list': ('https://mailchi.mp/fe2a9bc55a1a/nwb-signup/%s', '%s'),
     'datajoint': ('https://www.datajoint.com/%s', '%s'),
-    'datajoint-elements': ('https://www.datajoint.com/elements/%s', '%s'),
+    'datajoint-elements': ('https://datajoint.com/docs/elements/%s', '%s'),
     'openscope-databook': ('https://alleninstitute.github.io/openscope_databook/%s', '%s'),
     'openscope-project': ('https://alleninstitute.org/what-we-do/brain-science/research/mindscope-program/openscope/%s',
                           '%s'),

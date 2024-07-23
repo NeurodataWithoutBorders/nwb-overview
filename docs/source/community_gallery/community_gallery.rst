@@ -14,7 +14,7 @@ Data Conversion
     :class: align-left, no-scaled-link
     :width: 100
 
-:neuroconv-docs:`NeuroConv Catalog <catalogue/catalogue.html>` is a collection of real-world examples of labs using :neuroconv-docs:`NeuroConv <>` to convert their data to NWB files. Each project listed contains a description and a link to an open GitHub repository. Many of the projects listed use advanced customization features beyond what is demonstrated in the core :neuroconv-docs:`NeuroConv conversion gallery <conversion_examples_gallery/conversion_example_gallery.html>`. :bdg-link-primary:`NeuroConv Catalog <https://neuroconv.readthedocs.io/en/main/catalogue/catalogue.html>`
+:neuroconv-docs:`NeuroConv Catalog <catalogue/index.html>` is a collection of real-world examples of labs using :neuroconv-docs:`NeuroConv <>` to convert their data to NWB files. Each project listed contains a description and a link to an open GitHub repository. Many of the projects listed use advanced customization features beyond what is demonstrated in the core :neuroconv-docs:`NeuroConv conversion gallery <conversion_examples_gallery/index.html>`. :bdg-link-primary:`NeuroConv Catalog <https://neuroconv.readthedocs.io/en/main/catalogue/index.html>`
 
 .. image:: figures/bristol_neuroscience_data_guide.png
     :class: align-left, no-scaled-link
@@ -41,7 +41,7 @@ Data Analysis and Reuse
 .. raw:: html
 
     <br/>
-    
+
 In addition, the neuroscience community is creating examples demonstrating the reuse of NWB data published on DANDI. For example:
 
        * The `INCF working group on NWB <https://www.incf.org/sig/incf-working-group-nwb>`_ has created a `library of MATLAB examples <https://github.com/INCF/example-live-scripts>`_ using DANDI datasets authored as MATLAB live scripts. :bdg-link-primary:`Source <https://github.com/INCF/example-live-scripts>`

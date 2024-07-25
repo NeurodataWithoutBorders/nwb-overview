@@ -58,8 +58,6 @@ In addition, the neuroscience community is creating examples demonstrating the r
 The :openscope-databook:`OpenScope Databook <>` provides scripts and documentation used for brain data analysis and visualization, primarily working with NWB files and the :ref:`analysistools-dandi` archive. Through :jupyter-book:`Jupyter Book <>`, this code is structured as a series of notebooks intended to explain and educate users on how to work with brain data. This resource is provided by the Allen Institute’s :openscope-project:`OpenScope Project <>`, an endeavor of The Allen Institute :mindscope-program:`Mindscope Program <>`. OpenScope is a platform for high-throughput and reproducible neurophysiology open to external scientists to test theories of brain function.  :bdg-link-primary:`Databook <https://alleninstitute.github.io/openscope_databook/>` :bdg-link-primary:`Source <https://github.com/AllenInstitute/openscope_databook>`
 
 
-
-
 .. raw:: html
 
     <br/>
@@ -76,6 +74,14 @@ The :ibl-website:`International Brain Laboratory (IBL) <>` released a Brainwide 
 
     <br/>
 
+Publications That Reuse NWB Data
+--------------------------------
+
+The NWB team maintains `a running database of publications <https://www.notion.so/rly1/8b1d1f08841e41b89fdd9ab21d486d31?v=99f8e0f855a5486b8fc521066b34d4b3>`_ that reuse publicly available NWB data, particularly from the DANDI Archive.
+
+.. raw:: html
+
+    <br/>
 
 .. note::
 

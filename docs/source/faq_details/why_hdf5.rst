@@ -24,7 +24,7 @@ As recordings enter the TB scale, it is essential that we use a backend storage 
 These features have proven to be very important for archiving large datasets. For instance, in raw data from Neuropixel recordings, it has been found to reduce the file size by up to 60%. As datasets grow in volume and in number, it will become increasingly important to utilize good data engineering principles to manage them at scale.
 
 Alternative backends
----------------------
+--------------------
 Below, we briefly explain the pros and cons of alternative storage formats. Depending on the particular application and storage needs, different backends are often preferable. In particular as part of :hdmf-docs:`HDMF <>`, teams are exploring the use of alternate storage solutions with NWB. For the broader NWB community, we have found that HDF5 provides a good standard solution for most common use cases.
 
 Zarr

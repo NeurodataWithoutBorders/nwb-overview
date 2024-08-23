@@ -35,7 +35,7 @@ Zarr
 LINDI
 ^^^^^
 
-The :lindi-src:`Linked Data Interface (LINDI) <>` provides a JSON representation of NWB data where the large data chunks are stored separately from the main metadata. This enables efficient storage, composition, and sharing of NWB files on cloud systems such as DANDI without duplicating the large data blobs. LINDI can be used to index existing NWB HDF5 files to help speed up remote access to HDF5 files stored in the cloud. LINDI provides a drop-in `LindiH5pyFile` feature such that LINDI files can be read via `PyNWB` using the standard `NWBHDF5IO` backend. LINDI is currently under development and should not yet be used in practice.
+The :lindi-src:`Linked Data Interface (LINDI) <>` provides a JSON representation of NWB data where the large data chunks are stored separately from the main metadata. This enables efficient storage, composition, and sharing of NWB files on cloud systems such as DANDI without duplicating the large data blobs. LINDI can be used to index existing NWB HDF5 files to help speed up remote access to HDF5 files stored in the cloud. LINDI provides a drop-in `LindiH5pyFile` feature such that LINDI files can be read via `PyNWB` using the standard `NWBHDF5IO` backend. LINDI is currently under development and subject to rapid change. The DANDI Archive does not yet provide full support for NWB data in the LINDI format.
 
 
 Other alternative storage formats

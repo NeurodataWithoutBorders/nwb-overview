@@ -55,6 +55,7 @@ extlinks = {
     'ibl-website': ('https://www.internationalbrainlab.com/%s', '%s'),
     'mindscope-program': ('https://alleninstitute.org/what-we-do/brain-science/research/mindscope-program/%s', '%s'),
     'jupyter-book': ('https://jupyterbook.org/en/stable/%s', '%s'),
+    'lindi-src': ('https://github.com/NeurodataWithoutBorders/lindi/%s', '%s'),
 }
 
 # Use this for mapping for links to commonly used documentation

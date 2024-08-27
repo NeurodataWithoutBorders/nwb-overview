@@ -49,6 +49,11 @@ community. Here is a list of NWBEPs that have been started:
      - Probe devices and channel mapping in extracellular ephys
      - Alessio Buccino
      - `Google Doc <https://docs.google.com/document/d/1q-haFEEHEgZpRoCzzQsuSWCKN4QfMsTzLnlptLaf-yw/edit?usp=sharing>`_
+   * - NWBEP003
+     - Multichannel volumetric imaging
+     - Daniel Sprague
+     - `Google Doc <https://docs.google.com/document/d/1IhhKwpPoXzPZTNXH7zCU_At4Py17aNJ6lYP_XaGX0wo/edit?usp=sharing>`_
+
 
 To add a new NWBEP to this list, please file an issue on the :nwb-overview-src:`NWB Overview GitHub repo <>`
 or create a pull request that modifies the table.

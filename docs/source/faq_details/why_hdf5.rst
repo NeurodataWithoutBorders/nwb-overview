@@ -25,20 +25,31 @@ These features have proven to be very important for archiving large datasets. Fo
 
 Alternative backends
 --------------------
-Below, we briefly explain the pros and cons of alternative backends. Depending on the particular application and storage needs, different backends are often preferable. In particular as part of :hdmf-docs:`HDMF <>`, teams are exploring the use of alternate storage solutions with NWB. For the broader NWB community, we have found that HDF5 provides a good standard solution for most common use cases.
+Below, we briefly explain the pros and cons of alternative storage formats. Depending on the particular application and storage needs, different backends are often preferable. In particular as part of :hdmf-docs:`HDMF <>`, teams are exploring the use of alternate storage solutions with NWB. For the broader NWB community, we have found that HDF5 provides a good standard solution for most common use cases.
 
 Zarr
 ^^^^
 
-:zarr:`Zarr <>` supports compression and chunking like HDF5. Zarr is the standard we have found that comes closest to HDF5’s level of support for complex hierarchical data structures. However, Zarr does not support Links natively and support for links is not on the Zarr development roadmap. Links are an important feature for NWB to facilitate linking of data and metadata across complex collections of neurophysiology data products. Furthermore, Zarr only supports Python and the neuroscience community requires APIs in MATLAB and other languages. Also, HDF5 is a much more mature standard with a track record for long-term accessibility.
+:zarr:`Zarr <>` supports compression and chunking like HDF5. Zarr is the standard we have found that comes closest to HDF5’s level of support for complex hierarchical data structures. The :bdg-link-primary:`HDMF Zarr<https://hdmf-zarr.readthedocs.io>` library implements a Zarr backend for HDMF and provides convenience classes for integrating Zarr with the  :bdg-link-primary:`PyNWB <https://pynwb.readthedocs.io/en/stable/>` Python API for NWB to support writing of NWB files to Zarr. Using Zarr, the NWB file is not stored as a single file, but as a collection many files organized into folders. This storage scheme has some key advantageous when using object-based storage solutions, e.g., cloud-based storage in AWS. Some main limitations of Zarr for NWB are: 1) Zarr only supports Python and the neuroscience community requires APIs in MATLAB and other languages, 2) HDF5 is a much more mature standard with a track record for long-term accessibility but the Zarr community is growing, 3) transferring Zarr files requires moving lots of small files, 4) Zarr does not support Links and References so that :hdmf-z-docs:`HDMF Zarr <>` must implement custom solutions to support this important feature for NWB. Whether HDF5 or Zarr is the right solution for you depends heavily on your use case.
+
+LINDI
+^^^^^
+
+The :lindi-src:`Linked Data Interface (LINDI) <>` provides a JSON representation of NWB data where the large data chunks are stored separately from the main metadata. This enables efficient storage, composition, and sharing of NWB files on cloud systems such as DANDI without duplicating the large data blobs. LINDI can be used to index existing NWB HDF5 files to help speed up remote access to HDF5 files stored in the cloud. LINDI provides a drop-in `LindiH5pyFile` feature such that LINDI files can be read via `PyNWB` using the standard `NWBHDF5IO` backend. LINDI is currently under development and subject to rapid change. The DANDI Archive does not yet provide full support for NWB data in the LINDI format.
+
+
+Other alternative storage formats
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The following alternative formats are not currently supported by NWB.
 
 Binary files (.dat)
-^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~
 
 Binary files do not allow for complex hierarchical data including Groups, Attributes, and Links. They also do not allow for chunking and compression, which makes them poorly suited for efficient handling of large data files. Furthermore, there is metadata needed to interpret binary files that can be missing, including shape, data type, and endianness. Zarr is an approach that uses binary files and deals with these limitations, using folders and json files to create a hierarchical structure that can manage data chunks and specify the essential parameters of binary files. See our response to Zarr.
 
 Relational database (e.g. SQL)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The :hdmf-specification-language:`HDMF specification language <>` is inherently hierarchical, not tabular, and we
 need a storage layer that can express the hierarchical nature of the data as well. There are some approaches for

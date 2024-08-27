@@ -48,15 +48,15 @@ extlinks = {
     'nwb-helpdesk': ('https://github.com/dandi/helpdesk/discussions/%s', '%s'),
     'nwb-mailing-list': ('https://mailchi.mp/fe2a9bc55a1a/nwb-signup/%s', '%s'),
     'datajoint': ('https://www.datajoint.com/%s', '%s'),
-    'datajoint-elements': ('https://www.datajoint.com/elements/%s', '%s'),
+    'datajoint-elements': ('https://datajoint.com/docs/elements/%s', '%s'),
     'openscope-databook': ('https://alleninstitute.github.io/openscope_databook/%s', '%s'),
-    'openscope-project': ('https://alleninstitute.org/what-we-do/brain-science/research/mindscope-program/openscope/%s',
-                          '%s'),
+    'openscope-project': ('https://alleninstitute.org/what-we-do/brain-science/research/mindscope-program/openscope/%s', '%s'),
     'ibl-website': ('https://www.internationalbrainlab.com/%s', '%s'),
     'mindscope-program': ('https://alleninstitute.org/what-we-do/brain-science/research/mindscope-program/%s', '%s'),
     'jupyter-book': ('https://jupyterbook.org/en/stable/%s', '%s'),
     'nep-review': ('https://github.com/nwb-extensions/nep-review/%s', '%s'),
     'nwb-tab': ('https://docs.google.com/document/d/e/2PACX-1vSynhRf8Zykfqnov81Ddi1tSo12RV4zYv3RRCEfLR2OqhpER_7PTmaoTNrRh5Coh8xg2LvwuriiHlsJ/pub%s', '%s'),
+    'lindi-src': ('https://github.com/NeurodataWithoutBorders/lindi/%s', '%s'),
 }
 
 # Use this for mapping for links to commonly used documentation

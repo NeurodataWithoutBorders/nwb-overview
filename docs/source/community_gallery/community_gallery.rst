@@ -14,7 +14,7 @@ Data Conversion
     :class: align-left, no-scaled-link
     :width: 100
 
-:neuroconv-docs:`NeuroConv Catalog <catalogue/catalogue.html>` is a collection of real-world examples of labs using :neuroconv-docs:`NeuroConv <>` to convert their data to NWB files. Each project listed contains a description and a link to an open GitHub repository. Many of the projects listed use advanced customization features beyond what is demonstrated in the core :neuroconv-docs:`NeuroConv conversion gallery <conversion_examples_gallery/conversion_example_gallery.html>`. :bdg-link-primary:`NeuroConv Catalog <https://neuroconv.readthedocs.io/en/main/catalogue/catalogue.html>`
+:neuroconv-docs:`NeuroConv Catalog <catalogue/index.html>` is a collection of real-world examples of labs using :neuroconv-docs:`NeuroConv <>` to convert their data to NWB files. Each project listed contains a description and a link to an open GitHub repository. Many of the projects listed use advanced customization features beyond what is demonstrated in the core :neuroconv-docs:`NeuroConv conversion gallery <conversion_examples_gallery/index.html>`. :bdg-link-primary:`NeuroConv Catalog <https://neuroconv.readthedocs.io/en/main/catalogue/index.html>`
 
 .. image:: figures/bristol_neuroscience_data_guide.png
     :class: align-left, no-scaled-link
@@ -41,7 +41,7 @@ Data Analysis and Reuse
 .. raw:: html
 
     <br/>
-    
+
 In addition, the neuroscience community is creating examples demonstrating the reuse of NWB data published on DANDI. For example:
 
        * The `INCF working group on NWB <https://www.incf.org/sig/incf-working-group-nwb>`_ has created a `library of MATLAB examples <https://github.com/INCF/example-live-scripts>`_ using DANDI datasets authored as MATLAB live scripts. :bdg-link-primary:`Source <https://github.com/INCF/example-live-scripts>`
@@ -56,8 +56,6 @@ In addition, the neuroscience community is creating examples demonstrating the r
     :width: 100
 
 The :openscope-databook:`OpenScope Databook <>` provides scripts and documentation used for brain data analysis and visualization, primarily working with NWB files and the :ref:`analysistools-dandi` archive. Through :jupyter-book:`Jupyter Book <>`, this code is structured as a series of notebooks intended to explain and educate users on how to work with brain data. This resource is provided by the Allen Institute’s :openscope-project:`OpenScope Project <>`, an endeavor of The Allen Institute :mindscope-program:`Mindscope Program <>`. OpenScope is a platform for high-throughput and reproducible neurophysiology open to external scientists to test theories of brain function.  :bdg-link-primary:`Databook <https://alleninstitute.github.io/openscope_databook/>` :bdg-link-primary:`Source <https://github.com/AllenInstitute/openscope_databook>`
-
-
 
 
 .. raw:: html
@@ -76,6 +74,14 @@ The :ibl-website:`International Brain Laboratory (IBL) <>` released a Brainwide 
 
     <br/>
 
+Publications That Reuse NWB Data
+--------------------------------
+
+The NWB team maintains `a running database of publications <https://www.notion.so/rly1/8b1d1f08841e41b89fdd9ab21d486d31?v=99f8e0f855a5486b8fc521066b34d4b3>`_ that reuse publicly available NWB data, particularly from the DANDI Archive.
+
+.. raw:: html
+
+    <br/>
 
 .. note::
 

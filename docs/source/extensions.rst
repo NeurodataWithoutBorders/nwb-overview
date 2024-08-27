@@ -65,4 +65,4 @@ and involves several phases. To submit a NWBEP for review and explore previous N
 
 - `Proposal Review Process: process by which extensions to the NWB core standard are proposed, evaluated, reviewed, and accepted <https://docs.google.com/document/d/e/2PACX-1vR7v4ixgnaCsJSbKji5eGWxb5muzV1M82zA-D2IswZD_KOt7HiUjcXKpTko0lqcBAD-MTd44rqFCf-V/pub>`_
 - `Working Groups for Evaluating NWBEPs Policy: process for evaluation and review of NWB Extension Proposals (NWBEPs) by a review working group (RWG) to provide guidance and a formal framework for RWG members. <https://docs.google.com/document/d/e/2PACX-1vTpDnWFpD2YDuYKXzd-6svH6ceXNBz4wOauoZivvZpQgLPYBz6yv7-eihJceBtgGTDV_TcMX9xboNsm/pub>`_
-- `NWBEP Evaluation Form <https://docs.google.com/document/d/1g8NWD-5q8SBLvoedOm4jWBXvY6aOG7VSAZ0owjjTUkY/edit#heading=h.hyxaoxgxef84>`_
+- `NWBEP Evaluation Form <https://docs.google.com/document/d/1g8NWD-5q8SBLvoedOm4jWBXvY6aOG7VSAZ0owjjTUkY/edit>`_

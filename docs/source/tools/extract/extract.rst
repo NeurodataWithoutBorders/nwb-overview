@@ -11,7 +11,7 @@ EXTRACT makes minimal assumptions about the data, which is the main reason behin
 performance.
 :bdg-link-primary:`Source <https://github.com/schnitzer-lab/EXTRACT-public>`
 :bdg-link-primary:`NWB demos <https://github.com/schnitzer-lab/EXTRACT-public/tree/master/Learning%20materials/Additional%20demos/NWB%20Demos>`
-:bdg-link-primary:`Publication <https://www.biorxiv.org/content/10.1101/2021.03.24.436279v2>`
+:bdg-link-primary:`Publication <https://www.biorxiv.org/content/10.1101/2021.03.24.436279v3>`
 
 .. image:: https://img.shields.io/github/stars/schnitzer-lab/EXTRACT-public?style=social
     :alt: GitHub Repo stars for EXTRACT

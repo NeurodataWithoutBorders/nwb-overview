@@ -32,7 +32,7 @@ and any warnings it does produce should be checked by a knowledgeable reviewer.
 
 HDFView
 =======
-`HDFView <https://www.hdfgroup.org/downloads/hdfview/>`_ is a visual tool written by the HDF Group in Java for browsing and editing HDF (HDF5 and HDF4) files. With
+`HDFView <https://www.hdfgroup.org/download-hdfview/>`_ is a visual tool written by the HDF Group in Java for browsing and editing HDF (HDF5 and HDF4) files. With
 HDFView, you can open NWB files and inspect their contents manually. HDFView can show you detailed information such
 as chunking and comrpession settings ratio achieved for each dataset.
 

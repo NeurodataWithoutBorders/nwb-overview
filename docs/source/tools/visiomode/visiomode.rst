@@ -51,7 +51,7 @@ Visiomode stores behavioural data under ``trials`` (`docs <https://pynwb.readthe
     - ``correction``: whether the trial was a correction trial (if using)
     - ``sdt_type``: signal detection theory classification of trial in visual discrimination tasks (if using)
 
-The exported NWB file can then be combined with neurophysiological recordings by linking recording data from different files `as described in the NWB documentation <https://pynwb.readthedocs.io/en/stable/tutorials/advanced_io/linking_data.html#sphx-glr-tutorials-advanced-io-linking-data-py>`_. Please take care to synchronize the timestamps of the behavioural and neurophysiological data before linking them, by recalculating the timestamps relative to the reference time of the behaviour file. For example:
+The exported NWB file can then be combined with neurophysiological recordings by linking recording data from different files `as described in the NWB documentation <https://pynwb.readthedocs.io/en/stable/tutorials/advanced_io/plot_linking_data.html>`_. Please take care to synchronize the timestamps of the behavioural and neurophysiological data before linking them, by recalculating the timestamps relative to the reference time of the behaviour file. For example:
 
 .. code-block:: python
 

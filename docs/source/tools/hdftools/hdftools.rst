@@ -13,8 +13,8 @@ that can be useful for developers (e.g., *h5ls* and *h5dump* to introspect,
 *h5diff* to compare, or *h5copy* and *h5repack* to copy HDF5 files).
 While these tools do not provide NWB-specific functionality, they are useful
 (mainly for developers) to debug and browse NWB HDF5 files.
-:bdg-link-primary:`HDFView <https://www.hdfgroup.org/downloads/hdfview/>`
-:bdg-link-primary:`HDF5 CLI tools <https://portal.hdfgroup.org/hdf5/v1_14/_view_tools_command.html>`
+:bdg-link-primary:`HDFView <https://www.hdfgroup.org/download-hdfview/>`
+:bdg-link-primary:`HDF5 CLI tools <https://support.hdfgroup.org/releases/hdf5/v1_14/v1_14_5/documentation/doxygen/_view_tools_command.html>`
 :bdg-link-primary:`vscode-h5web <https://marketplace.visualstudio.com/items?itemName=h5web.vscode-h5web>`
 :bdg-link-primary:`h5glance <https://github.com/European-XFEL/h5glance>`
 :bdg-link-primary:`jupyterlab-h5web <https://github.com/silx-kit/jupyterlab-h5web>`
@@ -33,28 +33,28 @@ While these tools do not provide NWB-specific functionality, they are useful
 Examples
 ^^^^^^^^
 
-* :ref:`analysistools-hdftools-hdfview`
+* :ref:`analysistools-hdftools-`
 * :ref:`analysistools-hdftools-cli`
 * :ref:`analysistools-hdftools-jupyter`
 * :ref:`analysistools-hdftools-vscode`
 
 
 
-.. _analysistools-hdftools-hdfview:
+.. _analysistools-hdftools-:
 
-HDFView
+
 """""""
 
 .. image:: https://www.hdfgroup.org/wp-content/uploads/2017/07/hdfview-sample2.jpg
     :class: align-right
     :width: 350
 
-`HDFView <https://www.hdfgroup.org/downloads/hdfview/>`_  is a visual tool written in Java for browsing
+`HDFView <https://www.hdfgroup.org/download-hdfview/>`_  is a visual tool written in Java for browsing
 and editing HDF (HDF5 and HDF4) files. Using HDFView, you can: i) view a file hierarchy in a tree structure
 ii) create new files, add or delete groups and datasets, iii) view and modify the content of a dataset,
 iv) add, delete and modify attributes. HDFView uses the Java HDF Object Package, which implements HDF4
 and HDF5 data objects in an object-oriented form.
-:bdg-link-primary:`Download <https://www.hdfgroup.org/downloads/hdfview/>`
+:bdg-link-primary:`Download <https://www.hdfgroup.org/download-hdfview/>`
 :bdg-link-primary:`Source <https://github.com/HDFGroup/hdfview>`
 
 
@@ -64,7 +64,7 @@ HDF5 Command-line Tools
 """""""""""""""""""""""
 
 The HDF5 software distribution ships with a broad range of
-`HDF5 command-line utilities <https://portal.hdfgroup.org/hdf5/v1_14/_view_tools_command.html>`_ that
+`HDF5 command-line utilities <https://support.hdfgroup.org/releases/hdf5/v1_14/v1_14_5/documentation/doxygen/_view_tools_command.html>`_ that
 cover a broad range of tasks useful for debugging and inspecting HDF5 files, for example:
 
 * **CLI tools for inspecting HDF5 files:**
@@ -90,7 +90,7 @@ cover a broad range of tasks useful for debugging and inspecting HDF5 files, for
     * ``h5repart`` repartitions a file or family of files, e.g,. to  join a family of files into a single file or to copy one family of files to another while changing the size of the family members.
     * ``h5clear`` clears superblock status_flags field, removes metadata cache image, prints EOA and EOF, or sets EOA of a file.
 
-These are just a few select tools most relevant to debugging NWB files. See the `HDF5 command-line utilities page <https://portal.hdfgroup.org/hdf5/v1_14/_view_tools_command.html>`_ for a more detailed overview.
+These are just a few select tools most relevant to debugging NWB files. See the `HDF5 command-line utilities page <https://support.hdfgroup.org/releases/hdf5/v1_14/v1_14_5/documentation/doxygen/_view_tools_command.html>`_ for a more detailed overview.
 
 
 .. _analysistools-hdftools-jupyter:

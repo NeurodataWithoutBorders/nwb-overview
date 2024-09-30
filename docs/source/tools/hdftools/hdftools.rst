@@ -45,7 +45,7 @@ Examples
 
 """""""
 
-.. image:: https://www.hdfgroup.org/wp-content/uploads/2017/07/-sample2.jpg
+.. image:: https://www.hdfgroup.org/wp-content/uploads/2017/07/hdfview-sample2.jpg
     :class: align-right
     :width: 350
 
@@ -64,7 +64,7 @@ HDF5 Command-line Tools
 """""""""""""""""""""""
 
 The HDF5 software distribution ships with a broad range of
-`HDF5 command-line utilities <https://portal.hdfgroup.org/hdf5/v1_14/_view_tools_command.html>`_ that
+`HDF5 command-line utilities <https://support.hdfgroup.org/releases/hdf5/v1_14/v1_14_5/documentation/doxygen/_view_tools_command.html>`_ that
 cover a broad range of tasks useful for debugging and inspecting HDF5 files, for example:
 
 * **CLI tools for inspecting HDF5 files:**
@@ -90,7 +90,7 @@ cover a broad range of tasks useful for debugging and inspecting HDF5 files, for
     * ``h5repart`` repartitions a file or family of files, e.g,. to  join a family of files into a single file or to copy one family of files to another while changing the size of the family members.
     * ``h5clear`` clears superblock status_flags field, removes metadata cache image, prints EOA and EOF, or sets EOA of a file.
 
-These are just a few select tools most relevant to debugging NWB files. See the `HDF5 command-line utilities page <https://portal.hdfgroup.org/hdf5/v1_14/_view_tools_command.html>`_ for a more detailed overview.
+These are just a few select tools most relevant to debugging NWB files. See the `HDF5 command-line utilities page <https://support.hdfgroup.org/releases/hdf5/v1_14/v1_14_5/documentation/doxygen/_view_tools_command.html>`_ for a more detailed overview.
 
 
 .. _analysistools-hdftools-jupyter:

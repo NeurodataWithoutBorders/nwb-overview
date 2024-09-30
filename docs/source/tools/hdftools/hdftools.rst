@@ -14,7 +14,7 @@ that can be useful for developers (e.g., *h5ls* and *h5dump* to introspect,
 While these tools do not provide NWB-specific functionality, they are useful
 (mainly for developers) to debug and browse NWB HDF5 files.
 :bdg-link-primary:`HDFView <https://www.hdfgroup.org/downloads/hdfview/>`
-:bdg-link-primary:`HDF5 CLI tools <https://portal.hdfgroup.org/hdf5/v1_14/_view_tools_command.html>`
+:bdg-link-primary:`HDF5 CLI tools <https://support.hdfgroup.org/releases/hdf5/v1_14/v1_14_5/documentation/doxygen/_view_tools_command.html>`
 :bdg-link-primary:`vscode-h5web <https://marketplace.visualstudio.com/items?itemName=h5web.vscode-h5web>`
 :bdg-link-primary:`h5glance <https://github.com/European-XFEL/h5glance>`
 :bdg-link-primary:`jupyterlab-h5web <https://github.com/silx-kit/jupyterlab-h5web>`

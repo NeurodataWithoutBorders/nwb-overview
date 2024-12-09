@@ -74,7 +74,7 @@ html_theme_options = {
 # these links cannot be checked in github actions
 linkcheck_ignore = [
     "https://crates.io/crates/nwbview",
-    r"https://*.incf.org/*",  # temporary ignore until SSL certificate issue is resolved
+    r"https://.*\.incf\.org/.*",  # temporary ignore until SSL certificate issue is resolved
 
 ]
 

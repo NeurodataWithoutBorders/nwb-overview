@@ -74,6 +74,8 @@ html_theme_options = {
 # these links cannot be checked in github actions
 linkcheck_ignore = [
     "https://crates.io/crates/nwbview",
+    r"https://.*\.incf\.org/.*",  # temporary ignore until SSL certificate issue is resolved
+
 ]
 
 # -- Build the nwb project analytics in the current directory

@@ -3,7 +3,7 @@
 Reading NWB Files
 ==================
 
-This section provides an introduction on how to read NWB files in Python using PyNWB and Matlab using MatNWB. If you are interested in converting your data to NWB, then please see the :ref:`user_guide` as well as for more in-depth tutorials visit the :pynwb-docs:`PyNWB  <tutorials>` and :matnwb-docs:`MatNWB <#tutorials>` tutorials and documentation.
+This section provides an introduction on how to read NWB files in Python using PyNWB and Matlab using MatNWB. If you are interested in converting your data to NWB, then please see the :neuroconv-docs:`NeuroConv User Guide <user_guide>` as well as for more in-depth tutorials visit the :pynwb-docs:`PyNWB  <tutorials>` and :matnwb-docs:`MatNWB <#tutorials>` tutorials and documentation.
 
 Reading With PyNWB
 ~~~~~~~~~~~~~~~~~~

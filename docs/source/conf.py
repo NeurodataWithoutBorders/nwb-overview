@@ -75,8 +75,14 @@ html_theme_options = {
 linkcheck_ignore = [
     "https://crates.io/crates/nwbview",
     r"https://.*\.incf\.org/.*",  # temporary ignore until SSL certificate issue is resolved
-
 ]
+
+# some websites seem to block the sphinx link checker
+linkcheck_request_headers = {
+    r'https://www.mathworks.com/': {
+        'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:124.0) Gecko/20100101 Firefox/124.0'
+    },
+}
 
 # -- Build the nwb project analytics in the current directory
 build_project_analytics(target_dir=os.path.dirname(__file__))

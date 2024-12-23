@@ -29,7 +29,7 @@ See the :ref:`install_users` for details.
 
 How do I install MatNWB?
 ------------------------
-See the :matnwb-docs:`MatNWB documentation <#setup>` for details.
+See the :matnwb-docs:`MatNWB documentation <pages/getting_started/installation_users>` for details.
 
 What is the difference between PyNWB and nwb-schema?
 ----------------------------------------------------

@@ -80,7 +80,7 @@ linkcheck_ignore = [
 # some websites seem to block the sphinx link checker
 linkcheck_request_headers = {
     r'https://www.mathworks.com/': {
-        'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:124.0) Gecko/20100101 Firefox/124.0'
+        'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
     },
 }
 

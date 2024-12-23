@@ -45,7 +45,7 @@ researchers and developers interested in using NWB and in learning more about th
 
 A growing collection of :ref:`analysistools-home` (gray) developed by the neurophysiology community along with a
 broad range of :ref:`core tools <core-tools-home>` (red) help users with conversion, extension, validation and use of
-NWB data files. Commonly, these tools build on the :pynwb-docs:`PyNWB (Python) <>` and :matnwb-docs:`MatNWB (Matlab) <>`
+NWB data files. Commonly, these tools build on the :pynwb-docs:`PyNWB (Python) <>` and :matnwb-docs:`MatNWB (MATLAB) <>`
 reference APIs (lilac) to read and write NWB files. Each of the APIs and tools provides their own in-depth
 tutorials and documentation to help guide users in adopting and using the software.
 

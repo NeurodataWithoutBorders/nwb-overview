@@ -14,7 +14,7 @@ extlinks = {
     'hdmf-src': ('https://github.com/hdmf-dev/hdmf/%s', '%s'),
     'hdmf-specification-language': ('https://hdmf-schema-language.readthedocs.io/en/latest/%s', '%s'),
     'matnwb-src': ('https://github.com/NeurodataWithoutBorders/matnwb/%s', '%s'),
-    'matnwb-docs': ('https://neurodatawithoutborders.github.io/matnwb/%s', '%s'),
+    'matnwb-docs': ('https://matnwb.readthedocs.io/en/latest/%s', '%s'),
     'neuroconv-docs': ('https://neuroconv.readthedocs.io/en/main/%s', '%s'),
     'neuroconv-src': ('https://github.com/catalystneuro/neuroconv/%s', '%s'),
     'nwbinspector-docs': ('https://nwbinspector.readthedocs.io/en/dev/%s', '%s'),

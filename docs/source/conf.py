@@ -77,12 +77,5 @@ linkcheck_ignore = [
     r"https://.*\.incf\.org/.*",  # temporary ignore until SSL certificate issue is resolved
 ]
 
-# some websites seem to block the sphinx link checker
-linkcheck_request_headers = {
-    r'https://www.mathworks.com/': {
-        'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
-    },
-}
-
 # -- Build the nwb project analytics in the current directory
 build_project_analytics(target_dir=os.path.dirname(__file__))

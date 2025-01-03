@@ -38,9 +38,6 @@ intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
 
-# -- Options for HTML output
-html_theme = 'sphinx_rtd_theme'
-
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
 
@@ -75,7 +72,7 @@ html_theme_options = {
 linkcheck_ignore = [
     "https://crates.io/crates/nwbview",
     r"https://.*\.incf\.org/.*",  # temporary ignore until SSL certificate issue is resolved
-
+    "https://www.mathworks.com/.*",  # ignore because linkchecker receives 403 error no matter what we try
 ]
 
 # -- Build the nwb project analytics in the current directory

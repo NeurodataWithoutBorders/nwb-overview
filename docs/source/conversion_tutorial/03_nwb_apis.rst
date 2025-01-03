@@ -29,24 +29,24 @@ modality:
 
         `23 min video <https://www.youtube.com/watch?v=rlywed3ar-s&ab_channel=NeurodataWithoutBorders>`__
 
-      - `tutorial <https://neurodatawithoutborders.github.io/matnwb/tutorials/html/ecephys.html>`__
+      - `tutorial <https://matnwb.readthedocs.io/en/latest/pages/tutorials/ecephys.html>`__
 
         `46 min video <https://www.youtube.com/watch?v=W8t4_quIl1k&ab_channel=NeurodataWithoutBorders>`__
     * - Writing intracellular electrophysiology
       - `tutorial <https://pynwb.readthedocs.io/en/stable/tutorials/domain/plot_icephys.html#sphx-glr-tutorials-domain-plot-icephys-py>`__
-      - `tutorial <https://neurodatawithoutborders.github.io/matnwb/tutorials/html/icephys.html>`__
+      - `tutorial <https://matnwb.readthedocs.io/en/latest/pages/tutorials/icephys.html>`__
     * - Writing calcium imaging
       - `tutorial <https://pynwb.readthedocs.io/en/stable/tutorials/domain/ophys.html#sphx-glr-tutorials-domain-ophys-py>`__
 
         `31 min video <https://www.youtube.com/watch?v=HPjSxBjdFpM&ab_channel=NeurodataWithoutBorders>`__
-      - `tutorial <https://neurodatawithoutborders.github.io/matnwb/tutorials/html/ophys.html>`__
+      - `tutorial <https://matnwb.readthedocs.io/en/latest/pages/tutorials/ophys.html>`__
 
         `39 min video <https://www.youtube.com/watch?v=OBidHdocnTc&ab_channel=NeurodataWithoutBorders>`__
     * - Advanced I/O
       - `tutorials <https://pynwb.readthedocs.io/en/stable/tutorials/index.html#advanced-i-o>`__
 
         `26 min video <https://www.youtube.com/watch?v=wduZHfNOaNg&ab_channel=NeurodataWithoutBorders>`__
-      - `tutorial <https://neurodatawithoutborders.github.io/matnwb/tutorials/html/dataPipe.html>`__
+      - `tutorial <https://matnwb.readthedocs.io/en/latest/pages/tutorials/dataPipe.html>`__
 
         `16 min video <https://www.youtube.com/watch?v=PIE_F4iVv98&ab_channel=NeurodataWithoutBorders>`__
 

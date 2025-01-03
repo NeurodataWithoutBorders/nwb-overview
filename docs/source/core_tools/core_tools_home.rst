@@ -31,7 +31,7 @@ The NWB reference APIs provide full support for reading and writing all componen
     :class: align-left, no-scaled-link
     :width: 100
 
-:matnwb-docs:`MatNWB <>` is a MATLAB library for reading and writing NWB files. :bdg-link-primary:`Docs <https://neurodatawithoutborders.github.io/matnwb/>` :bdg-link-primary:`Tutorials <https://neurodatawithoutborders.github.io/matnwb/#tutorials>`  :bdg-link-primary:`Source <https://github.com/NeurodataWithoutBorders/matnwb/>`
+:matnwb-docs:`MatNWB <>` is a MATLAB library for reading and writing NWB files. :bdg-link-primary:`Docs <https://matnwb.readthedocs.io/>` :bdg-link-primary:`Tutorials <https://matnwb.readthedocs.io/en/latest/pages/tutorials>`  :bdg-link-primary:`Source <https://github.com/NeurodataWithoutBorders/matnwb/>`
 
 .. raw:: html
 

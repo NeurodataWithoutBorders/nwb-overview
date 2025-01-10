@@ -10,7 +10,7 @@ NIH BRAIN Initiative archive for publishing and sharing neurophysiology data inc
 electrophysiology, optophysiology, and behavioral time-series, and images from
 immunostaining experiments.
 :bdg-link-primary:`Online Archive <https://dandiarchive.org/>`
-:bdg-link-primary:`Docs <https://www.dandiarchive.org/handbook>`
+:bdg-link-primary:`Docs <https://docs.dandiarchive.org>`
 :bdg-link-primary:`Source <https://github.com/dandi>`.
 
 .. short_description_end

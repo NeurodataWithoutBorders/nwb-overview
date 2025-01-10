@@ -7,7 +7,7 @@ DANDI can handle large volumes (TBs) of data and host them for free, and provide
 (CLI) that is built to handle this volume of data. DANDI also automatically parses NWB
 files to extract metadata that makes these datasets easier for others to find.
 
-Refer to the `DANDI documentation <https://www.dandiarchive.org/handbook/13_upload/>`_ for how to upload your dataset.
+Refer to the `DANDI documentation <https://docs.dandiarchive.org/13_upload/>`_ for how to upload your dataset.
 
 .. note::
     DANDI requires each NWB file to have a `Subject` field with `subject_id` defined. It is possible to create a

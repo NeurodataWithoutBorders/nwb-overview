@@ -51,6 +51,8 @@ html_favicon = 'img/favicon_96.png'
 # html_logo = None
 html_logo = 'img/logo_brain_transp.png'
 
+html_theme = "sphinx_rtd_theme"
+
 html_theme_options = {
     # 'analytics_id': 'G-XXXXXXXXXX',  #  Provided by Google in your dashboard
     # 'analytics_anonymize_ip': False,

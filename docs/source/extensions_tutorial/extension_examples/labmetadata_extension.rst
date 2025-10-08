@@ -71,19 +71,9 @@ schema of your extension. See :ref:`extension-spec-api` section for details on h
 
     ns_builder.include_type('LabMetaData', namespace='core')
 
-* Define your new ``LabMetaData`` type for your lab.
-
-.. code-block:: python
-
-    labmetadata_ext = NWBGroupSpec(
-        name='custom_lab_metadata',
-        doc='Example extension type for storing lab metadata',
-        neurodata_type_def='LabMetaDataExtensionExample',
-        neurodata_type_inc='LabMetaData',
-    )
-
-* Add the ``Groups``, ``Datasets``, and ``Attributes`` with the metadata specific to our lab to
-  our ``LabMetaData`` schema using the ``groups``, ``datasets``, and ``attributes`` arguments.
+* Define your new ``LabMetaData`` type for your lab. Specify the ``Groups``, ``Datasets``, and ``Attributes``
+  with the metadata specific to our lab to our ``LabMetaData`` schema using the ``groups``, ``datasets``,
+  and ``attributes`` arguments.
 
 .. code-block:: python
 

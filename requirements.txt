@@ -2,6 +2,7 @@ myst_parser
 sphinx>=4  # improved support for docutils>=0.17
 sphinx_rtd_theme>=1  # <1 does not work with docutils>=0.17
 sphinx_design
-sphinx-tabs<=3.4.5  # Issue in the 3.4.6/7 release. Update pin once fixed. See https://github.com/NeurodataWithoutBorders/nwb-overview/issues/190
+sphinx-tabs
+docutils==0.21.2  # pin to avoid issues with sphinx-tabs >=3.5. See https://github.com/NeurodataWithoutBorders/nwb-overview/issues/190
 sphinx-copybutton
 git+https://github.com/NeurodataWithoutBorders/nwb-project-analytics.git

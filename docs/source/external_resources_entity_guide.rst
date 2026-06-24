@@ -1,7 +1,45 @@
 .. _external_resources_entity_guide:
 
-Choosing ``entity_id`` and ``entity_uri`` for external references
-=================================================================
+Using Ontologies and Identifiers with NWB
+=========================================
+
+Neurophysiology data is full of terms that mean something specific outside of your file: the
+species of a subject, the institution that collected the data, the researchers who ran the
+experiment, or the brain region a probe was implanted in. Writing these as free text (``"mouse"``,
+``"the Allen Institute"``, ``"V1"``) is easy to do but hard to compute on — different files spell
+the same thing different ways, and a reader has no authoritative reference for what exactly was
+meant.
+
+**External resources** solve this by linking a term in your file to a standardized entry in an
+external **ontology**, **registry**, or **atlas** — for example linking the species
+``"Mus musculus"`` to its entry in the NCBI Taxonomy. This makes your annotations unambiguous,
+machine-readable, and interoperable: tools can group, search, and compare data across files and
+labs because everyone points at the same canonical identifier.
+
+In NWB, these links are stored using HDMF's **HERD** (HDMF External Resources Data) structure,
+which records, for each annotation, the term as it appears in your file together with a compact
+identifier (``entity_id``) and a resolvable URL (``entity_uri``) for the external entry.
+
+How to add external resources to an NWB file
+--------------------------------------------
+
+There are two complementary ways to connect NWB data to external terms, both provided by HDMF:
+
+* **HERD** lets you attach references to existing values in a file — recording that a given
+  attribute or column value corresponds to a specific external term. See the
+  :hdmf-docs:`HERD tutorial <tutorials/plot_external_resources.html>` for a walkthrough of
+  :py:meth:`HERD.add_ref <hdmf.common.resources.HERD.add_ref>`.
+* **TermSet** lets you validate values *as you write them*, constraining a field to terms drawn
+  from a chosen ontology. See the :hdmf-docs:`TermSet tutorial <tutorials/plot_term_set.html>`,
+  and the PyNWB
+  :pynwb-docs:`How to Configure Term Validations <tutorials/general/plot_configurator.html>`
+  tutorial for configuring term validation across a file.
+
+The rest of this page covers a question that comes up with both approaches: once you have picked
+an external term, what exactly should go in the ``entity_id`` and ``entity_uri`` fields?
+
+Choosing ``entity_id`` and ``entity_uri``
+-----------------------------------------
 
 When you annotate data with an external resource using
 :py:meth:`HERD.add_ref <hdmf.common.resources.HERD.add_ref>`, each reference records two
@@ -17,7 +55,7 @@ fields that identify the external term:
     address for that exact term.
 
 Recommended practice
----------------------
+^^^^^^^^^^^^^^^^^^^^^
 
 #. **Use a CURIE for** ``entity_id``. Prefer an identifier whose ``prefix`` is registered with
    `bioregistry.io <https://bioregistry.io>`_. The Bioregistry is a comprehensive registry of
@@ -36,7 +74,7 @@ recognize the registry from the compact ``entity_id`` and dereference the ``enti
 on an authoritative description of the term.
 
 Commonly used registries
--------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 All of the registries below are registered with the Bioregistry. The ``entity_uri`` column shows
 the canonical URL the example ``entity_id`` resolves to.
@@ -90,7 +128,7 @@ the canonical URL the example ``entity_id`` resolves to.
    ``ImagingPlane.location``, and the ``location`` column of the ``electrodes`` table.
 
 Example
--------
+^^^^^^^
 
 .. code-block:: python
 
@@ -104,7 +142,7 @@ Example
     )
 
 Resources without individually resolvable URLs
-----------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Some resources do not provide a dereferenceable URL for each individual term. For example, many
 brain atlases (such as the macaque **D99** atlas) publish a single document or download for the

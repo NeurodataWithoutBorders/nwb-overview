@@ -21,6 +21,7 @@ for each of those tasks and point you to the best tools to use for your preferre
    conversion_tutorial/user_guide
    file_read/file_read
    extensions_tutorial/extensions_tutorial_home
+   external_resources_entity_guide
    core_tools/core_tools_home
 
 .. toctree::

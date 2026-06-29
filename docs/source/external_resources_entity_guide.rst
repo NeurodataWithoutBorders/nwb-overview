@@ -167,7 +167,7 @@ still recording the precise term identifier, even when a per-term URL does not e
         attribute="location",
         key="area_42",
         entity_id="42",
-        entity_uri="https://afni.nimh.nih.gov/pub/dist/atlases/macaque/D99_macaque/",
+        entity_uri="https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/nonhuman/macaque_tempatl/atlas_d99v2.html",
     )
 
 .. seealso::

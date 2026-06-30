@@ -31,7 +31,7 @@ and automatically populate HERD with the corresponding references.
 How to add external resources to an NWB file
 --------------------------------------------
 
-**PyNWB tutorials**: The following tutorials provide a practical guide to using HERD and TermSet in PyNWB:
+**PyNWB tutorials**: The following tutorials provide a practical guide to using HERD and TermSets in PyNWB:
 
 * :pynwb-docs:`Linking to External Resources <tutorials/general/plot_external_resources.html>`: 
   Learn how to use HERD to annotate a single NWB file with external resources in PyNWB. 

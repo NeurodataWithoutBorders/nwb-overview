@@ -29,7 +29,7 @@ See the :ref:`install_users` for details.
 
 How do I install MatNWB?
 ------------------------
-See the :matnwb-docs:`MatNWB documentation <pages/getting_started/installation_users.html>` for details.
+See the :matnwb-docs:`MatNWB documentation <pages/getting_started/installation.html>` for details.
 
 What is the difference between PyNWB and nwb-schema?
 ----------------------------------------------------
@@ -103,5 +103,4 @@ What is the difference between PyNWB and api-python?
 ----------------------------------------------------
 
 :pynwb-docs:`PyNWB <>` is the Python reference read/write API for the current NWB 2.x format. :api-python:`api-python <>` is a deprecated write-only API designed for NWB:N 1.0.x files. :pynwb-docs:`PyNWB <>` also provides support for reading some NWB:N 1.0.x files from popular data repositories, such as the :allen-cell-type-atlas:`Allen Cell Types Atlas <>` via the pynwb/legacy module.
-
 

@@ -75,6 +75,12 @@ linkcheck_ignore = [
     "https://crates.io/crates/nwbview",
     r"https://.*\.incf\.org/.*",  # temporary ignore until SSL certificate issue is resolved
     "https://www.mathworks.com/.*",  # ignore because linkchecker receives 403 error no matter what we try
+    "https://api.github.com/repos/nwb-extensions/nwb-extensions-smithy",  # intermittent GitHub API rate limit
+    r"https://join\.slack\.com/.*",  # blocked by anti-bot checks
+    r"https://doi\.org/10\.7554/eLife\.78362",  # returns 406 to automated linkcheck requests
+    r"https://elifesciences\.org/articles/78116.*",  # returns 406 to automated linkcheck requests
+    r"https://pubmed\.ncbi\.nlm\.nih\.gov/35533160/?",  # returns 403 to automated linkcheck requests
+    r"https://www\.biorxiv\.org/content/10\.1101/2021\.03\.24\.436279v3/?",  # returns 403 to automated linkcheck requests
 ]
 
 # -- Build the nwb project analytics in the current directory

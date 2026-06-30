@@ -245,7 +245,7 @@ Documenting the extension
         make html
 
     * To view the docs, simply open ``docs/build/html/index.html`` in your browser
-    * See the `docs/README.md <https://github.com/NeurodataWithoutBorders/ndx-labmetadata-example/blob/dev/docs/README.md>`_
+    * See the `docs directory <https://github.com/NeurodataWithoutBorders/ndx-labmetadata-example/tree/dev/docs>`_
       for instructions on how to customize the documentation for your extension.
 
 See :ref:`extension-documentation` for more details.
@@ -340,5 +340,4 @@ he main steps for publishing our extension. For a more in-depth guide, see the p
   for extensions to the NWB data standard. The NDX Catalog manages basic metadata about extensions while ownership
   of the source repositories for the extensions remain with the developers. For a step-by-step guide the
   :ref:`extension-publishing-ndxcatalog` guide.
-
 

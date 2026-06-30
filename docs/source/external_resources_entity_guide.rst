@@ -35,7 +35,7 @@ How to add external resources to an NWB file
 
 * :pynwb-docs:`Linking to External Resources <tutorials/general/plot_external_resources.html>`: 
   Learn how to use HERD to annotate a single NWB file with external resources in PyNWB. 
-* :pynwb-docs:`Annotating Multiple Files <https://pynwb.readthedocs.io/en/stable/tutorials/general/resources_streaming.html>`:
+* :pynwb-docs:`Annotating Multiple Files <tutorials/general/resources_streaming.html>`:
   Learn how to use HERD to annotate multiple remote NWB files using streaming to avoid downloading them all.
 * :pynwb-docs:`TermSet for Validation <tutorials/general/plot_configurator.html>`: Learn how to configure PyNWB
   to automatically use pre-configured TermSets to validate terms and automatically populate HERD.

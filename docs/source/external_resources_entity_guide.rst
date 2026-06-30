@@ -16,10 +16,10 @@ external **ontology**, **registry**, or **atlas**; for example linking the speci
 machine-readable, and interoperable, enabling tools to group, search, and compare data across 
 files and labs because everyone points at the same canonical identifier.
 
-In NWB, these links are stored using **HERD** (HDMF External Resources Data Structure). HERD is a 
-dedicated data structure for attaching external references to existing values in a file. 
-HERD stores for each annotation, the term as it appears in your file, the location where it is used, 
-along with a compact identifier (``entity_id``) and a resolvable URL (``entity_uri``) for the 
+In NWB, these links are stored using **HERD** (HDMF External Resources Data Structure). HERD is a
+dedicated data structure for attaching external references to existing values in a file.
+HERD stores, for each annotation, the term as it appears in your file and the location where it is used,
+along with a compact identifier (``entity_id``) and a resolvable URL (``entity_uri``) for the
 external entry.
 
 To simplify the use of external resources, **TermSets** defined via LinkML can be used to 
@@ -31,11 +31,11 @@ and automatically populate HERD with the corresponding references.
 How to add external resources to an NWB file
 --------------------------------------------
 
-**PyNWB tutorials**: The following tutorials provide a practical guide to using HERD and TermSet in PyNWB:
+**PyNWB tutorials**: The following tutorials provide a practical guide to using HERD and TermSets in PyNWB:
 
 * :pynwb-docs:`Linking to External Resources <tutorials/general/plot_external_resources.html>`: 
   Learn how to use HERD to annotate a single NWB file with external resources in PyNWB. 
-* :pynwb-docs:`Annotating Multiple Files <https://pynwb.readthedocs.io/en/stable/tutorials/general/resources_streaming.html>`:
+* :pynwb-docs:`Annotating Multiple Files <tutorials/general/resources_streaming.html>`:
   Learn how to use HERD to annotate multiple remote NWB files using streaming to avoid downloading them all.
 * :pynwb-docs:`TermSet for Validation <tutorials/general/plot_configurator.html>`: Learn how to configure PyNWB
   to automatically use pre-configured TermSets to validate terms and automatically populate HERD.

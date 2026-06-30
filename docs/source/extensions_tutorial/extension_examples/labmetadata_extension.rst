@@ -28,9 +28,10 @@ without having to modify the :py:class:`pynwb.file.NWBFile` type itself
 
      NWB uses dynamically extensible table structures based on :py:class:`~hdmf.common.table.DynamicTable`
      to describe metadata and derived results, e.g., :py:class:`~pynwb.epochs.TimeIntervals` for epochs or trials
-     or :py:class:`~pynwb.file.ElectrodeTable` to describe extracellular electrodes. Depending on the
-     type of metadata, use of these existing dynamic table structures can help avoid the need for
-     custom extensions by including the data as additional, custom columns in the appropriate existing tables.
+     or :py:class:`~pynwb.file.ElectrodeTable` to describe extracellular electrodes.
+     Use these table structures when your metadata are naturally tabular (i.e., multiple rows of similar records).
+     For simple lab-specific metadata that are not tabular, avoid creating a one-row ``DynamicTable`` and
+     instead define a :py:class:`~pynwb.file.LabMetaData` extension with explicit fields as shown below.
 
 Creating the extension
 """"""""""""""""""""""
@@ -340,5 +341,4 @@ he main steps for publishing our extension. For a more in-depth guide, see the p
   for extensions to the NWB data standard. The NDX Catalog manages basic metadata about extensions while ownership
   of the source repositories for the extensions remain with the developers. For a step-by-step guide the
   :ref:`extension-publishing-ndxcatalog` guide.
-
 

@@ -11,29 +11,42 @@ the same thing different ways, and a reader has no authoritative reference for w
 meant.
 
 **External resources** solve this by linking a term in your file to a standardized entry in an
-external **ontology**, **registry**, or **atlas** — for example linking the species
+external **ontology**, **registry**, or **atlas**; for example linking the species
 ``"Mus musculus"`` to its entry in the NCBI Taxonomy. This makes your annotations unambiguous,
-machine-readable, and interoperable: tools can group, search, and compare data across files and
-labs because everyone points at the same canonical identifier.
+machine-readable, and interoperable, enabling tools to group, search, and compare data across 
+files and labs because everyone points at the same canonical identifier.
 
-In NWB, these links are stored using HDMF's **HERD** (HDMF External Resources Data) structure,
-which records, for each annotation, the term as it appears in your file together with a compact
-identifier (``entity_id``) and a resolvable URL (``entity_uri``) for the external entry.
+In NWB, these links are stored using **HERD** (HDMF External Resources Data Structure). HERD is a
+dedicated data structure for attaching external references to existing values in a file.
+HERD stores, for each annotation, the term as it appears in your file and the location where it is used,
+along with a compact identifier (``entity_id``) and a resolvable URL (``entity_uri``) for the
+external entry.
+
+To simplify the use of external resources, **TermSets** defined via LinkML can be used to 
+define a set of valid terms and their corresponding external references. Using TermSets, you
+can then constrain a field to only accept terms from that set, validate values as they are written,
+and automatically populate HERD with the corresponding references.
+
 
 How to add external resources to an NWB file
 --------------------------------------------
 
-There are two complementary ways to connect NWB data to external terms, both provided by HDMF:
+**PyNWB tutorials**: The following tutorials provide a practical guide to using HERD and TermSets in PyNWB:
 
-* **HERD** lets you attach references to existing values in a file — recording that a given
-  attribute or column value corresponds to a specific external term. See the
-  :hdmf-docs:`HERD tutorial <tutorials/plot_external_resources.html>` for a walkthrough of
-  :py:meth:`HERD.add_ref <hdmf.common.resources.HERD.add_ref>`.
-* **TermSet** lets you validate values *as you write them*, constraining a field to terms drawn
-  from a chosen ontology. See the :hdmf-docs:`TermSet tutorial <tutorials/plot_term_set.html>`,
-  and the PyNWB
-  :pynwb-docs:`How to Configure Term Validations <tutorials/general/plot_configurator.html>`
-  tutorial for configuring term validation across a file.
+* :pynwb-docs:`Linking to External Resources <tutorials/general/plot_external_resources.html>`: 
+  Learn how to use HERD to annotate a single NWB file with external resources in PyNWB. 
+* :pynwb-docs:`Annotating Multiple Files <tutorials/general/resources_streaming.html>`:
+  Learn how to use HERD to annotate multiple remote NWB files using streaming to avoid downloading them all.
+* :pynwb-docs:`TermSet for Validation <tutorials/general/plot_configurator.html>`: Learn how to configure PyNWB
+  to automatically use pre-configured TermSets to validate terms and automatically populate HERD.
+
+**HDMF tutorials**: The following tutorials provide a deeper dive into the underlying HDMF structures and how to use them:
+
+* :hdmf-docs:`HERD tutorial <tutorials/plot_external_resources.html>`: Learn more about the 
+  underlying HDMF HERD data structure and how to use it.
+* :hdmf-docs:`TermSet tutorial <tutorials/plot_term_set.html>`: Learn more about how to create 
+  new term sets and how to use TermSets to validate values against an ontology and automatically
+  populate HERD.
 
 The rest of this page covers a question that comes up with both approaches: once you have picked
 an external term, what exactly should go in the ``entity_id`` and ``entity_uri`` fields?

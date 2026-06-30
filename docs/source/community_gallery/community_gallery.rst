@@ -14,7 +14,7 @@ Data Conversion
     :class: align-left, no-scaled-link
     :width: 100
 
-:neuroconv-docs:`NeuroConv conversion gallery <conversion_examples_gallery/index.html>` is a collection of real-world examples of labs using :neuroconv-docs:`NeuroConv <>` to convert their data to NWB files. Each project listed contains a description and a link to an open GitHub repository. Many of the projects listed use advanced customization features beyond what is demonstrated in the core :neuroconv-docs:`NeuroConv conversion gallery <conversion_examples_gallery/index.html>`. :bdg-link-primary:`NeuroConv conversion gallery <https://neuroconv.readthedocs.io/en/main/conversion_examples_gallery/index.html>`
+:neuroconv-docs:`NeuroConv conversion gallery <conversion_examples_gallery/index.html>` is a collection of real-world examples of labs using :neuroconv-docs:`NeuroConv <>` to convert their data to NWB files. Each project listed contains a description and a link to an open GitHub repository, including examples with advanced customizations. :bdg-link-primary:`NeuroConv conversion gallery <https://neuroconv.readthedocs.io/en/main/conversion_examples_gallery/index.html>`
 
 .. image:: figures/bristol_neuroscience_data_guide.png
     :class: align-left, no-scaled-link

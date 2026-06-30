@@ -130,4 +130,7 @@ Once you have published your extension you can update and publish new version as
 Policies: Neurodata Extension (NDX) rules and guidelines
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* :nwb-main:`NWB Policies <policies/>`: requirements and strategies for sharing, proposal review, and versioning of NWB extensions
+* :nwb-main:`Sharing Guidelines <policies/>`: requirements and strategy for sharing format extensions for NWB
+* :nwb-main:`Sharing Strategies <policies/>`: standard practices and strategies for sharing format extensions for NWB
+* :nwb-main:`Proposal Review Process <policies/>`: process by which extensions to the NWB core standard are proposed, evaluated, reviewed, and accepted
+* :nwb-main:`Versioning Guidelines <policies/>`: requirements and strategy for versioning namespaces for the NWB core schema and extensions

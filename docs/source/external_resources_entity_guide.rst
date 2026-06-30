@@ -13,7 +13,7 @@ meant.
 **External resources** solve this by linking a term in your file to a standardized entry in an
 external **ontology**, **registry**, or **atlas**; for example linking the species
 ``"Mus musculus"`` to its entry in the NCBI Taxonomy. This makes your annotations unambiguous,
-machine-readable, and interoperable. enabling tools to group, search, and compare data across 
+machine-readable, and interoperable, enabling tools to group, search, and compare data across 
 files and labs because everyone points at the same canonical identifier.
 
 In NWB, these links are stored using **HERD** (HDMF External Resources Data Structure). HERD is a 

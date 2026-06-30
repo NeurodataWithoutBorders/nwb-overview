@@ -16,10 +16,10 @@ external **ontology**, **registry**, or **atlas**; for example linking the speci
 machine-readable, and interoperable. enabling tools to group, search, and compare data across 
 files and labs because everyone points at the same canonical identifier.
 
-In NWB, these links are stored using **HERD** (HDMF External Resources Data Structure). HERD is a 
-dedicated data structure for attaching external references to existing values in a file. 
-HERD stores for each annotation, the term as it appears in your file, the location where it is used, 
-along with a compact identifier (``entity_id``) and a resolvable URL (``entity_uri``) for the 
+In NWB, these links are stored using **HERD** (HDMF External Resources Data Structure). HERD is a
+dedicated data structure for attaching external references to existing values in a file.
+HERD stores, for each annotation, the term as it appears in your file and the location where it is used,
+along with a compact identifier (``entity_id``) and a resolvable URL (``entity_uri``) for the
 external entry.
 
 To simplify the use of external resources, **TermSets** defined via LinkML can be used to 

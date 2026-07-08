@@ -246,7 +246,7 @@ Documenting the extension
         make html
 
     * To view the docs, simply open ``docs/build/html/index.html`` in your browser
-    * See the `docs/README.md <https://github.com/NeurodataWithoutBorders/ndx-labmetadata-example/blob/dev/docs/README.md>`_
+    * See the `docs directory <https://github.com/NeurodataWithoutBorders/ndx-labmetadata-example/tree/dev/docs>`_
       for instructions on how to customize the documentation for your extension.
 
 See :ref:`extension-documentation` for more details.

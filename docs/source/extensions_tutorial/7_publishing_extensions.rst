@@ -27,7 +27,7 @@ Open Source: Releasing your extension Git repository
 4. Make a release for the extension on GitHub with the version number specified. e.g. if the version
    is ``0.1.0``, then this page should exist: ``https://github.com/<my_username>/<my_extension>/releases/tag/0.1.0``.
    See the `creating a release guide <https://help.github.com/en/github/administering-a-repository/creating-releases>`_
-   on GitHub for instructions on how to make a release. See the :nwb-main:`NWB Versioning Guidelines <versioning-guidelines>`
+   on GitHub for instructions on how to make a release. See the :nwb-main:`NWB policy pages <policies/>`
    for details on how to version extensions.
 
 .. note::
@@ -130,7 +130,7 @@ Once you have published your extension you can update and publish new version as
 Policies: Neurodata Extension (NDX) rules and guidelines
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* :nwb-main:`Sharing Guidelines <sharing-extensions-guidelines>`: requirements and strategy for sharing format extensions for NWB
-* :nwb-main:`Sharing Strategies <sharing-extensions-strategies>`: standard practices and strategies for sharing format extensions for NWB
-* :nwb-main:`Proposal Review Process <proposal-review-process>`: process by which extensions to the NWB core standard are proposed, evaluated, reviewed, and accepted
-* :nwb-main:`Versioning Guidelines <versioning-guidelines>`: requirements and strategy for versioning namespaces for the NWB core schema and extensions
+* :nwb-main:`Sharing Guidelines <policies/>`: requirements and strategy for sharing format extensions for NWB
+* :nwb-main:`Sharing Strategies <policies/>`: standard practices and strategies for sharing format extensions for NWB
+* :nwb-main:`Proposal Review Process <policies/>`: process by which extensions to the NWB core standard are proposed, evaluated, reviewed, and accepted
+* :nwb-main:`Versioning Guidelines <policies/>`: requirements and strategy for versioning namespaces for the NWB core schema and extensions

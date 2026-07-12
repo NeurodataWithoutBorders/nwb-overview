@@ -19,6 +19,7 @@ Analysis and Visualization Tools
     ecogvis/ecogvis
     neo/neo
     eeglab/eeglab
+    syncopy/syncopy
     caiman/caiman
     suite2p/suite2p
     ciatah/ciatah
@@ -171,6 +172,21 @@ Extracellular Electrophysiology Tools
     :width: 180
 
 .. include::  neo/neo.rst
+        :start-after: .. short_description_start
+        :end-before: .. short_description_end
+
+
+.. raw:: html
+
+    <br />
+    <br />
+
+
+.. image:: syncopy/syncopy_logo.png
+    :class: align-left
+    :width: 180
+
+.. include::  syncopy/syncopy.rst
         :start-after: .. short_description_start
         :end-before: .. short_description_end
 

@@ -50,11 +50,12 @@ extlinks = {
     'datajoint': ('https://www.datajoint.com/%s', '%s'),
     'datajoint-elements': ('https://datajoint.com/docs/elements/%s', '%s'),
     'openscope-databook': ('https://alleninstitute.github.io/openscope_databook/%s', '%s'),
-    'openscope-project': ('https://alleninstitute.org/what-we-do/brain-science/research/mindscope-program/openscope/%s',
-                          '%s'),
+    'openscope-project': ('https://alleninstitute.org/what-we-do/brain-science/research/mindscope-program/openscope/%s', '%s'),
     'ibl-website': ('https://www.internationalbrainlab.com/%s', '%s'),
     'mindscope-program': ('https://alleninstitute.org/what-we-do/brain-science/research/mindscope-program/%s', '%s'),
     'jupyter-book': ('https://jupyterbook.org/en/stable/%s', '%s'),
+    'nwbep-review': ('https://github.com/nwb-extensions/nwbep-review/%s', '%s'),
+    'nwb-tab': ('https://docs.google.com/document/d/e/2PACX-1vSynhRf8Zykfqnov81Ddi1tSo12RV4zYv3RRCEfLR2OqhpER_7PTmaoTNrRh5Coh8xg2LvwuriiHlsJ/pub%s', '%s'),
     'lindi-src': ('https://github.com/NeurodataWithoutBorders/lindi/%s', '%s'),
 }
 

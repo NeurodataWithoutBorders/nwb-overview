@@ -53,6 +53,14 @@ html_logo = 'img/logo_brain_transp.png'
 
 html_theme = "sphinx_rtd_theme"
 
+html_static_path = ["_static"]
+
+# NWB Assistant chat widget (Open Science Assistant); see _static/js/nwb_assistant.js
+html_js_files = [
+    "https://demo.osc.earth/osa-chat-widget.js",
+    "js/nwb_assistant.js",
+]
+
 html_theme_options = {
     # 'analytics_id': 'G-XXXXXXXXXX',  #  Provided by Google in your dashboard
     # 'analytics_anonymize_ip': False,

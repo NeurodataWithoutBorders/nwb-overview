@@ -14,6 +14,8 @@ Analysis and Visualization Tools
     nwbexplorer/nwbexplorer
     nwbview/nwbview
     hdftools/hdftools
+    dropslice/dropslice
+    brainhound/brainhound
     spikeinterface/spikeinterface
     cellexplorer/cellexplorer
     ecogvis/ecogvis
@@ -109,6 +111,33 @@ Exploring NWB Files
 .. include::  hdftools/hdftools.rst
         :start-after: .. short_description_start
         :end-before: .. short_description_end
+
+.. raw:: html
+
+    <br/>
+    <br/>
+
+.. image:: dropslice/dropslice-logo.png
+    :class: align-left
+    :width: 180
+
+.. include::  dropslice/dropslice.rst
+        :start-after: .. short_description_start
+        :end-before: .. short_description_end
+
+.. raw:: html
+
+    <br/>
+    <br/>
+
+.. image:: brainhound/brainhound-logo.png
+    :class: align-left
+    :width: 180
+
+.. include::  brainhound/brainhound.rst
+        :start-after: .. short_description_start
+        :end-before: .. short_description_end
+
 
 
 .. raw:: html

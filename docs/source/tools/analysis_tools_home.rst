@@ -116,6 +116,7 @@ Exploring NWB Files
 
     <br/>
     <br/>
+    <br/>
 
 .. image:: dropslice/dropslice-logo.png
     :class: align-left
@@ -129,6 +130,7 @@ Exploring NWB Files
 
     <br/>
     <br/>
+    <br/>
 
 .. image:: brainhound/brainhound-logo.png
     :class: align-left
@@ -137,8 +139,6 @@ Exploring NWB Files
 .. include::  brainhound/brainhound.rst
         :start-after: .. short_description_start
         :end-before: .. short_description_end
-
-
 
 .. raw:: html
 

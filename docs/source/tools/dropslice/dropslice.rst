@@ -6,7 +6,7 @@ dropslice
 .. short_description_start
 
 :ref:`analysistools-dropslice` is a static web page, built on h5web, that opens NWB and other HDF5 files in the browser, along with MATLAB, NumPy and Zarr files, and shows their groups, datasets and attributes with line plots, heatmaps, images and tables. Files are read locally and never uploaded.
-:bdg-link-primary:`Docs <https://stanczykwyatt.github.io/dropslice/>`
+:bdg-link-primary:`dropslice <https://stanczykwyatt.github.io/dropslice/>`
 :bdg-link-primary:`Source <https://github.com/stanczykwyatt/dropslice>`
 
 .. short_description_end

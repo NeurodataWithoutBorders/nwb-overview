@@ -15,6 +15,8 @@ brainhound
     :class: align-left
     :width: 180
 
+Developed by `Wyatt Stanczyk <https://github.com/stanczykwyatt>`_. Free and open source (MIT).
+
 Compatibility with NWB
 ^^^^^^^^^^^^^^^^^^^^^^
 

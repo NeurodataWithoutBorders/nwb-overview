@@ -114,8 +114,7 @@ Exploring NWB Files
 
 .. raw:: html
 
-    <br/>
-    <br/>
+    <div style="clear: both;"></div>
     <br/>
 
 .. image:: dropslice/dropslice-logo.png
@@ -128,8 +127,7 @@ Exploring NWB Files
 
 .. raw:: html
 
-    <br/>
-    <br/>
+    <div style="clear: both;"></div>
     <br/>
 
 .. image:: brainhound/brainhound-logo.png
@@ -142,6 +140,7 @@ Exploring NWB Files
 
 .. raw:: html
 
+    <div style="clear: both;"></div>
     <br/>
     <hr>
     <br/>
